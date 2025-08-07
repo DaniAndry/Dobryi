@@ -935,7 +935,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4665527, y: -0.18603516}
+  m_AnchoredPosition: {x: -1.4667969, y: -0.18603516}
   m_SizeDelta: {x: -1.3, y: -0.47998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156091010
@@ -4189,7 +4189,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -4753,7 +4753,7 @@ MonoBehaviour:
   _endPoint: {fileID: 1496782951}
   Bank: {fileID: 1420802375}
   _sizeText: {fileID: 802714468}
-  _finishSound: {fileID: 0}
+  _finishSound: {fileID: 612949283}
   CupType: 0
   JuiceType: 0
   AdditiveType1: 0
@@ -5069,7 +5069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4665527, y: -0.017089844}
+  m_AnchoredPosition: {x: -1.4667969, y: -0.017089844}
   m_SizeDelta: {x: -1.3000488, y: 0.4000244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657150086
@@ -13685,12 +13685,12 @@ RectTransform:
   - {fileID: 502630236}
   - {fileID: 166493215}
   - {fileID: 156091009}
-  - {fileID: 1411011941}
-  - {fileID: 777395426}
-  - {fileID: 2093299764}
   - {fileID: 1336682373}
   - {fileID: 966283580}
   - {fileID: 334863476}
+  - {fileID: 777395426}
+  - {fileID: 2093299764}
+  - {fileID: 1411011941}
   - {fileID: 1827852743}
   - {fileID: 192632178}
   - {fileID: 1423700287}
@@ -13763,11 +13763,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: -645, y: 350.74}
     SizeHorizontal: {x: 88.19, y: 173.76}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 113.58, y: 223.8}
+    SizeVertical: {x: 125.26, y: 246.81}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.0385625, y: 0.3374117}
-    MaxVertical: {x: 0.0385625, y: 0.3374117}
+    MinVertical: {x: 0.09947917, y: 0.2596119}
+    MaxVertical: {x: 0.09947917, y: 0.2596119}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13776,11 +13776,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: -733.19, y: 291.79}
     SizeHorizontal: {x: 88.19, y: 173.76}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 115.5, y: 227.5}
+    SizeVertical: {x: 127.369995, y: 250.89001}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.09970835, y: 0.3291732}
-    MaxVertical: {x: 0.09970835, y: 0.3291732}
+    MinVertical: {x: 0.21064585, y: 0.2565575}
+    MaxVertical: {x: 0.21064585, y: 0.2565575}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13789,11 +13789,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: -532, y: 305.88}
     SizeHorizontal: {x: 88.19, y: 173.76}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 117.9, y: 232.2}
+    SizeVertical: {x: 130.02, y: 256.07}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.1611458, y: 0.3217632}
-    MaxVertical: {x: 0.1611458, y: 0.3217632}
+    MinVertical: {x: 0.06472917, y: 0.35354188}
+    MaxVertical: {x: 0.06472917, y: 0.35354188}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13802,11 +13802,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: -325.81, y: 350.74}
     SizeHorizontal: {x: 88.19, y: 173.76}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 120.2, y: 236.8}
+    SizeVertical: {x: 132.56, y: 261.14}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.2264792, y: 0.3146327}
-    MaxVertical: {x: 0.2264792, y: 0.3146327}
+    MinVertical: {x: 0.16952085, y: 0.35354188}
+    MaxVertical: {x: 0.16952085, y: 0.35354188}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13814,12 +13814,12 @@ MonoBehaviour:
   - Target: {fileID: 334863476}
     HorizontalAnchoredPosition: {x: -390, y: 269.12}
     SizeHorizontal: {x: 88.19, y: 173.76}
-    VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 119.5, y: 235.3}
+    VerticalAnchoredPosition: {x: -0.8800049, y: 0}
+    SizeVertical: {x: 133.13, y: 256.62}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.2886667, y: 0.3106168}
-    MaxVertical: {x: 0.2886667, y: 0.3106168}
+    MinVertical: {x: 0.277, y: 0.3494693}
+    MaxVertical: {x: 0.277, y: 0.3494693}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13827,12 +13827,12 @@ MonoBehaviour:
   - Target: {fileID: 587801954}
     HorizontalAnchoredPosition: {x: 333, y: 346}
     SizeHorizontal: {x: 127.88, y: 127.6}
-    VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 248.34, y: 247.7}
+    VerticalAnchoredPosition: {x: 0.6700134, y: 2.5329895}
+    SizeVertical: {x: 219.7, y: 225.64}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.7415834, y: 0.323}
-    MaxVertical: {x: 0.7415834, y: 0.323}
+    MinVertical: {x: 0.7114792, y: 0.35354188}
+    MaxVertical: {x: 0.7114792, y: 0.35354188}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13840,25 +13840,25 @@ MonoBehaviour:
   - Target: {fileID: 543244863}
     HorizontalAnchoredPosition: {x: 502, y: 361}
     SizeHorizontal: {x: 114.31, y: 118.64}
-    VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 165.9, y: 172.2}
+    VerticalAnchoredPosition: {x: -1, y: 1.7399902}
+    SizeVertical: {x: 182.2, y: 143.3}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.848, y: 0.3311235}
-    MaxVertical: {x: 0.848, y: 0.3311235}
+    MinVertical: {x: 0.781, y: 0.2305419}
+    MaxVertical: {x: 0.781, y: 0.2305419}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
     CopyVertical: 0
   - Target: {fileID: 1434776264}
-    HorizontalAnchoredPosition: {x: 540, y: 270}
-    SizeHorizontal: {x: 131.8, y: 70.4}
-    VerticalAnchoredPosition: {x: 4.04, y: 5.37}
-    SizeVertical: {x: 186.55, y: 131.19}
+    HorizontalAnchoredPosition: {x: 557, y: 271.1}
+    SizeHorizontal: {x: 92.43, y: 49.403}
+    VerticalAnchoredPosition: {x: -0.8699951, y: 0.9670105}
+    SizeVertical: {x: 110.8, y: 78.714}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.8704792, y: 0.272}
-    MaxVertical: {x: 0.8704792, y: 0.272}
+    MinVertical: {x: 0.90052086, y: 0.26758116}
+    MaxVertical: {x: 0.90052086, y: 0.26758116}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13866,12 +13866,12 @@ MonoBehaviour:
   - Target: {fileID: 198845392}
     HorizontalAnchoredPosition: {x: 385.5, y: 271.1}
     SizeHorizontal: {x: 127.03, y: 114.24}
-    VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 171.1, y: 170.7}
+    VerticalAnchoredPosition: {x: -0.8999939, y: 1.177002}
+    SizeVertical: {x: 171.3, y: 127.2}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.7652708, y: 0.2563901}
-    MaxVertical: {x: 0.7652708, y: 0.2563901}
+    MinVertical: {x: 0.75200003, y: 0.29683247}
+    MaxVertical: {x: 0.75200003, y: 0.29683247}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13880,11 +13880,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: 630, y: 358}
     SizeHorizontal: {x: 107.66, y: 131.58}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 131.6, y: 160.81}
+    SizeVertical: {x: 213, y: 260.2}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.9298959, y: 0.3444398}
-    MaxVertical: {x: 0.9298959, y: 0.3444398}
+    MinVertical: {x: 0.80300003, y: 0.36279324}
+    MaxVertical: {x: 0.80300003, y: 0.36279324}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13893,11 +13893,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: 684, y: 322}
     SizeHorizontal: {x: 118.63, y: 113.35}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 148.23, y: 142.6}
+    SizeVertical: {x: 177.6, y: 241.6}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.9515209, y: 0.317}
-    MaxVertical: {x: 0.9515209, y: 0.317}
+    MinVertical: {x: 0.86700004, y: 0.35354188}
+    MaxVertical: {x: 0.86700004, y: 0.35354188}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13906,11 +13906,11 @@ MonoBehaviour:
     HorizontalAnchoredPosition: {x: 739, y: 278}
     SizeHorizontal: {x: 81.58002, y: 94.88}
     VerticalAnchoredPosition: {x: 0, y: 0}
-    SizeVertical: {x: 103.6, y: 120.5}
+    SizeVertical: {x: 185, y: 215.2}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.9720001, y: 0.2833901}
-    MaxVertical: {x: 0.9720001, y: 0.2833901}
+    MinVertical: {x: 0.93100005, y: 0.3374117}
+    MaxVertical: {x: 0.93100005, y: 0.3374117}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13931,12 +13931,12 @@ MonoBehaviour:
   - Target: {fileID: 443010864}
     HorizontalAnchoredPosition: {x: -208.0001, y: 180.5}
     SizeHorizontal: {x: 100, y: 100}
-    VerticalAnchoredPosition: {x: -5.000122, y: -237}
+    VerticalAnchoredPosition: {x: 2, y: -218.17}
     SizeVertical: {x: 100, y: 100}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.394625, y: 0.4146368}
-    MaxVertical: {x: 0.394625, y: 0.4146368}
+    MinVertical: {x: 0.2504375, y: 0.4146368}
+    MaxVertical: {x: 0.2504375, y: 0.4146368}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -13944,12 +13944,12 @@ MonoBehaviour:
   - Target: {fileID: 1329766545}
     HorizontalAnchoredPosition: {x: 360.9999, y: 189}
     SizeHorizontal: {x: 100, y: 100}
-    VerticalAnchoredPosition: {x: 8.999878, y: -230.5}
+    VerticalAnchoredPosition: {x: -1.6699219, y: -230.5}
     SizeVertical: {x: 100, y: 100}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.6833125, y: 0.4146368}
-    MaxVertical: {x: 0.6833125, y: 0.4146368}
+    MinVertical: {x: 0.7338751, y: 0.4146368}
+    MaxVertical: {x: 0.7338751, y: 0.4146368}
     IsAnchored: 0
     IsDebug: 0
     CopyHorizontal: 0
@@ -15526,7 +15526,7 @@ MonoBehaviour:
   _endPoint: {fileID: 1496782951}
   Bank: {fileID: 1420802375}
   _sizeText: {fileID: 1509737644}
-  _finishSound: {fileID: 0}
+  _finishSound: {fileID: 1748553867}
   CupType: 0
   JuiceType: 0
   AdditiveType1: 0
@@ -19260,7 +19260,7 @@ MonoBehaviour:
   _endPoint: {fileID: 1496782951}
   Bank: {fileID: 1420802375}
   _sizeText: {fileID: 1639817083}
-  _finishSound: {fileID: 0}
+  _finishSound: {fileID: 4829693103685476040}
   CupType: 0
   JuiceType: 0
   AdditiveType1: 0
@@ -20106,7 +20106,7 @@ MonoBehaviour:
   _endPoint: {fileID: 1496782951}
   Bank: {fileID: 1420802375}
   _sizeText: {fileID: 1164160917}
-  _finishSound: {fileID: 0}
+  _finishSound: {fileID: 4521411922230359626}
   CupType: 0
   JuiceType: 0
   AdditiveType1: 0
@@ -20612,6 +20612,10 @@ PrefabInstance:
       propertyPath: _sizeText
       value: 
       objectReference: {fileID: 1303405414}
+    - target: {fileID: 7961202746636611528, guid: 3dc68e9cf199542ecb93594c5ad3fc2f, type: 3}
+      propertyPath: _finishSound
+      value: 
+      objectReference: {fileID: 4495611627311976208}
     - target: {fileID: 8209264789795566996, guid: 3dc68e9cf199542ecb93594c5ad3fc2f, type: 3}
       propertyPath: m_SizeDelta.x
       value: 264.5
@@ -20691,6 +20695,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &4495611627311976208 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2855739180429336811, guid: 3dc68e9cf199542ecb93594c5ad3fc2f, type: 3}
+  m_PrefabInstance: {fileID: 4495611627311976204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4510231143452970602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20775,6 +20784,10 @@ PrefabInstance:
       propertyPath: _sizeText
       value: 
       objectReference: {fileID: 553026363}
+    - target: {fileID: 7681419594728018778, guid: 2c2981c76875341d3acad4d4db116359, type: 3}
+      propertyPath: _finishSound
+      value: 
+      objectReference: {fileID: 4510231143452970606}
     - target: {fileID: 7754821254101210292, guid: 2c2981c76875341d3acad4d4db116359, type: 3}
       propertyPath: m_Name
       value: Character5
@@ -20938,6 +20951,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &4510231143452970606 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6421216711845049700, guid: 2c2981c76875341d3acad4d4db116359, type: 3}
+  m_PrefabInstance: {fileID: 4510231143452970602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4521411922230359624
 GameObject:
   m_ObjectHideFlags: 0
