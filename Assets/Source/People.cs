@@ -152,7 +152,7 @@ public class People : MonoBehaviour
     {
         while (_isMoving)
         {
-            if (Vector3.Distance(transform.position, _currentPoint.transform.position) < 0.3f)
+            if (Vector3.Distance(transform.position, _currentPoint.transform.position) < 0.1f)
             {
                 transform.position = _currentPoint.transform.position;
                 _isMoving = false;
