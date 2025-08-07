@@ -236,7 +236,7 @@
       "url": "https://packages.unity.com"
     },
     "uk.lunalabs.luna": {
-      "version": "file:../../../Luna/scripts",
+      "version": "file:../../../../Downloads/6/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}

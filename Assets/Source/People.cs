@@ -203,10 +203,6 @@ public class People : MonoBehaviour
 
         transform.position = _currentPoint.transform.position;
         _isMoving = false;
-
-        if (_tutorial.IsTutorial == false)
-            CreateRandomProduct();
-
         _isStay = true;
         StartCoroutine(DelayToWaitAnim());
         StopCoroutine(Move());
@@ -216,6 +212,9 @@ public class People : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
 
+        if(_isEndMoving == false)
+            StopCoroutine(DelayBeforeEndMoving());
+        
         if (_animator != null)
             _animator.Play("Idle");
 

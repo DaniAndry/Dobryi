@@ -52,6 +52,8 @@ public class Order : MonoBehaviour
     public bool IsCupReady = false;
     public bool IsJuiceReady = false;
 
+    private bool _isHorizontal;
+
     private void Awake()
     {
         _smallRawJuiceImage.enabled = false;
@@ -68,25 +70,21 @@ public class Order : MonoBehaviour
         AdditiveType2 = AdditiveType.None;
     }
 
+    private void Update()
+    {
+        if (Screen.width > Screen.height)
+            _isHorizontal = true;
+        else
+            _isHorizontal = false;
+    }
+
     private void OnEnable()
     {
-        _smallCupButton.onClick.AddListener(() => SetCup(CupType.Small));
-        _middleCupButton.onClick.AddListener(() => SetCup(CupType.Middle));
-        _bigCupButton.onClick.AddListener(() => SetCup(CupType.Large));
-
         _appleButton.onClick.AddListener(() => SetJuice(JuiceType.Apple, _appleButton));
         _orangeButton.onClick.AddListener(() => SetJuice(JuiceType.Orange, _orangeButton));
         _multifruitButton.onClick.AddListener(() => SetJuice(JuiceType.Multifruit, _multifruitButton));
         _tomatoButton.onClick.AddListener(() => SetJuice(JuiceType.Tomato, _tomatoButton));
         _cherryButton.onClick.AddListener(() => SetJuice(JuiceType.Cherry, _cherryButton));
-
-        _strawButton.onClick.AddListener(SetStraw);
-
-        _iceButton.onClick.AddListener(() => SetAdditive(AdditiveType.Ice, _config.IceAdditive));
-        _grassButton.onClick.AddListener(() => SetAdditive(AdditiveType.Grass, _config.GrassAdditive));
-        _juiceBallsButton.onClick.AddListener(() => SetAdditive(AdditiveType.JuiceBall, _config.JuiceBallAdditive));
-
-        _takeOrderButton.onClick.AddListener(TakeOrder);
 
         AddListener(_smallCupButton, () => SetCup(CupType.Small));
         AddListener(_middleCupButton, () => SetCup(CupType.Middle));
@@ -134,7 +132,7 @@ public class Order : MonoBehaviour
     {
         if (IsFree == false || IsCupReady == true)
             return;
-  CupType = cup;
+        CupType = cup;
         IsCupReady = true;
         IsFree = false;
 
@@ -142,17 +140,26 @@ public class Order : MonoBehaviour
         {
             case CupType.Small:
             {
-                _cupAnimator.Play("SmallCupAnim");
+                if (_isHorizontal)
+                    _cupAnimator.Play("SmallCupAnim");
+                else
+                    _cupAnimator.Play("SmallCupVertical");
             }
                 break;
             case CupType.Middle:
             {
-                _cupAnimator.Play("MiddleCupAnim");
+                if (_isHorizontal)
+                    _cupAnimator.Play("MiddleCupAnim");
+                else
+                    _cupAnimator.Play("MiddleCupVertical");
             }
                 break;
             case CupType.Large:
             {
-                _cupAnimator.Play("BigCupAnim");
+                if (_isHorizontal)
+                    _cupAnimator.Play("BigCupAnim");
+                else
+                    _cupAnimator.Play("BigCupVertical");
             }
                 break;
         }
@@ -190,21 +197,27 @@ public class Order : MonoBehaviour
         }
     }
 
+    private void JuiceReadyToggle()
+    {
+        IsJuiceReady = true;
+    }
+
     private void SetJuice(JuiceType juice, Button juiceButton)
     {
         if (IsCupReady == false || IsJuiceReady == true)
             return;
 
         JuiceType = juice;
-        IsJuiceReady = true;
+        Invoke(nameof(JuiceReadyToggle), 1f);
         _juiceSound?.Play();
+        
         if (CupType == CupType.Small)
         {
             switch (juice)
             {
                 case JuiceType.Apple:
                 {
-                    if (Screen.width > Screen.height)
+                    if (_isHorizontal)
                         _juiceAnimator.Play("Apple");
                     else
                         _juiceAnimator.Play("AppleVertical");
@@ -214,25 +227,40 @@ public class Order : MonoBehaviour
                     break;
                 case JuiceType.Orange:
                 {
-                    _juiceAnimator.Play("Orange");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Orange");
+                    else
+                        _juiceAnimator.Play("OrangeVertical");
                     _smallRawJuiceImage.sprite = _config.OrangeSmallCup;
                 }
                     break;
                 case JuiceType.Multifruit:
                 {
                     _smallRawJuiceImage.sprite = _config.MultifruitSmallCup;
-                    _juiceAnimator.Play("Multifruit");
+
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Multifruit");
+                    else
+                        _juiceAnimator.Play("MultifruitVertical");
                 }
                     break;
                 case JuiceType.Tomato:
                 {
-                    _juiceAnimator.Play("Tomato");
                     _smallRawJuiceImage.sprite = _config.TomatoSmallCup;
+
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Tomato");
+                    else
+                        _juiceAnimator.Play("TomatoVertical");
                 }
                     break;
                 case JuiceType.Cherry:
                 {
-                    _juiceAnimator.Play("Cherry");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Cherry");
+                    else
+                        _juiceAnimator.Play("CherryVertical");
+
                     _smallRawJuiceImage.sprite = _config.CherrySmallCup;
                 }
                     break;
@@ -244,32 +272,47 @@ public class Order : MonoBehaviour
             {
                 case JuiceType.Apple:
                 {
-                    _juiceAnimator.Play("Apple");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Apple");
+                    else
+                        _juiceAnimator.Play("AppleVertical");
                     _middleRawJuiceImage.sprite = _config.AppleMiddleCup;
                 }
                     break;
                 case JuiceType.Orange:
                 {
-                    _juiceAnimator.Play("Orange");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Orange");
+                    else
+                        _juiceAnimator.Play("OrangeVertical");
                     _middleRawJuiceImage.sprite = _config.OrangeMiddleCup;
                 }
                     break;
                 case JuiceType.Multifruit:
                 {
-                    _juiceAnimator.Play("Multifruit");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Multifruit");
+                    else
+                        _juiceAnimator.Play("MultifruitVertical");
                     _middleRawJuiceImage.sprite = _config.MultifruitMiddleCup;
                 }
                     break;
                 case JuiceType.Tomato:
                 {
-                    _juiceAnimator.Play("Tomato");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Tomato");
+                    else
+                        _juiceAnimator.Play("TomatoVertical");
                     _middleRawJuiceImage.sprite = _config.TomatoMiddleCup;
                 }
                     break;
                 case JuiceType.Cherry:
                 {
                     _middleRawJuiceImage.sprite = _config.CherryMiddleCup;
-                    _juiceAnimator.Play("Cherry");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Cherry");
+                    else
+                        _juiceAnimator.Play("CherryVertical");
                 }
                     break;
             }
@@ -280,31 +323,46 @@ public class Order : MonoBehaviour
             {
                 case JuiceType.Apple:
                 {
-                    _juiceAnimator.Play("Apple");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Apple");
+                    else
+                        _juiceAnimator.Play("AppleVertical");
                     _bigRawJuiceImage.sprite = _config.AppleBigCup;
                 }
                     break;
                 case JuiceType.Orange:
                 {
-                    _juiceAnimator.Play("Orange");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Orange");
+                    else
+                        _juiceAnimator.Play("OrangeVertical");
                     _bigRawJuiceImage.sprite = _config.OrangeBigCup;
                 }
                     break;
                 case JuiceType.Multifruit:
                 {
-                    _juiceAnimator.Play("Multifruit");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Multifruit");
+                    else
+                        _juiceAnimator.Play("MultifruitVertical");
                     _bigRawJuiceImage.sprite = _config.MultifruitBigCup;
                 }
                     break;
                 case JuiceType.Tomato:
                 {
-                    _juiceAnimator.Play("Tomato");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Tomato");
+                    else
+                        _juiceAnimator.Play("TomatoVertical");
                     _bigRawJuiceImage.sprite = _config.TomatoBigCup;
                 }
                     break;
                 case JuiceType.Cherry:
                 {
-                    _juiceAnimator.Play("Cherry");
+                    if (_isHorizontal)
+                        _juiceAnimator.Play("Cherry");
+                    else
+                        _juiceAnimator.Play("CherryVertical");
                     _bigRawJuiceImage.sprite = _config.CherryBigCup;
                 }
                     break;
@@ -317,7 +375,11 @@ public class Order : MonoBehaviour
         if (IsSpriteReady == true || IsJuiceReady == false)
             return;
 
-        _cupAnimator.Play("StrawAnim");
+        if (_isHorizontal)
+            _cupAnimator.Play("StrawAnim");
+        else
+            _cupAnimator.Play("StrawVertical");
+
         IsSpriteReady = true;
         _bigRawJuiceImage.enabled = false;
         _middleRawJuiceImage.enabled = false;
@@ -434,9 +496,19 @@ public class Order : MonoBehaviour
         if (AdditiveType1 == AdditiveType.None)
         {
             if (type == AdditiveType.Ice)
-                _cupAnimator.Play("IceAnim");
+            {
+                if (_isHorizontal)
+                    _cupAnimator.Play("IceAnim");
+                else
+                    _cupAnimator.Play("IceVertical");
+            }
             else if (type == AdditiveType.Grass)
-                _cupAnimator.Play("GrassAnim");
+            {
+                if (_isHorizontal)
+                    _cupAnimator.Play("GrassAnim");
+                else
+                    _cupAnimator.Play("GrassVertical");
+            }
 
             _backImage.sprite = additive;
             _backImage.enabled = true;
@@ -445,9 +517,19 @@ public class Order : MonoBehaviour
         else if (AdditiveType2 == AdditiveType.None)
         {
             if (type == AdditiveType.Ice)
-                _cupAnimator.Play("IceAnim");
+            {
+                if (_isHorizontal)
+                    _cupAnimator.Play("IceAnim");
+                else
+                    _cupAnimator.Play("IceVertical");
+            }
             else if (type == AdditiveType.Grass)
-                _cupAnimator.Play("GrassAnim");
+            {
+                if (_isHorizontal)
+                    _cupAnimator.Play("GrassAnim");
+                else
+                    _cupAnimator.Play("GrassVertical");
+            }
 
             _aheadImage.sprite = additive;
             _aheadImage.enabled = true;
@@ -457,7 +539,10 @@ public class Order : MonoBehaviour
 
     private void DefineJuiceBalls()
     {
-        _cupAnimator.Play("JuiceBallsAnim");
+        if (_isHorizontal)
+            _cupAnimator.Play("JuiceBallsAnim");
+        else
+            _cupAnimator.Play("JuiceBallsVertical");
 
         if (CupType == CupType.Small)
         {
@@ -526,6 +611,8 @@ public class Order : MonoBehaviour
 
     private void TakeOrder()
     {
+        Debug.Log("Take Order");
+        
         if (_peopleContainer.TryGiveJuice(CupType, JuiceType, AdditiveType1, AdditiveType2))
         {
             _canvasAnimator.Play("CupAnim");

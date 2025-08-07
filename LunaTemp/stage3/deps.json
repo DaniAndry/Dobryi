@@ -1,77 +1,77 @@
 {
   "ignores": [
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs",
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
-    "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
   ],
   "groups": [
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AdditiveType.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Order.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceConfig.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/People.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/CupType.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Point.cs",
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AdditiveType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Order.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceConfig.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/People.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/CupType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Point.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AheadImage.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AheadImage.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/BackImage.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/BackImage.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ImageShiftOnOrientation.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ImageShiftOnOrientation.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ItemSwitcher.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ItemSwitcher.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ScreenRatioAnchorController.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ScreenRatioAnchorController.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/UIMover.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/UIMover.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/Luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+      "/Users/serezha/Downloads/6/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/Luna/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+      "/Users/serezha/Downloads/6/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/Luna/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+      "/Users/serezha/Downloads/6/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
     ]
   ]
 }

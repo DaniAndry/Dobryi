@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Helper#init","Helper#Update","Helper#OnEnable","Helper#OnDisable","Helper#OnCupFinger","Helper#OnJuiceFinger","Helper#OnAdditiveFinger","Helper#DefineHelp","Helper#DisableReadyFinger","Helper#DisableStrawFinger","Helper#ShowDownloadScreen","Helper#CloseFinalScreen","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Helper#init","Helper#Update","Helper#OnEnable","Helper#OnDisable","Helper#OnCupFinger","Helper#OnJuiceFinger","Helper#OnAdditiveFinger","Helper#DefineHelp","Helper#DisableReadyFinger","Helper#DisableStrawFinger","Helper#ShowDownloadScreen","Helper#CloseFinalScreen","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#Update","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
 /**
- * @version 1.0.9350.24321
+ * @version 1.0.9350.31460
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -4129,7 +4129,8 @@ if ( TRACE ) { TRACE( "ItemSwitcherData#SetVertical", this ); }
             IsFree: false,
             IsSpriteReady: false,
             IsCupReady: false,
-            IsJuiceReady: false
+            IsJuiceReady: false,
+            _isHorizontal: false
         },
         ctors: {
             init: function () {
@@ -4160,6 +4161,18 @@ if ( TRACE ) { TRACE( "Order#Awake", this ); }
                 this.AdditiveType2 = AdditiveType.None;
             },
             /*Order.Awake end.*/
+
+            /*Order.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Order#Update", this ); }
+
+                if (UnityEngine.Screen.width > UnityEngine.Screen.height) {
+                    this._isHorizontal = true;
+                } else {
+                    this._isHorizontal = false;
+                }
+            },
+            /*Order.Update end.*/
 
             /*Order.OnEnable start.*/
             OnEnable: function () {
@@ -4301,17 +4314,29 @@ if ( TRACE ) { TRACE( "Order#SetCup", this ); }
                 switch (cup) {
                     case CupType.Small: 
                         {
-                            this._cupAnimator.Play$2("SmallCupAnim");
+                            if (this._isHorizontal) {
+                                this._cupAnimator.Play$2("SmallCupAnim");
+                            } else {
+                                this._cupAnimator.Play$2("SmallCupVertical");
+                            }
                         }
                         break;
                     case CupType.Middle: 
                         {
-                            this._cupAnimator.Play$2("MiddleCupAnim");
+                            if (this._isHorizontal) {
+                                this._cupAnimator.Play$2("MiddleCupAnim");
+                            } else {
+                                this._cupAnimator.Play$2("MiddleCupVertical");
+                            }
                         }
                         break;
                     case CupType.Large: 
                         {
-                            this._cupAnimator.Play$2("BigCupAnim");
+                            if (this._isHorizontal) {
+                                this._cupAnimator.Play$2("BigCupAnim");
+                            } else {
+                                this._cupAnimator.Play$2("BigCupVertical");
+                            }
                         }
                         break;
                 }
@@ -4367,7 +4392,7 @@ if ( TRACE ) { TRACE( "Order#SetJuice", this ); }
                     switch (juice) {
                         case JuiceType.Apple: 
                             {
-                                if (UnityEngine.Screen.width > UnityEngine.Screen.height) {
+                                if (this._isHorizontal) {
                                     this._juiceAnimator.Play$2("Apple");
                                 } else {
                                     this._juiceAnimator.Play$2("AppleVertical");
@@ -4378,25 +4403,44 @@ if ( TRACE ) { TRACE( "Order#SetJuice", this ); }
                             break;
                         case JuiceType.Orange: 
                             {
-                                this._juiceAnimator.Play$2("Orange");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Orange");
+                                } else {
+                                    this._juiceAnimator.Play$2("OrangeVertical");
+                                }
                                 this._smallRawJuiceImage.sprite = this._config.OrangeSmallCup;
                             }
                             break;
                         case JuiceType.Multifruit: 
                             {
                                 this._smallRawJuiceImage.sprite = this._config.MultifruitSmallCup;
-                                this._juiceAnimator.Play$2("Multifruit");
+
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Multifruit");
+                                } else {
+                                    this._juiceAnimator.Play$2("MultifruitVertical");
+                                }
                             }
                             break;
                         case JuiceType.Tomato: 
                             {
-                                this._juiceAnimator.Play$2("Tomato");
                                 this._smallRawJuiceImage.sprite = this._config.TomatoSmallCup;
+
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Tomato");
+                                } else {
+                                    this._juiceAnimator.Play$2("TomatoVertical");
+                                }
                             }
                             break;
                         case JuiceType.Cherry: 
                             {
-                                this._juiceAnimator.Play$2("Cherry");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Cherry");
+                                } else {
+                                    this._juiceAnimator.Play$2("CherryVertical");
+                                }
+
                                 this._smallRawJuiceImage.sprite = this._config.CherrySmallCup;
                             }
                             break;
@@ -4405,32 +4449,52 @@ if ( TRACE ) { TRACE( "Order#SetJuice", this ); }
                     switch (juice) {
                         case JuiceType.Apple: 
                             {
-                                this._juiceAnimator.Play$2("Apple");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Apple");
+                                } else {
+                                    this._juiceAnimator.Play$2("AppleVertical");
+                                }
                                 this._middleRawJuiceImage.sprite = this._config.AppleMiddleCup;
                             }
                             break;
                         case JuiceType.Orange: 
                             {
-                                this._juiceAnimator.Play$2("Orange");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Orange");
+                                } else {
+                                    this._juiceAnimator.Play$2("OrangeVertical");
+                                }
                                 this._middleRawJuiceImage.sprite = this._config.OrangeMiddleCup;
                             }
                             break;
                         case JuiceType.Multifruit: 
                             {
-                                this._juiceAnimator.Play$2("Multifruit");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Multifruit");
+                                } else {
+                                    this._juiceAnimator.Play$2("MultifruitVertical");
+                                }
                                 this._middleRawJuiceImage.sprite = this._config.MultifruitMiddleCup;
                             }
                             break;
                         case JuiceType.Tomato: 
                             {
-                                this._juiceAnimator.Play$2("Tomato");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Tomato");
+                                } else {
+                                    this._juiceAnimator.Play$2("TomatoVertical");
+                                }
                                 this._middleRawJuiceImage.sprite = this._config.TomatoMiddleCup;
                             }
                             break;
                         case JuiceType.Cherry: 
                             {
                                 this._middleRawJuiceImage.sprite = this._config.CherryMiddleCup;
-                                this._juiceAnimator.Play$2("Cherry");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Cherry");
+                                } else {
+                                    this._juiceAnimator.Play$2("CherryVertical");
+                                }
                             }
                             break;
                     }
@@ -4438,31 +4502,51 @@ if ( TRACE ) { TRACE( "Order#SetJuice", this ); }
                     switch (juice) {
                         case JuiceType.Apple: 
                             {
-                                this._juiceAnimator.Play$2("Apple");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Apple");
+                                } else {
+                                    this._juiceAnimator.Play$2("AppleVertical");
+                                }
                                 this._bigRawJuiceImage.sprite = this._config.AppleBigCup;
                             }
                             break;
                         case JuiceType.Orange: 
                             {
-                                this._juiceAnimator.Play$2("Orange");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Orange");
+                                } else {
+                                    this._juiceAnimator.Play$2("OrangeVertical");
+                                }
                                 this._bigRawJuiceImage.sprite = this._config.OrangeBigCup;
                             }
                             break;
                         case JuiceType.Multifruit: 
                             {
-                                this._juiceAnimator.Play$2("Multifruit");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Multifruit");
+                                } else {
+                                    this._juiceAnimator.Play$2("MultifruitVertical");
+                                }
                                 this._bigRawJuiceImage.sprite = this._config.MultifruitBigCup;
                             }
                             break;
                         case JuiceType.Tomato: 
                             {
-                                this._juiceAnimator.Play$2("Tomato");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Tomato");
+                                } else {
+                                    this._juiceAnimator.Play$2("TomatoVertical");
+                                }
                                 this._bigRawJuiceImage.sprite = this._config.TomatoBigCup;
                             }
                             break;
                         case JuiceType.Cherry: 
                             {
-                                this._juiceAnimator.Play$2("Cherry");
+                                if (this._isHorizontal) {
+                                    this._juiceAnimator.Play$2("Cherry");
+                                } else {
+                                    this._juiceAnimator.Play$2("CherryVertical");
+                                }
                                 this._bigRawJuiceImage.sprite = this._config.CherryBigCup;
                             }
                             break;
@@ -4479,7 +4563,12 @@ if ( TRACE ) { TRACE( "Order#SetStraw", this ); }
                     return;
                 }
 
-                this._cupAnimator.Play$2("StrawAnim");
+                if (this._isHorizontal) {
+                    this._cupAnimator.Play$2("StrawAnim");
+                } else {
+                    this._cupAnimator.Play$2("StrawVertical");
+                }
+
                 this.IsSpriteReady = true;
                 this._bigRawJuiceImage.enabled = false;
                 this._middleRawJuiceImage.enabled = false;
@@ -4585,10 +4674,16 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
 
                 if (this.AdditiveType1 === AdditiveType.None) {
                     if (type === AdditiveType.Ice) {
-                        this._cupAnimator.Play$2("IceAnim");
-                    } else {
-                        if (type === AdditiveType.Grass) {
+                        if (this._isHorizontal) {
+                            this._cupAnimator.Play$2("IceAnim");
+                        } else {
+                            this._cupAnimator.Play$2("IceVertical");
+                        }
+                    } else if (type === AdditiveType.Grass) {
+                        if (this._isHorizontal) {
                             this._cupAnimator.Play$2("GrassAnim");
+                        } else {
+                            this._cupAnimator.Play$2("GrassVertical");
                         }
                     }
 
@@ -4597,10 +4692,16 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
                     this.AdditiveType1 = type;
                 } else if (this.AdditiveType2 === AdditiveType.None) {
                     if (type === AdditiveType.Ice) {
-                        this._cupAnimator.Play$2("IceAnim");
-                    } else {
-                        if (type === AdditiveType.Grass) {
+                        if (this._isHorizontal) {
+                            this._cupAnimator.Play$2("IceAnim");
+                        } else {
+                            this._cupAnimator.Play$2("IceVertical");
+                        }
+                    } else if (type === AdditiveType.Grass) {
+                        if (this._isHorizontal) {
                             this._cupAnimator.Play$2("GrassAnim");
+                        } else {
+                            this._cupAnimator.Play$2("GrassVertical");
                         }
                     }
 
@@ -4615,7 +4716,11 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
             DefineJuiceBalls: function () {
 if ( TRACE ) { TRACE( "Order#DefineJuiceBalls", this ); }
 
-                this._cupAnimator.Play$2("JuiceBallsAnim");
+                if (this._isHorizontal) {
+                    this._cupAnimator.Play$2("JuiceBallsAnim");
+                } else {
+                    this._cupAnimator.Play$2("JuiceVertical");
+                }
 
                 if (this.CupType === CupType.Small) {
                     switch (this.JuiceType) {
@@ -4766,7 +4871,9 @@ if ( TRACE ) { TRACE( "Order#OffReadyCup", this ); }
             _additiveRand1: 0,
             _additiveRand2: 0,
             _additiveCount: 0,
-            _isStay: false
+            _isStay: false,
+            _horizontalScale: null,
+            _verticalScale: null
         },
         events: {
             Disabling: null
@@ -4775,6 +4882,8 @@ if ( TRACE ) { TRACE( "Order#OffReadyCup", this ); }
             init: function () {
 if ( TRACE ) { TRACE( "People#init", this ); }
 
+                this._horizontalScale = new UnityEngine.Vector3();
+                this._verticalScale = new UnityEngine.Vector3();
                 this._isMoving = false;
                 this._isEndMoving = false;
                 this._elapsedTime = 0.0;
@@ -4784,6 +4893,8 @@ if ( TRACE ) { TRACE( "People#init", this ); }
                 this._additiveRand2 = 0;
                 this._additiveCount = 0;
                 this._isStay = false;
+                this._horizontalScale = new pc.Vec3( 1, 1, 1 );
+                this._verticalScale = new pc.Vec3( 1.5, 1.5, 1.5 );
             }
         },
         methods: {
@@ -4930,7 +5041,7 @@ if ( TRACE ) { TRACE( "People#Move", this ); }
                                         continue;
                                 }
                                 case 1: {
-                                    if (pc.Vec3.distance( this.transform.position, this._currentPoint.transform.position ) < 0.3) {
+                                    if (pc.Vec3.distance( this.transform.position, this._currentPoint.transform.position ) < 0.1) {
                                             this.transform.position = this._currentPoint.transform.position.$clone();
                                             this._isMoving = false;
 
@@ -4972,6 +5083,12 @@ if ( TRACE ) { TRACE( "People#Move", this ); }
             /*People.MoveToEndPoint start.*/
             MoveToEndPoint: function () {
 if ( TRACE ) { TRACE( "People#MoveToEndPoint", this ); }
+
+                if (UnityEngine.Screen.width > UnityEngine.Screen.height) {
+                    this.gameObject.transform.localScale = this._horizontalScale.$clone();
+                } else {
+                    this.gameObject.transform.localScale = this._verticalScale.$clone();
+                }
 
                 if (pc.Vec3.distance( this.transform.position, this._endPoint.position ) < 0.1 && this._isEndMoving) {
                     if (UnityEngine.Component.op_Inequality(this._animator, null)) {
@@ -5015,11 +5132,6 @@ if ( TRACE ) { TRACE( "People#DelayBeforeMoving", this ); }
                                 case 1: {
                                     this.transform.position = this._currentPoint.transform.position.$clone();
                                         this._isMoving = false;
-
-                                        if (this._tutorial.IsTutorial === false) {
-                                            this.CreateRandomProduct();
-                                        }
-
                                         this._isStay = true;
                                         this.StartCoroutine$1(this.DelayToWaitAnim());
                                         this.StopCoroutine(this.Move());
@@ -5058,7 +5170,11 @@ if ( TRACE ) { TRACE( "People#DelayBeforeEndMoving", this ); }
                                         return true;
                                 }
                                 case 1: {
-                                    if (UnityEngine.Component.op_Inequality(this._animator, null)) {
+                                    if (this._isEndMoving === false) {
+                                            this.StopCoroutine(this.DelayBeforeEndMoving());
+                                        }
+
+                                        if (UnityEngine.Component.op_Inequality(this._animator, null)) {
                                             this._animator.Play$2("Idle");
                                         }
 
@@ -5811,11 +5927,11 @@ if ( TRACE ) { TRACE( "Tutorial#TurnOnBigCupFinger", this ); }
     /*JuiceType end.*/
 
     /*Order start.*/
-    $m("Order", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddListener","t":8,"pi":[{"n":"button","pt":$n[1].Button,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"AddListener","rt":$n[0].Void,"p":[$n[1].Button,Function]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayCup","t":8,"sn":"DelayCup","rt":$n[0].Void},{"a":1,"n":"OffReadyCup","t":8,"sn":"OffReadyCup","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"SetAdditive","t":8,"pi":[{"n":"type","pt":AdditiveType,"ps":0},{"n":"additive","pt":$n[3].Sprite,"ps":1}],"sn":"SetAdditive","rt":$n[0].Void,"p":[AdditiveType,$n[3].Sprite]},{"a":1,"n":"SetCup","t":8,"pi":[{"n":"cup","pt":CupType,"ps":0}],"sn":"SetCup","rt":$n[0].Void,"p":[CupType]},{"a":1,"n":"SetJuice","t":8,"pi":[{"n":"juice","pt":JuiceType,"ps":0},{"n":"juiceButton","pt":$n[1].Button,"ps":1}],"sn":"SetJuice","rt":$n[0].Void,"p":[JuiceType,$n[1].Button]},{"a":1,"n":"SetStraw","t":8,"sn":"SetStraw","rt":$n[0].Void},{"a":1,"n":"TakeOrder","t":8,"sn":"TakeOrder","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsCupReady","t":4,"rt":$n[0].Boolean,"sn":"IsCupReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsFree","t":4,"rt":$n[0].Boolean,"sn":"IsFree","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsJuiceReady","t":4,"rt":$n[0].Boolean,"sn":"IsJuiceReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsSpriteReady","t":4,"rt":$n[0].Boolean,"sn":"IsSpriteReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_aheadImage","t":4,"rt":$n[1].Image,"sn":"_aheadImage"},{"at":[new UnityEngine.HeaderAttribute("Juices"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_appleButton","t":4,"rt":$n[1].Button,"sn":"_appleButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bText","t":4,"rt":$n[2].TMP_Text,"sn":"_bText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_backImage","t":4,"rt":$n[1].Image,"sn":"_backImage"},{"at":[new UnityEngine.HeaderAttribute("Cups"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupButton","t":4,"rt":$n[1].Button,"sn":"_bigCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_canvasAnimator","t":4,"rt":$n[3].Animator,"sn":"_canvasAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_cherryButton","t":4,"rt":$n[1].Button,"sn":"_cherryButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_clickSound","t":4,"rt":$n[3].AudioSource,"sn":"_clickSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_config","t":4,"rt":JuiceConfig,"sn":"_config"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_cupAnimator","t":4,"rt":$n[3].Animator,"sn":"_cupAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassButton","t":4,"rt":$n[1].Button,"sn":"_grassButton"},{"at":[new UnityEngine.HeaderAttribute("Additives"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceButton","t":4,"rt":$n[1].Button,"sn":"_iceButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_juiceAnimator","t":4,"rt":$n[3].Animator,"sn":"_juiceAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceBallsButton","t":4,"rt":$n[1].Button,"sn":"_juiceBallsButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceSound","t":4,"rt":$n[3].AudioSource,"sn":"_juiceSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_mText","t":4,"rt":$n[2].TMP_Text,"sn":"_mText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupButton","t":4,"rt":$n[1].Button,"sn":"_middleCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_multifruitButton","t":4,"rt":$n[1].Button,"sn":"_multifruitButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_orangeButton","t":4,"rt":$n[1].Button,"sn":"_orangeButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_peopleContainer","t":4,"rt":PeopleContainer,"sn":"_peopleContainer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_sText","t":4,"rt":$n[2].TMP_Text,"sn":"_sText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupButton","t":4,"rt":$n[1].Button,"sn":"_smallCupButton"},{"at":[new UnityEngine.HeaderAttribute("Order"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawButton","t":4,"rt":$n[1].Button,"sn":"_strawButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_takeOrderButton","t":4,"rt":$n[1].Button,"sn":"_takeOrderButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tomatoButton","t":4,"rt":$n[1].Button,"sn":"_tomatoButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"}]}; }, $n);
+    $m("Order", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddListener","t":8,"pi":[{"n":"button","pt":$n[1].Button,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"AddListener","rt":$n[0].Void,"p":[$n[1].Button,Function]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayCup","t":8,"sn":"DelayCup","rt":$n[0].Void},{"a":1,"n":"OffReadyCup","t":8,"sn":"OffReadyCup","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"SetAdditive","t":8,"pi":[{"n":"type","pt":AdditiveType,"ps":0},{"n":"additive","pt":$n[3].Sprite,"ps":1}],"sn":"SetAdditive","rt":$n[0].Void,"p":[AdditiveType,$n[3].Sprite]},{"a":1,"n":"SetCup","t":8,"pi":[{"n":"cup","pt":CupType,"ps":0}],"sn":"SetCup","rt":$n[0].Void,"p":[CupType]},{"a":1,"n":"SetJuice","t":8,"pi":[{"n":"juice","pt":JuiceType,"ps":0},{"n":"juiceButton","pt":$n[1].Button,"ps":1}],"sn":"SetJuice","rt":$n[0].Void,"p":[JuiceType,$n[1].Button]},{"a":1,"n":"SetStraw","t":8,"sn":"SetStraw","rt":$n[0].Void},{"a":1,"n":"TakeOrder","t":8,"sn":"TakeOrder","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsCupReady","t":4,"rt":$n[0].Boolean,"sn":"IsCupReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsFree","t":4,"rt":$n[0].Boolean,"sn":"IsFree","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsJuiceReady","t":4,"rt":$n[0].Boolean,"sn":"IsJuiceReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsSpriteReady","t":4,"rt":$n[0].Boolean,"sn":"IsSpriteReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_aheadImage","t":4,"rt":$n[1].Image,"sn":"_aheadImage"},{"at":[new UnityEngine.HeaderAttribute("Juices"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_appleButton","t":4,"rt":$n[1].Button,"sn":"_appleButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bText","t":4,"rt":$n[2].TMP_Text,"sn":"_bText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_backImage","t":4,"rt":$n[1].Image,"sn":"_backImage"},{"at":[new UnityEngine.HeaderAttribute("Cups"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupButton","t":4,"rt":$n[1].Button,"sn":"_bigCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_canvasAnimator","t":4,"rt":$n[3].Animator,"sn":"_canvasAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_cherryButton","t":4,"rt":$n[1].Button,"sn":"_cherryButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_clickSound","t":4,"rt":$n[3].AudioSource,"sn":"_clickSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_config","t":4,"rt":JuiceConfig,"sn":"_config"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_cupAnimator","t":4,"rt":$n[3].Animator,"sn":"_cupAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassButton","t":4,"rt":$n[1].Button,"sn":"_grassButton"},{"at":[new UnityEngine.HeaderAttribute("Additives"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceButton","t":4,"rt":$n[1].Button,"sn":"_iceButton"},{"a":1,"n":"_isHorizontal","t":4,"rt":$n[0].Boolean,"sn":"_isHorizontal","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_juiceAnimator","t":4,"rt":$n[3].Animator,"sn":"_juiceAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceBallsButton","t":4,"rt":$n[1].Button,"sn":"_juiceBallsButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceSound","t":4,"rt":$n[3].AudioSource,"sn":"_juiceSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_mText","t":4,"rt":$n[2].TMP_Text,"sn":"_mText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupButton","t":4,"rt":$n[1].Button,"sn":"_middleCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_multifruitButton","t":4,"rt":$n[1].Button,"sn":"_multifruitButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_orangeButton","t":4,"rt":$n[1].Button,"sn":"_orangeButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_peopleContainer","t":4,"rt":PeopleContainer,"sn":"_peopleContainer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_sText","t":4,"rt":$n[2].TMP_Text,"sn":"_sText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupButton","t":4,"rt":$n[1].Button,"sn":"_smallCupButton"},{"at":[new UnityEngine.HeaderAttribute("Order"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawButton","t":4,"rt":$n[1].Button,"sn":"_strawButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_takeOrderButton","t":4,"rt":$n[1].Button,"sn":"_takeOrderButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tomatoButton","t":4,"rt":$n[1].Button,"sn":"_tomatoButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"}]}; }, $n);
     /*Order end.*/
 
     /*People start.*/
-    $m("People", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CreateRandomProduct","t":8,"sn":"CreateRandomProduct","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayBeforeEndMoving","t":8,"sn":"DelayBeforeEndMoving","rt":$n[4].IEnumerator},{"a":1,"n":"DelayBeforeMoving","t":8,"sn":"DelayBeforeMoving","rt":$n[4].IEnumerator},{"a":1,"n":"DelayToWaitAnim","t":8,"sn":"DelayToWaitAnim","rt":$n[4].IEnumerator},{"a":2,"n":"Init","t":8,"pi":[{"n":"startPosition","pt":$n[3].Transform,"ps":0},{"n":"point","pt":Point,"ps":1},{"n":"juiceConfig","pt":JuiceConfig,"ps":2},{"n":"tutorial","pt":Tutorial,"ps":3}],"sn":"Init","rt":$n[0].Void,"p":[$n[3].Transform,Point,JuiceConfig,Tutorial]},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[4].IEnumerator},{"a":1,"n":"MoveToEndPoint","t":8,"sn":"MoveToEndPoint","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"StartTutorialPeople","t":8,"pi":[{"n":"startPosition","pt":$n[3].Transform,"ps":0},{"n":"point","pt":Point,"ps":1},{"n":"juiceConfig","pt":JuiceConfig,"ps":2},{"n":"tutorial","pt":Tutorial,"ps":3}],"sn":"StartTutorialPeople","rt":$n[0].Void,"p":[$n[3].Transform,Point,JuiceConfig,Tutorial]},{"a":2,"n":"TryGetJuice","t":8,"pi":[{"n":"cupType","pt":CupType,"ps":0},{"n":"juiceType","pt":JuiceType,"ps":1},{"n":"additiveType1","pt":AdditiveType,"ps":2},{"n":"additiveType2","pt":AdditiveType,"ps":3}],"sn":"TryGetJuice","rt":$n[0].Boolean,"p":[CupType,JuiceType,AdditiveType,AdditiveType],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"Bank","t":4,"rt":Bank,"sn":"Bank"},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"a":1,"n":"_additiveCount","t":4,"rt":$n[0].Int32,"sn":"_additiveCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_additiveImage1","t":4,"rt":$n[1].Image,"sn":"_additiveImage1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_additiveImage2","t":4,"rt":$n[1].Image,"sn":"_additiveImage2"},{"a":1,"n":"_additiveRand1","t":4,"rt":$n[0].Int32,"sn":"_additiveRand1","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_additiveRand2","t":4,"rt":$n[0].Int32,"sn":"_additiveRand2","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_animator","t":4,"rt":$n[3].Animator,"sn":"_animator"},{"a":1,"n":"_cupRand","t":4,"rt":$n[0].Int32,"sn":"_cupRand","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_currentPoint","t":4,"rt":Point,"sn":"_currentPoint"},{"a":1,"n":"_elapsedTime","t":4,"rt":$n[0].Single,"sn":"_elapsedTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_endPoint","t":4,"rt":$n[3].Transform,"sn":"_endPoint"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_finishSound","t":4,"rt":$n[3].AudioSource,"sn":"_finishSound"},{"a":1,"n":"_isEndMoving","t":4,"rt":$n[0].Boolean,"sn":"_isEndMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isMoving","t":4,"rt":$n[0].Boolean,"sn":"_isMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isStay","t":4,"rt":$n[0].Boolean,"sn":"_isStay","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_juiceConfig","t":4,"rt":JuiceConfig,"sn":"_juiceConfig"},{"a":1,"n":"_juiceRand","t":4,"rt":$n[0].Int32,"sn":"_juiceRand","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_readyImage","t":4,"rt":$n[1].Image,"sn":"_readyImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_sizeText","t":4,"rt":$n[2].TMP_Text,"sn":"_sizeText"},{"a":1,"n":"_spawnPoint","t":4,"rt":$n[3].Transform,"sn":"_spawnPoint"},{"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"},{"a":2,"n":"Disabling","t":2,"ad":{"a":2,"n":"add_Disabling","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addDisabling","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_Disabling","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeDisabling","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("People", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"CreateRandomProduct","t":8,"sn":"CreateRandomProduct","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayBeforeEndMoving","t":8,"sn":"DelayBeforeEndMoving","rt":$n[4].IEnumerator},{"a":1,"n":"DelayBeforeMoving","t":8,"sn":"DelayBeforeMoving","rt":$n[4].IEnumerator},{"a":1,"n":"DelayToWaitAnim","t":8,"sn":"DelayToWaitAnim","rt":$n[4].IEnumerator},{"a":2,"n":"Init","t":8,"pi":[{"n":"startPosition","pt":$n[3].Transform,"ps":0},{"n":"point","pt":Point,"ps":1},{"n":"juiceConfig","pt":JuiceConfig,"ps":2},{"n":"tutorial","pt":Tutorial,"ps":3}],"sn":"Init","rt":$n[0].Void,"p":[$n[3].Transform,Point,JuiceConfig,Tutorial]},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[4].IEnumerator},{"a":1,"n":"MoveToEndPoint","t":8,"sn":"MoveToEndPoint","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"StartTutorialPeople","t":8,"pi":[{"n":"startPosition","pt":$n[3].Transform,"ps":0},{"n":"point","pt":Point,"ps":1},{"n":"juiceConfig","pt":JuiceConfig,"ps":2},{"n":"tutorial","pt":Tutorial,"ps":3}],"sn":"StartTutorialPeople","rt":$n[0].Void,"p":[$n[3].Transform,Point,JuiceConfig,Tutorial]},{"a":2,"n":"TryGetJuice","t":8,"pi":[{"n":"cupType","pt":CupType,"ps":0},{"n":"juiceType","pt":JuiceType,"ps":1},{"n":"additiveType1","pt":AdditiveType,"ps":2},{"n":"additiveType2","pt":AdditiveType,"ps":3}],"sn":"TryGetJuice","rt":$n[0].Boolean,"p":[CupType,JuiceType,AdditiveType,AdditiveType],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"Bank","t":4,"rt":Bank,"sn":"Bank"},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"a":1,"n":"_additiveCount","t":4,"rt":$n[0].Int32,"sn":"_additiveCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_additiveImage1","t":4,"rt":$n[1].Image,"sn":"_additiveImage1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_additiveImage2","t":4,"rt":$n[1].Image,"sn":"_additiveImage2"},{"a":1,"n":"_additiveRand1","t":4,"rt":$n[0].Int32,"sn":"_additiveRand1","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_additiveRand2","t":4,"rt":$n[0].Int32,"sn":"_additiveRand2","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_animator","t":4,"rt":$n[3].Animator,"sn":"_animator"},{"a":1,"n":"_cupRand","t":4,"rt":$n[0].Int32,"sn":"_cupRand","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_currentPoint","t":4,"rt":Point,"sn":"_currentPoint"},{"a":1,"n":"_elapsedTime","t":4,"rt":$n[0].Single,"sn":"_elapsedTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_endPoint","t":4,"rt":$n[3].Transform,"sn":"_endPoint"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_finishSound","t":4,"rt":$n[3].AudioSource,"sn":"_finishSound"},{"a":1,"n":"_horizontalScale","t":4,"rt":$n[3].Vector3,"sn":"_horizontalScale"},{"a":1,"n":"_isEndMoving","t":4,"rt":$n[0].Boolean,"sn":"_isEndMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isMoving","t":4,"rt":$n[0].Boolean,"sn":"_isMoving","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isStay","t":4,"rt":$n[0].Boolean,"sn":"_isStay","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_juiceConfig","t":4,"rt":JuiceConfig,"sn":"_juiceConfig"},{"a":1,"n":"_juiceRand","t":4,"rt":$n[0].Int32,"sn":"_juiceRand","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_readyImage","t":4,"rt":$n[1].Image,"sn":"_readyImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_sizeText","t":4,"rt":$n[2].TMP_Text,"sn":"_sizeText"},{"a":1,"n":"_spawnPoint","t":4,"rt":$n[3].Transform,"sn":"_spawnPoint"},{"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"},{"a":1,"n":"_verticalScale","t":4,"rt":$n[3].Vector3,"sn":"_verticalScale"},{"a":2,"n":"Disabling","t":2,"ad":{"a":2,"n":"add_Disabling","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addDisabling","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_Disabling","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeDisabling","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*People end.*/
 
     /*PeopleContainer start.*/

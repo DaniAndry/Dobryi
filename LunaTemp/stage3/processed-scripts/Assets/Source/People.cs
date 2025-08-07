@@ -35,6 +35,8 @@ public class People : MonoBehaviour
     private int _additiveRand2 = 0;
     private int _additiveCount = 0;
     private bool _isStay = false;
+    private Vector3 _horizontalScale = new Vector3(1, 1, 1);
+    private Vector3 _verticalScale = new Vector3(1.5f, 1.5f, 1.5f);
 
     public event Action<People> Disabling;
 
@@ -150,7 +152,7 @@ public class People : MonoBehaviour
     {
         while (_isMoving)
         {
-            if (Vector3.Distance(transform.position, _currentPoint.transform.position) < 0.3f)
+            if (Vector3.Distance(transform.position, _currentPoint.transform.position) < 0.1f)
             {
                 transform.position = _currentPoint.transform.position;
                 _isMoving = false;
@@ -169,6 +171,11 @@ public class People : MonoBehaviour
 
     private void MoveToEndPoint()
     {
+        if (Screen.width > Screen.height)
+            gameObject.transform.localScale = _horizontalScale;
+        else
+            gameObject.transform.localScale = _verticalScale;
+        
         if (Vector3.Distance(transform.position, _endPoint.position) < 0.1f && _isEndMoving)
         {
             if (_animator != null)
@@ -196,10 +203,6 @@ public class People : MonoBehaviour
 
         transform.position = _currentPoint.transform.position;
         _isMoving = false;
-
-        if (_tutorial.IsTutorial == false)
-            CreateRandomProduct();
-
         _isStay = true;
         StartCoroutine(DelayToWaitAnim());
         StopCoroutine(Move());
@@ -209,6 +212,9 @@ public class People : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
 
+        if(_isEndMoving == false)
+            StopCoroutine(DelayBeforeEndMoving());
+        
         if (_animator != null)
             _animator.Play("Idle");
 
