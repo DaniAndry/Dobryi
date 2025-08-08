@@ -51,6 +51,7 @@ public class Order : MonoBehaviour
     public bool IsSpriteReady = false;
     public bool IsCupReady = false;
     public bool IsJuiceReady = false;
+    public bool IsPouring = false;
 
     private bool _isHorizontal;
 
@@ -200,17 +201,19 @@ public class Order : MonoBehaviour
     private void JuiceReadyToggle()
     {
         IsJuiceReady = true;
+        IsPouring = false;
     }
 
     private void SetJuice(JuiceType juice, Button juiceButton)
     {
-        if (IsCupReady == false || IsJuiceReady == true)
+        if (IsCupReady == false || IsJuiceReady == true || IsPouring)
             return;
 
         JuiceType = juice;
+        IsPouring = true;
         Invoke(nameof(JuiceReadyToggle), 1f);
         _juiceSound?.Play();
-        
+
         if (CupType == CupType.Small)
         {
             switch (juice)
@@ -388,6 +391,13 @@ public class Order : MonoBehaviour
         if (_tutorial.IsTutorial == false)
             _takeOrderButton.interactable = true;
 
+        if (AdditiveType1 == AdditiveType.JuiceBall)
+        {
+            _backImage.enabled = false;
+            DefineJuiceBalls();
+            return;
+        }
+
         if (CupType == CupType.Small)
         {
             _smallReadyJuiceImage.enabled = true;
@@ -461,7 +471,7 @@ public class Order : MonoBehaviour
 
     private void SetAdditive(AdditiveType type, Sprite additive)
     {
-        if (IsSpriteReady == false)
+        if (IsJuiceReady == false)
             return;
 
         if (type == AdditiveType1 || type == AdditiveType2)
@@ -471,7 +481,10 @@ public class Order : MonoBehaviour
             AdditiveType2 == AdditiveType.None)
         {
             DefineJuiceBalls();
-            _backImage.enabled = false;
+
+            if (IsSpriteReady)
+                _backImage.enabled = false;
+
             AdditiveType1 = AdditiveType.JuiceBall;
             return;
         }
@@ -484,7 +497,10 @@ public class Order : MonoBehaviour
 
             DefineJuiceBalls();
             AdditiveType1 = AdditiveType.JuiceBall;
-            _backImage.enabled = false;
+
+            if (IsSpriteReady)
+                _backImage.enabled = false;
+
             return;
         }
         else if (type == AdditiveType.JuiceBall && AdditiveType1 != AdditiveType.None &&
@@ -539,13 +555,25 @@ public class Order : MonoBehaviour
 
     private void DefineJuiceBalls()
     {
-        if (_isHorizontal)
-            _cupAnimator.Play("JuiceBallsAnim");
-        else
-            _cupAnimator.Play("JuiceBallsVertical");
+        if(AdditiveType1 != AdditiveType.JuiceBall)
+        {
+            if (_isHorizontal)
+                _cupAnimator.Play("JuiceBallsAnim");
+            else
+                _cupAnimator.Play("JuiceBallsVertical");
+        }
+        
+        if (IsSpriteReady == false)
+        {
+            _backImage.sprite = _config.JuiceBallAdditive;
+            _backImage.enabled = true;
+            return;
+        }
 
         if (CupType == CupType.Small)
         {
+            _smallReadyJuiceImage.enabled = true;
+            
             switch (JuiceType)
             {
                 case JuiceType.Orange:
@@ -567,6 +595,8 @@ public class Order : MonoBehaviour
         }
         else if (CupType == CupType.Large)
         {
+            _bigReadyJuiceImage.enabled = true;
+            
             switch (JuiceType)
             {
                 case JuiceType.Orange:
@@ -588,6 +618,8 @@ public class Order : MonoBehaviour
         }
         else if (CupType == CupType.Middle)
         {
+            _middleReadyJuiceImage.enabled = true;
+            
             switch (JuiceType)
             {
                 case JuiceType.Orange:
@@ -612,11 +644,11 @@ public class Order : MonoBehaviour
     private void TakeOrder()
     {
         Debug.Log("Take Order");
-        
+
         if (_peopleContainer.TryGiveJuice(CupType, JuiceType, AdditiveType1, AdditiveType2))
         {
             _canvasAnimator.Play("CupAnim");
-            Invoke(nameof(OffReadyCup), 0.2f);
+            Invoke(nameof(OffReadyCup), 0f);
 
             IsCupReady = false;
             IsJuiceReady = false;
@@ -638,7 +670,7 @@ public class Order : MonoBehaviour
         else
         {
             _canvasAnimator.Play("NoCupAnim");
-            Invoke(nameof(OffReadyCup), 0.1f);
+            Invoke(nameof(OffReadyCup), 0f);
 
             IsCupReady = false;
             IsJuiceReady = false;

@@ -1,6 +1,6 @@
 if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Helper#init","Helper#Update","Helper#OnEnable","Helper#OnDisable","Helper#OnCupFinger","Helper#OnJuiceFinger","Helper#OnAdditiveFinger","Helper#DefineHelp","Helper#DisableReadyFinger","Helper#DisableStrawFinger","Helper#ShowDownloadScreen","Helper#CloseFinalScreen","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#Update","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#JuiceReadyToggle","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
 /**
- * @version 1.0.9350.33799
+ * @version 1.0.9351.30919
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -4130,6 +4130,7 @@ if ( TRACE ) { TRACE( "ItemSwitcherData#SetVertical", this ); }
             IsSpriteReady: false,
             IsCupReady: false,
             IsJuiceReady: false,
+            IsPouring: false,
             _isHorizontal: false
         },
         ctors: {
@@ -4140,6 +4141,7 @@ if ( TRACE ) { TRACE( "Order#init", this ); }
                 this.IsSpriteReady = false;
                 this.IsCupReady = false;
                 this.IsJuiceReady = false;
+                this.IsPouring = false;
             }
         },
         methods: {
@@ -4358,6 +4360,7 @@ if ( TRACE ) { TRACE( "Order#DelayCup", this ); }
 if ( TRACE ) { TRACE( "Order#JuiceReadyToggle", this ); }
 
                 this.IsJuiceReady = true;
+                this.IsPouring = false;
             },
             /*Order.JuiceReadyToggle end.*/
 
@@ -4365,11 +4368,12 @@ if ( TRACE ) { TRACE( "Order#JuiceReadyToggle", this ); }
             SetJuice: function (juice, juiceButton) {
 if ( TRACE ) { TRACE( "Order#SetJuice", this ); }
 
-                if (this.IsCupReady === false || this.IsJuiceReady === true) {
+                if (this.IsCupReady === false || this.IsJuiceReady === true || this.IsPouring) {
                     return;
                 }
 
                 this.JuiceType = juice;
+                this.IsPouring = true;
                 this.Invoke("JuiceReadyToggle", 1.0);
                 UnityEngine.Component.op_Inequality(this._juiceSound, null) ? this._juiceSound.Play() : null;
 
@@ -4563,6 +4567,12 @@ if ( TRACE ) { TRACE( "Order#SetStraw", this ); }
                     this._takeOrderButton.interactable = true;
                 }
 
+                if (this.AdditiveType1 === AdditiveType.JuiceBall) {
+                    this._backImage.enabled = false;
+                    this.DefineJuiceBalls();
+                    return;
+                }
+
                 if (this.CupType === CupType.Small) {
                     this._smallReadyJuiceImage.enabled = true;
 
@@ -4631,7 +4641,7 @@ if ( TRACE ) { TRACE( "Order#SetStraw", this ); }
             SetAdditive: function (type, additive) {
 if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
 
-                if (this.IsSpriteReady === false) {
+                if (this.IsJuiceReady === false) {
                     return;
                 }
 
@@ -4641,7 +4651,11 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
 
                 if (type === AdditiveType.JuiceBall && this.AdditiveType1 === AdditiveType.None && this.AdditiveType2 === AdditiveType.None) {
                     this.DefineJuiceBalls();
-                    this._backImage.enabled = false;
+
+                    if (this.IsSpriteReady) {
+                        this._backImage.enabled = false;
+                    }
+
                     this.AdditiveType1 = AdditiveType.JuiceBall;
                     return;
                 } else if (type === AdditiveType.JuiceBall && this.AdditiveType1 !== AdditiveType.None && this.AdditiveType2 === AdditiveType.None) {
@@ -4651,7 +4665,11 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
 
                     this.DefineJuiceBalls();
                     this.AdditiveType1 = AdditiveType.JuiceBall;
-                    this._backImage.enabled = false;
+
+                    if (this.IsSpriteReady) {
+                        this._backImage.enabled = false;
+                    }
+
                     return;
                 } else if (type === AdditiveType.JuiceBall && this.AdditiveType1 !== AdditiveType.None && this.AdditiveType2 !== AdditiveType.None) {
                     return;
@@ -4701,13 +4719,23 @@ if ( TRACE ) { TRACE( "Order#SetAdditive", this ); }
             DefineJuiceBalls: function () {
 if ( TRACE ) { TRACE( "Order#DefineJuiceBalls", this ); }
 
-                if (this._isHorizontal) {
-                    this._cupAnimator.Play$2("JuiceBallsAnim");
-                } else {
-                    this._cupAnimator.Play$2("JuiceBallsVertical");
+                if (this.AdditiveType1 !== AdditiveType.JuiceBall) {
+                    if (this._isHorizontal) {
+                        this._cupAnimator.Play$2("JuiceBallsAnim");
+                    } else {
+                        this._cupAnimator.Play$2("JuiceBallsVertical");
+                    }
+                }
+
+                if (this.IsSpriteReady === false) {
+                    this._backImage.sprite = this._config.JuiceBallAdditive;
+                    this._backImage.enabled = true;
+                    return;
                 }
 
                 if (this.CupType === CupType.Small) {
+                    this._smallReadyJuiceImage.enabled = true;
+
                     switch (this.JuiceType) {
                         case JuiceType.Orange: 
                             this._smallReadyJuiceImage.sprite = this._config.OrangeSmallBallsCup;
@@ -4726,6 +4754,8 @@ if ( TRACE ) { TRACE( "Order#DefineJuiceBalls", this ); }
                             break;
                     }
                 } else if (this.CupType === CupType.Large) {
+                    this._bigReadyJuiceImage.enabled = true;
+
                     switch (this.JuiceType) {
                         case JuiceType.Orange: 
                             this._bigReadyJuiceImage.sprite = this._config.OrangeBigBallsCup;
@@ -4744,6 +4774,8 @@ if ( TRACE ) { TRACE( "Order#DefineJuiceBalls", this ); }
                             break;
                     }
                 } else if (this.CupType === CupType.Middle) {
+                    this._middleReadyJuiceImage.enabled = true;
+
                     switch (this.JuiceType) {
                         case JuiceType.Orange: 
                             this._middleReadyJuiceImage.sprite = this._config.OrangeMiddleBallsCup;
@@ -4773,7 +4805,7 @@ if ( TRACE ) { TRACE( "Order#TakeOrder", this ); }
 
                 if (this._peopleContainer.TryGiveJuice(this.CupType, this.JuiceType, this.AdditiveType1, this.AdditiveType2)) {
                     this._canvasAnimator.Play$2("CupAnim");
-                    this.Invoke("OffReadyCup", 0.2);
+                    this.Invoke("OffReadyCup", 0.0);
 
                     this.IsCupReady = false;
                     this.IsJuiceReady = false;
@@ -4793,7 +4825,7 @@ if ( TRACE ) { TRACE( "Order#TakeOrder", this ); }
                     this.AdditiveType2 = AdditiveType.None;
                 } else {
                     this._canvasAnimator.Play$2("NoCupAnim");
-                    this.Invoke("OffReadyCup", 0.1);
+                    this.Invoke("OffReadyCup", 0.0);
 
                     this.IsCupReady = false;
                     this.IsJuiceReady = false;
@@ -5914,7 +5946,7 @@ if ( TRACE ) { TRACE( "Tutorial#TurnOnBigCupFinger", this ); }
     /*JuiceType end.*/
 
     /*Order start.*/
-    $m("Order", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddListener","t":8,"pi":[{"n":"button","pt":$n[1].Button,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"AddListener","rt":$n[0].Void,"p":[$n[1].Button,Function]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayCup","t":8,"sn":"DelayCup","rt":$n[0].Void},{"a":1,"n":"JuiceReadyToggle","t":8,"sn":"JuiceReadyToggle","rt":$n[0].Void},{"a":1,"n":"OffReadyCup","t":8,"sn":"OffReadyCup","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"SetAdditive","t":8,"pi":[{"n":"type","pt":AdditiveType,"ps":0},{"n":"additive","pt":$n[3].Sprite,"ps":1}],"sn":"SetAdditive","rt":$n[0].Void,"p":[AdditiveType,$n[3].Sprite]},{"a":1,"n":"SetCup","t":8,"pi":[{"n":"cup","pt":CupType,"ps":0}],"sn":"SetCup","rt":$n[0].Void,"p":[CupType]},{"a":1,"n":"SetJuice","t":8,"pi":[{"n":"juice","pt":JuiceType,"ps":0},{"n":"juiceButton","pt":$n[1].Button,"ps":1}],"sn":"SetJuice","rt":$n[0].Void,"p":[JuiceType,$n[1].Button]},{"a":1,"n":"SetStraw","t":8,"sn":"SetStraw","rt":$n[0].Void},{"a":1,"n":"TakeOrder","t":8,"sn":"TakeOrder","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsCupReady","t":4,"rt":$n[0].Boolean,"sn":"IsCupReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsFree","t":4,"rt":$n[0].Boolean,"sn":"IsFree","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsJuiceReady","t":4,"rt":$n[0].Boolean,"sn":"IsJuiceReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsSpriteReady","t":4,"rt":$n[0].Boolean,"sn":"IsSpriteReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_aheadImage","t":4,"rt":$n[1].Image,"sn":"_aheadImage"},{"at":[new UnityEngine.HeaderAttribute("Juices"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_appleButton","t":4,"rt":$n[1].Button,"sn":"_appleButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bText","t":4,"rt":$n[2].TMP_Text,"sn":"_bText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_backImage","t":4,"rt":$n[1].Image,"sn":"_backImage"},{"at":[new UnityEngine.HeaderAttribute("Cups"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupButton","t":4,"rt":$n[1].Button,"sn":"_bigCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_canvasAnimator","t":4,"rt":$n[3].Animator,"sn":"_canvasAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_cherryButton","t":4,"rt":$n[1].Button,"sn":"_cherryButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_clickSound","t":4,"rt":$n[3].AudioSource,"sn":"_clickSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_config","t":4,"rt":JuiceConfig,"sn":"_config"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_cupAnimator","t":4,"rt":$n[3].Animator,"sn":"_cupAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassButton","t":4,"rt":$n[1].Button,"sn":"_grassButton"},{"at":[new UnityEngine.HeaderAttribute("Additives"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceButton","t":4,"rt":$n[1].Button,"sn":"_iceButton"},{"a":1,"n":"_isHorizontal","t":4,"rt":$n[0].Boolean,"sn":"_isHorizontal","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_juiceAnimator","t":4,"rt":$n[3].Animator,"sn":"_juiceAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceBallsButton","t":4,"rt":$n[1].Button,"sn":"_juiceBallsButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceSound","t":4,"rt":$n[3].AudioSource,"sn":"_juiceSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_mText","t":4,"rt":$n[2].TMP_Text,"sn":"_mText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupButton","t":4,"rt":$n[1].Button,"sn":"_middleCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_multifruitButton","t":4,"rt":$n[1].Button,"sn":"_multifruitButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_orangeButton","t":4,"rt":$n[1].Button,"sn":"_orangeButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_peopleContainer","t":4,"rt":PeopleContainer,"sn":"_peopleContainer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_sText","t":4,"rt":$n[2].TMP_Text,"sn":"_sText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupButton","t":4,"rt":$n[1].Button,"sn":"_smallCupButton"},{"at":[new UnityEngine.HeaderAttribute("Order"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawButton","t":4,"rt":$n[1].Button,"sn":"_strawButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_takeOrderButton","t":4,"rt":$n[1].Button,"sn":"_takeOrderButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tomatoButton","t":4,"rt":$n[1].Button,"sn":"_tomatoButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"}]}; }, $n);
+    $m("Order", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddListener","t":8,"pi":[{"n":"button","pt":$n[1].Button,"ps":0},{"n":"action","pt":Function,"ps":1}],"sn":"AddListener","rt":$n[0].Void,"p":[$n[1].Button,Function]},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":1,"n":"DefineJuiceBalls","t":8,"sn":"DefineJuiceBalls","rt":$n[0].Void},{"a":1,"n":"DelayCup","t":8,"sn":"DelayCup","rt":$n[0].Void},{"a":1,"n":"JuiceReadyToggle","t":8,"sn":"JuiceReadyToggle","rt":$n[0].Void},{"a":1,"n":"OffReadyCup","t":8,"sn":"OffReadyCup","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"SetAdditive","t":8,"pi":[{"n":"type","pt":AdditiveType,"ps":0},{"n":"additive","pt":$n[3].Sprite,"ps":1}],"sn":"SetAdditive","rt":$n[0].Void,"p":[AdditiveType,$n[3].Sprite]},{"a":1,"n":"SetCup","t":8,"pi":[{"n":"cup","pt":CupType,"ps":0}],"sn":"SetCup","rt":$n[0].Void,"p":[CupType]},{"a":1,"n":"SetJuice","t":8,"pi":[{"n":"juice","pt":JuiceType,"ps":0},{"n":"juiceButton","pt":$n[1].Button,"ps":1}],"sn":"SetJuice","rt":$n[0].Void,"p":[JuiceType,$n[1].Button]},{"a":1,"n":"SetStraw","t":8,"sn":"SetStraw","rt":$n[0].Void},{"a":1,"n":"TakeOrder","t":8,"sn":"TakeOrder","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsCupReady","t":4,"rt":$n[0].Boolean,"sn":"IsCupReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsFree","t":4,"rt":$n[0].Boolean,"sn":"IsFree","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsJuiceReady","t":4,"rt":$n[0].Boolean,"sn":"IsJuiceReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsPouring","t":4,"rt":$n[0].Boolean,"sn":"IsPouring","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsSpriteReady","t":4,"rt":$n[0].Boolean,"sn":"IsSpriteReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_aheadImage","t":4,"rt":$n[1].Image,"sn":"_aheadImage"},{"at":[new UnityEngine.HeaderAttribute("Juices"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_appleButton","t":4,"rt":$n[1].Button,"sn":"_appleButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bText","t":4,"rt":$n[2].TMP_Text,"sn":"_bText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_backImage","t":4,"rt":$n[1].Image,"sn":"_backImage"},{"at":[new UnityEngine.HeaderAttribute("Cups"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupButton","t":4,"rt":$n[1].Button,"sn":"_bigCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_bigReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_canvasAnimator","t":4,"rt":$n[3].Animator,"sn":"_canvasAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_cherryButton","t":4,"rt":$n[1].Button,"sn":"_cherryButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_clickSound","t":4,"rt":$n[3].AudioSource,"sn":"_clickSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_config","t":4,"rt":JuiceConfig,"sn":"_config"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_cupAnimator","t":4,"rt":$n[3].Animator,"sn":"_cupAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassButton","t":4,"rt":$n[1].Button,"sn":"_grassButton"},{"at":[new UnityEngine.HeaderAttribute("Additives"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceButton","t":4,"rt":$n[1].Button,"sn":"_iceButton"},{"a":1,"n":"_isHorizontal","t":4,"rt":$n[0].Boolean,"sn":"_isHorizontal","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"_juiceAnimator","t":4,"rt":$n[3].Animator,"sn":"_juiceAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceBallsButton","t":4,"rt":$n[1].Button,"sn":"_juiceBallsButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceSound","t":4,"rt":$n[3].AudioSource,"sn":"_juiceSound"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_mText","t":4,"rt":$n[2].TMP_Text,"sn":"_mText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupButton","t":4,"rt":$n[1].Button,"sn":"_middleCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_middleReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_multifruitButton","t":4,"rt":$n[1].Button,"sn":"_multifruitButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_orangeButton","t":4,"rt":$n[1].Button,"sn":"_orangeButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_peopleContainer","t":4,"rt":PeopleContainer,"sn":"_peopleContainer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_sText","t":4,"rt":$n[2].TMP_Text,"sn":"_sText"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupButton","t":4,"rt":$n[1].Button,"sn":"_smallCupButton"},{"at":[new UnityEngine.HeaderAttribute("Order"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallRawJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallRawJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallReadyJuiceImage","t":4,"rt":$n[1].Image,"sn":"_smallReadyJuiceImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawButton","t":4,"rt":$n[1].Button,"sn":"_strawButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_takeOrderButton","t":4,"rt":$n[1].Button,"sn":"_takeOrderButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tomatoButton","t":4,"rt":$n[1].Button,"sn":"_tomatoButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"}]}; }, $n);
     /*Order end.*/
 
     /*People start.*/
