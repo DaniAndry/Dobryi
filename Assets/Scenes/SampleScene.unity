@@ -14276,16 +14276,16 @@ MonoBehaviour:
     CopyHorizontal: 0
     CopyVertical: 0
   - Target: {fileID: 244736430}
-    HorizontalAnchoredPosition: {x: -477.77005, y: 541.275}
-    SizeHorizontal: {x: 194.51001, y: 83.81}
-    VerticalAnchoredPosition: {x: 8.029907, y: 306}
-    SizeVertical: {x: 270.5, y: 116.5}
+    HorizontalAnchoredPosition: {x: 0, y: 232.31299}
+    SizeHorizontal: {x: 99.37, y: 99.37399}
+    VerticalAnchoredPosition: {x: -3.24, y: -190.02}
+    SizeVertical: {x: 213.78, y: 190.02}
     MinHorizontal: {x: 0.5, y: 0}
     MaxHorizontal: {x: 0.5, y: 0}
-    MinVertical: {x: 0.16952085, y: 0.36279324}
-    MaxVertical: {x: 0.16952085, y: 0.36279324}
+    MinVertical: {x: 0.497, y: 0.304}
+    MaxVertical: {x: 0.497, y: 0.304}
     IsAnchored: 0
-    IsDebug: 1
+    IsDebug: 0
     CopyHorizontal: 0
     CopyVertical: 0
   _backHorizontal: {fileID: 600133377}
