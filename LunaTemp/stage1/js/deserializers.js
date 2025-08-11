@@ -742,8 +742,9 @@ Deserializers["Order"] = function (request, data, root) {
   request.r(i659[63], i659[64], 0, i658, '_bText')
   request.r(i659[65], i659[66], 0, i658, '_mText')
   request.r(i659[67], i659[68], 0, i658, '_sText')
-  request.r(i659[69], i659[70], 0, i658, '_clickSound')
-  request.r(i659[71], i659[72], 0, i658, '_juiceSound')
+  request.r(i659[69], i659[70], 0, i658, '_garbageButton')
+  request.r(i659[71], i659[72], 0, i658, '_clickSound')
+  request.r(i659[73], i659[74], 0, i658, '_juiceSound')
   return i658
 }
 
@@ -2224,13 +2225,13 @@ Deserializers.productName = "Playble";
 
 Deserializers.lunaInitializationTime = "08/07/2025 12:08:51";
 
-Deserializers.lunaDaysRunning = "1.1";
+Deserializers.lunaDaysRunning = "4.0";
 
 Deserializers.lunaVersion = "6.3.0";
 
 Deserializers.lunaSHA = "7c1090235e749b60367a931fd9d8e53ca14842b9";
 
-Deserializers.creativeName = "Juice-6-8";
+Deserializers.creativeName = "Juice-7-4";
 
 Deserializers.lunaAppID = "31350";
 
@@ -2280,7 +2281,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "dcb83219-041f-43a9-8f62-7752e3b41910";
+Deserializers.buildID = "ae82f807-b38f-42ed-8b4f-77ead059db7b";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[]];
 

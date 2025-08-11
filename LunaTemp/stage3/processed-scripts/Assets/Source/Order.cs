@@ -39,6 +39,7 @@ public class Order : MonoBehaviour
     [SerializeField] private TMP_Text _bText;
     [SerializeField] private TMP_Text _mText;
     [SerializeField] private TMP_Text _sText;
+    [SerializeField] private Button _garbageButton;
 
     [SerializeField] private AudioSource _clickSound;
     [SerializeField] private AudioSource _juiceSound;
@@ -86,6 +87,7 @@ public class Order : MonoBehaviour
         _multifruitButton.onClick.AddListener(() => SetJuice(JuiceType.Multifruit, _multifruitButton));
         _tomatoButton.onClick.AddListener(() => SetJuice(JuiceType.Tomato, _tomatoButton));
         _cherryButton.onClick.AddListener(() => SetJuice(JuiceType.Cherry, _cherryButton));
+        _garbageButton.onClick.AddListener(Garbage);
 
         AddListener(_smallCupButton, () => SetCup(CupType.Small));
         AddListener(_middleCupButton, () => SetCup(CupType.Middle));
@@ -104,6 +106,7 @@ public class Order : MonoBehaviour
         _smallCupButton.onClick.RemoveListener(() => SetCup(CupType.Small));
         _middleCupButton.onClick.RemoveListener(() => SetCup(CupType.Middle));
         _bigCupButton.onClick.RemoveListener(() => SetCup(CupType.Large));
+        _garbageButton.onClick.RemoveListener(Garbage);
 
         _appleButton.onClick.RemoveListener(() => SetJuice(JuiceType.Apple, _appleButton));
         _orangeButton.onClick.RemoveListener(() => SetJuice(JuiceType.Orange, _orangeButton));
@@ -133,9 +136,13 @@ public class Order : MonoBehaviour
     {
         if (IsFree == false || IsCupReady == true)
             return;
+        
         CupType = cup;
         IsCupReady = true;
         IsFree = false;
+        
+        if (_tutorial.IsTutorial == false)
+            _takeOrderButton.interactable = true;
 
         switch (cup)
         {
@@ -641,11 +648,32 @@ public class Order : MonoBehaviour
         }
     }
 
+    private void Garbage()
+    {
+        _canvasAnimator.Play("NoCupAnim");
+        Invoke(nameof(OffReadyCup), 0f);
+
+        IsCupReady = false;
+        IsJuiceReady = false;
+        IsFree = true;
+        IsSpriteReady = false;
+        _smallRawJuiceImage.enabled = false;
+        _middleRawJuiceImage.enabled = false;
+        _bigRawJuiceImage.enabled = false;
+        _takeOrderButton.interactable = false;
+        _aheadImage.enabled = false;
+        _backImage.enabled = false;
+        _bText.enabled = false;
+        _mText.enabled = false;
+        _sText.enabled = false;
+        _takeOrderButton.interactable = false;
+        AdditiveType1 = AdditiveType.None;
+        AdditiveType2 = AdditiveType.None;
+    }
+
     private void TakeOrder()
     {
-        Debug.Log("Take Order");
-
-        if (_peopleContainer.TryGiveJuice(CupType, JuiceType, AdditiveType1, AdditiveType2))
+        if (IsSpriteReady && _peopleContainer.TryGiveJuice(CupType, JuiceType, AdditiveType1, AdditiveType2) )
         {
             _canvasAnimator.Play("CupAnim");
             Invoke(nameof(OffReadyCup), 0f);
@@ -669,25 +697,7 @@ public class Order : MonoBehaviour
         }
         else
         {
-            _canvasAnimator.Play("NoCupAnim");
-            Invoke(nameof(OffReadyCup), 0f);
-
-            IsCupReady = false;
-            IsJuiceReady = false;
-            IsFree = true;
-            IsSpriteReady = false;
-            _smallRawJuiceImage.enabled = false;
-            _middleRawJuiceImage.enabled = false;
-            _bigRawJuiceImage.enabled = false;
-            _takeOrderButton.interactable = false;
-            _aheadImage.enabled = false;
-            _backImage.enabled = false;
-            _bText.enabled = false;
-            _mText.enabled = false;
-            _sText.enabled = false;
-            _takeOrderButton.interactable = false;
-            AdditiveType1 = AdditiveType.None;
-            AdditiveType2 = AdditiveType.None;
+            Garbage();
         }
     }
 
