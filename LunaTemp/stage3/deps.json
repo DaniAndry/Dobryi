@@ -34,23 +34,24 @@
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AdditiveType.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Order.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceConfig.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/People.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/CupType.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Point.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/CupType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AheadImage.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/BackImage.cs"
+    ],
+    [
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ImageShiftOnOrientation.cs"
@@ -60,6 +61,9 @@
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ScreenRatioAnchorController.cs"
+    ],
+    [
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/UIMover.cs"

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Helper : MonoBehaviour
 {
-    [Header("Fingers")] [SerializeField] private GameObject _smallCupFinger;
+    /*[Header("Fingers")] [SerializeField] private GameObject _smallCupFinger;
     [SerializeField] private GameObject _middleCupFinger;
     [SerializeField] private GameObject _bigCupFinger;
     [SerializeField] private GameObject _iceFinger;
@@ -352,8 +352,8 @@ public class Helper : MonoBehaviour
                     }
                 }
             }
-        }
-    }
+        }*/
+    /*}
 
     private void DisableReadyFinger()
     {
@@ -379,5 +379,5 @@ public class Helper : MonoBehaviour
         _finalScreen.SetActive(false);
         Time.timeScale = 1f;
         _isFinalScreenClose = true;
-    }
+    }*/
 }
