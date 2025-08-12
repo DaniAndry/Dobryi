@@ -15,6 +15,7 @@ public class People : MonoBehaviour
     [SerializeField] public Bank Bank;
     [SerializeField] public TMP_Text _sizeText;
     [SerializeField] private AudioSource _finishSound;
+    [SerializeField] private Slider _happySlider;
 
     public CupType CupType;
     public JuiceType JuiceType;
@@ -67,6 +68,8 @@ public class People : MonoBehaviour
         _elapsedTime = 0f;
         transform.position = startPosition.position;
         _isMoving = true;
+        _happySlider.value = 1f;
+        _happySlider.gameObject.SetActive(true);
         StartCoroutine(Move());
         StartCoroutine(DelayBeforeMoving());
         transform.DOMove(_currentPoint.transform.position, 2f);
@@ -161,7 +164,6 @@ public class People : MonoBehaviour
                     CreateRandomProduct();
 
                 _isStay = true;
-                StartCoroutine(DelayToWaitAnim());
                 StopCoroutine(Move());
             }
 
@@ -175,7 +177,7 @@ public class People : MonoBehaviour
             gameObject.transform.localScale = _horizontalScale;
         else
             gameObject.transform.localScale = _verticalScale;
-        
+
         if (Vector3.Distance(transform.position, _endPoint.position) < 0.1f && _isEndMoving)
         {
             if (_animator != null)
@@ -204,7 +206,10 @@ public class People : MonoBehaviour
         transform.position = _currentPoint.transform.position;
         _isMoving = false;
         _isStay = true;
-        StartCoroutine(DelayToWaitAnim());
+        
+        if(_tutorial.IsTutorial == false)
+            StartCoroutine(DelayToWaitAnim());
+        
         StopCoroutine(Move());
     }
 
@@ -212,9 +217,9 @@ public class People : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
 
-        if(_isEndMoving == false)
+        if (_isEndMoving == false)
             StopCoroutine(DelayBeforeEndMoving());
-        
+
         if (_animator != null)
             _animator.Play("Idle");
 
@@ -230,10 +235,34 @@ public class People : MonoBehaviour
 
     private IEnumerator DelayToWaitAnim()
     {
-        yield return new WaitForSeconds(7f);
+        while (_happySlider.value > 0.01)
+        {
+            _happySlider.value -= 0.0007f;
+
+            if (_isEndMoving)
+            {
+                _happySlider.gameObject.SetActive(false);
+                StopCoroutine(DelayToWaitAnim());
+                yield return null;
+            }
+
+            yield return null;
+        }
 
         if (_animator != null)
             _animator.Play("Wait");
+
+        _happySlider.gameObject.SetActive(false);
+        _happySlider.value = 0f;
+        
+        _currentPoint.UnBusy();
+        _elapsedTime = 0f;
+        _isEndMoving = true;
+        StartCoroutine(DelayBeforeEndMoving());
+        transform.DOMove(_endPoint.transform.position, 2f);
+        _sizeText.text = " ";
+        
+        StopCoroutine(DelayToWaitAnim());
     }
 
     private void CreateRandomProduct()
