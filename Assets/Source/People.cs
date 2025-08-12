@@ -204,11 +204,11 @@ public class People : MonoBehaviour
                         }
                     }
                 }
+            }
         }
+
+        return false;
     }
-    
-    return false;
-}
 
     private IEnumerator Move()
     {
@@ -310,7 +310,7 @@ public class People : MonoBehaviour
 
     private void CreateRandomProduct()
     {
-        _cupsCount = Random.Range(2, 4);
+        _cupsCount = Random.Range(1, 3);
 
         for (int i = 0; i < _cupsCount; i++)
         {
