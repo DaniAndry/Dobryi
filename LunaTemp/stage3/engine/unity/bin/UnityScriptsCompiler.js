@@ -1,6 +1,6 @@
 if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","Cup#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#Update","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#JuiceReadyToggle","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#Garbage","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","SoundSwitcher#init","SoundSwitcher#Awake","SoundSwitcher#OnEnable","SoundSwitcher#OnDisable","SoundSwitcher#ToggleSound","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
 /**
- * @version 1.0.9355.29491
+ * @version 1.0.9356.29012
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -4627,21 +4627,26 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
                                 if (cup.AdditiveType2 === additiveType1 || cup.AdditiveType2 === additiveType2) {
                                     if (cup.CupType === cupType && cup.JuiceType === juiceType) {
                                         cup.IsReady = true;
-                                        UnityEngine.Debug.Log(Bridge.box(cup.IsReady, System.Boolean, System.Boolean.toString));
                                         var count = 0;
 
-                                        for (var i = 0; i < this._cupsCount; i = (i + 1) | 0) {
-                                            if (this.Cups.getItem(i).IsReady) {
-                                                count = (count + 1) | 0;
-                                            }
+                                        if (this._cupsCount === 1 && this.Cups.getItem(2).IsReady) {
+                                            this._isPeopleReady = true;
+                                        }
 
-                                            if (count >= this._cupsCount) {
-                                                this._isPeopleReady = true;
-                                            } else {
-                                                this._isPeopleReady = false;
-                                            }
+                                        if (this._cupsCount !== 1) {
+                                            for (var i = 0; i < this._cupsCount; i = (i + 1) | 0) {
+                                                if (this.Cups.getItem(i).IsReady) {
+                                                    count = (count + 1) | 0;
+                                                }
 
-                                            UnityEngine.Debug.Log$1(count + (this.name || ""));
+                                                if (count >= this._cupsCount) {
+                                                    this._isPeopleReady = true;
+                                                } else {
+                                                    this._isPeopleReady = false;
+                                                }
+
+                                                UnityEngine.Debug.Log$1(count + (this.name || ""));
+                                            }
                                         }
 
                                         if (this._isPeopleReady && this._isCup) {
@@ -4664,6 +4669,11 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
                                             DG.Tweening.ShortcutExtensions.DOMove(this.transform, this._endPoint.transform.position.$clone(), 2.0);
                                             this.Bank.GiveMoney(100);
                                             cup.SizeText.text = " ";
+
+                                            this.Cups.getItem(2).SizeText.gameObject.SetActive(false);
+                                            this.Cups.getItem(2).ReadyImage.gameObject.SetActive(false);
+                                            this.Cups.getItem(2).AdditiveImage1.gameObject.SetActive(false);
+                                            this.Cups.getItem(2).AdditiveImage2.gameObject.SetActive(false);
 
                                             if (UnityEngine.Component.op_Inequality(this._animator, null)) {
                                                 this._animator.Play$2("Order");
@@ -4947,163 +4957,332 @@ if ( TRACE ) { TRACE( "People#CreateRandomProduct", this ); }
 
                 this._cupsCount = UnityEngine.Random.Range(1, 3);
 
-                for (var i = 0; i < this._cupsCount; i = (i + 1) | 0) {
+                if (this._cupsCount === 1) {
+                    this.Cups.getItem(2).SizeText.gameObject.SetActive(true);
+                    this.Cups.getItem(2).ReadyImage.gameObject.SetActive(true);
+                    this.Cups.getItem(2).AdditiveImage1.gameObject.SetActive(true);
+                    this.Cups.getItem(2).AdditiveImage2.gameObject.SetActive(true);
+
                     this._cupRand = UnityEngine.Random.Range(0, 3);
                     this._juiceRand = UnityEngine.Random.Range(0, 5);
                     this._additiveRand1 = UnityEngine.Random.Range(0, 3);
                     this._additiveRand2 = UnityEngine.Random.Range(0, 3);
                     this._additiveCount = UnityEngine.Random.Range(0, 3);
 
-                    this.Cups.getItem(i).CupType = this._cupRand;
-                    this.Cups.getItem(i).JuiceType = this._juiceRand;
+                    this.Cups.getItem(2).CupType = this._cupRand;
+                    this.Cups.getItem(2).JuiceType = this._juiceRand;
 
                     if (this._additiveCount === 0) {
-                        this.Cups.getItem(i).AdditiveType1 = AdditiveType.None;
-                        this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        this.Cups.getItem(2).AdditiveType1 = AdditiveType.None;
+                        this.Cups.getItem(2).AdditiveType2 = AdditiveType.None;
                     }
 
                     if (this._additiveCount === 1) {
-                        this.Cups.getItem(i).AdditiveType1 = this._additiveRand1;
-                        this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        this.Cups.getItem(2).AdditiveType1 = this._additiveRand1;
+                        this.Cups.getItem(2).AdditiveType2 = AdditiveType.None;
                     } else if (this._additiveCount === 2) {
-                        this.Cups.getItem(i).AdditiveType1 = this._additiveRand1;
-                        this.Cups.getItem(i).AdditiveType2 = this._additiveRand2;
+                        this.Cups.getItem(2).AdditiveType1 = this._additiveRand1;
+                        this.Cups.getItem(2).AdditiveType2 = this._additiveRand2;
 
-                        if (this.Cups.getItem(i).AdditiveType1 === this.Cups.getItem(i).AdditiveType2) {
+                        if (this.Cups.getItem(2).AdditiveType1 === this.Cups.getItem(2).AdditiveType2) {
                             this._additiveCount = 1;
-                            this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                            this.Cups.getItem(2).AdditiveType2 = AdditiveType.None;
                         }
                     }
 
                     if (this.Bank.IsAdditiveBuy === false && this._additiveCount !== 0) {
                         this._additiveCount = 1;
-                        this.Cups.getItem(i).AdditiveType1 = AdditiveType.Ice;
-                        this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        this.Cups.getItem(2).AdditiveType1 = AdditiveType.Ice;
+                        this.Cups.getItem(2).AdditiveType2 = AdditiveType.None;
                     }
 
                     if (this.Bank.IsBigCupBuy === false) {
-                        this.Cups.getItem(i).CupType = CupType.Small;
+                        this.Cups.getItem(2).CupType = CupType.Small;
                     }
 
                     if (this.Bank.IsJuiceBuy === false) {
                         if (this._juiceRand > 2) {
-                            this.Cups.getItem(i).JuiceType = JuiceType.Cherry;
+                            this.Cups.getItem(2).JuiceType = JuiceType.Cherry;
                         } else {
-                            this.Cups.getItem(i).JuiceType = JuiceType.Apple;
+                            this.Cups.getItem(2).JuiceType = JuiceType.Apple;
                         }
                     }
 
-                    if (this.Cups.getItem(i).CupType === CupType.Small) {
-                        this.Cups.getItem(i).SizeText.text = "S";
+                    if (this.Cups.getItem(2).CupType === CupType.Small) {
+                        this.Cups.getItem(2).SizeText.text = "S";
 
-                        switch (this.Cups.getItem(i).JuiceType) {
+                        switch (this.Cups.getItem(2).JuiceType) {
                             case JuiceType.Orange: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeSmallStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.OrangeSmallStrawCup;
                                 break;
                             case JuiceType.Apple: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleSmallStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.AppleSmallStrawCup;
                                 break;
                             case JuiceType.Cherry: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherrySmallStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.CherrySmallStrawCup;
                                 break;
                             case JuiceType.Multifruit: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitSmallStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.MultifruitSmallStrawCup;
                                 break;
                             case JuiceType.Tomato: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoSmallStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.TomatoSmallStrawCup;
                                 break;
                         }
-                    } else if (this.Cups.getItem(i).CupType === CupType.Large) {
-                        this.Cups.getItem(i).SizeText.text = "L";
+                    } else if (this.Cups.getItem(2).CupType === CupType.Large) {
+                        this.Cups.getItem(2).SizeText.text = "L";
 
-                        switch (this.Cups.getItem(i).JuiceType) {
+                        switch (this.Cups.getItem(2).JuiceType) {
                             case JuiceType.Orange: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeBigStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.OrangeBigStrawCup;
                                 break;
                             case JuiceType.Apple: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleBigStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.AppleBigStrawCup;
                                 break;
                             case JuiceType.Cherry: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherryBigStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.CherryBigStrawCup;
                                 break;
                             case JuiceType.Multifruit: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitBigStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.MultifruitBigStrawCup;
                                 break;
                             case JuiceType.Tomato: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoBigStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.TomatoBigStrawCup;
                                 break;
                         }
-                    } else if (this.Cups.getItem(i).CupType === CupType.Middle) {
-                        this.Cups.getItem(i).SizeText.text = "M";
+                    } else if (this.Cups.getItem(2).CupType === CupType.Middle) {
+                        this.Cups.getItem(2).SizeText.text = "M";
 
-                        switch (this.Cups.getItem(i).JuiceType) {
+                        switch (this.Cups.getItem(2).JuiceType) {
                             case JuiceType.Orange: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeMiddleStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.OrangeMiddleStrawCup;
                                 break;
                             case JuiceType.Apple: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleMiddleStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.AppleMiddleStrawCup;
                                 break;
                             case JuiceType.Cherry: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherryMiddleStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.CherryMiddleStrawCup;
                                 break;
                             case JuiceType.Multifruit: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitMiddleStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.MultifruitMiddleStrawCup;
                                 break;
                             case JuiceType.Tomato: 
-                                this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoMiddleStrawCup;
+                                this.Cups.getItem(2).ReadyImage.sprite = this._juiceConfig.TomatoMiddleStrawCup;
                                 break;
                         }
                     }
 
-                    this.Cups.getItem(i).ReadyImage.enabled = true;
+                    this.Cups.getItem(2).ReadyImage.enabled = true;
 
                     if (this._additiveCount === 1 || this._additiveCount === 2) {
-                        this.Cups.getItem(i).AdditiveImage1.enabled = true;
+                        this.Cups.getItem(2).AdditiveImage1.enabled = true;
 
-                        switch (this.Cups.getItem(i).AdditiveType1) {
+                        switch (this.Cups.getItem(2).AdditiveType1) {
                             case AdditiveType.Ice: 
-                                this.Cups.getItem(i).AdditiveImage1.sprite = this._juiceConfig.IceAdditive;
+                                this.Cups.getItem(2).AdditiveImage1.sprite = this._juiceConfig.IceAdditive;
                                 break;
                             case AdditiveType.Grass: 
-                                this.Cups.getItem(i).AdditiveImage1.sprite = this._juiceConfig.GrassAdditive;
+                                this.Cups.getItem(2).AdditiveImage1.sprite = this._juiceConfig.GrassAdditive;
                                 break;
                             case AdditiveType.JuiceBall: 
                                 {
-                                    this.DefineJuiceBalls(this.Cups.getItem(i));
-                                    this.Cups.getItem(i).AdditiveImage1.enabled = false;
+                                    this.DefineJuiceBalls(this.Cups.getItem(2));
+                                    this.Cups.getItem(2).AdditiveImage1.enabled = false;
                                 }
                                 break;
                             case AdditiveType.None: 
-                                this.Cups.getItem(i).AdditiveImage1.enabled = false;
+                                this.Cups.getItem(2).AdditiveImage1.enabled = false;
                                 break;
                             default: 
                                 break;
                         }
 
                         if (this._additiveCount === 2) {
-                            this.Cups.getItem(i).AdditiveImage2.enabled = true;
+                            this.Cups.getItem(2).AdditiveImage2.enabled = true;
 
-                            switch (this.Cups.getItem(i).AdditiveType2) {
+                            switch (this.Cups.getItem(2).AdditiveType2) {
                                 case AdditiveType.Ice: 
-                                    this.Cups.getItem(i).AdditiveImage2.sprite = this._juiceConfig.IceAdditive;
+                                    this.Cups.getItem(2).AdditiveImage2.sprite = this._juiceConfig.IceAdditive;
                                     break;
                                 case AdditiveType.Grass: 
-                                    this.Cups.getItem(i).AdditiveImage2.sprite = this._juiceConfig.GrassAdditive;
+                                    this.Cups.getItem(2).AdditiveImage2.sprite = this._juiceConfig.GrassAdditive;
                                     break;
                                 case AdditiveType.JuiceBall: 
                                     {
-                                        this.Cups.getItem(i).AdditiveType1 = this.Cups.getItem(i).AdditiveType2;
-                                        this.Cups.getItem(i).AdditiveType2 = AdditiveType.JuiceBall;
-                                        this.Cups.getItem(i).AdditiveImage2.sprite = this.Cups.getItem(i).AdditiveImage1.sprite;
-                                        this.Cups.getItem(i).AdditiveImage1.enabled = false;
-                                        this.DefineJuiceBalls(this.Cups.getItem(i));
+                                        this.Cups.getItem(2).AdditiveType1 = this.Cups.getItem(2).AdditiveType2;
+                                        this.Cups.getItem(2).AdditiveType2 = AdditiveType.JuiceBall;
+                                        this.Cups.getItem(2).AdditiveImage2.sprite = this.Cups.getItem(2).AdditiveImage1.sprite;
+                                        this.Cups.getItem(2).AdditiveImage1.enabled = false;
+                                        this.DefineJuiceBalls(this.Cups.getItem(2));
                                     }
                                     break;
                                 case AdditiveType.None: 
-                                    this.Cups.getItem(i).AdditiveImage2.enabled = false;
+                                    this.Cups.getItem(2).AdditiveImage2.enabled = false;
                                     break;
                                 default: 
                                     break;
+                            }
+                        }
+                    }
+                }
+
+                if (this._cupsCount === 2) {
+                    for (var i = 0; i < this._cupsCount; i = (i + 1) | 0) {
+                        this._cupRand = UnityEngine.Random.Range(0, 3);
+                        this._juiceRand = UnityEngine.Random.Range(0, 5);
+                        this._additiveRand1 = UnityEngine.Random.Range(0, 3);
+                        this._additiveRand2 = UnityEngine.Random.Range(0, 3);
+                        this._additiveCount = UnityEngine.Random.Range(0, 3);
+
+                        this.Cups.getItem(i).CupType = this._cupRand;
+                        this.Cups.getItem(i).JuiceType = this._juiceRand;
+
+                        if (this._additiveCount === 0) {
+                            this.Cups.getItem(i).AdditiveType1 = AdditiveType.None;
+                            this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        }
+
+                        if (this._additiveCount === 1) {
+                            this.Cups.getItem(i).AdditiveType1 = this._additiveRand1;
+                            this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        } else if (this._additiveCount === 2) {
+                            this.Cups.getItem(i).AdditiveType1 = this._additiveRand1;
+                            this.Cups.getItem(i).AdditiveType2 = this._additiveRand2;
+
+                            if (this.Cups.getItem(i).AdditiveType1 === this.Cups.getItem(i).AdditiveType2) {
+                                this._additiveCount = 1;
+                                this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                            }
+                        }
+
+                        if (this.Bank.IsAdditiveBuy === false && this._additiveCount !== 0) {
+                            this._additiveCount = 1;
+                            this.Cups.getItem(i).AdditiveType1 = AdditiveType.Ice;
+                            this.Cups.getItem(i).AdditiveType2 = AdditiveType.None;
+                        }
+
+                        if (this.Bank.IsBigCupBuy === false) {
+                            this.Cups.getItem(i).CupType = CupType.Small;
+                        }
+
+                        if (this.Bank.IsJuiceBuy === false) {
+                            if (this._juiceRand > 2) {
+                                this.Cups.getItem(i).JuiceType = JuiceType.Cherry;
+                            } else {
+                                this.Cups.getItem(i).JuiceType = JuiceType.Apple;
+                            }
+                        }
+
+                        if (this.Cups.getItem(i).CupType === CupType.Small) {
+                            this.Cups.getItem(i).SizeText.text = "S";
+
+                            switch (this.Cups.getItem(i).JuiceType) {
+                                case JuiceType.Orange: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeSmallStrawCup;
+                                    break;
+                                case JuiceType.Apple: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleSmallStrawCup;
+                                    break;
+                                case JuiceType.Cherry: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherrySmallStrawCup;
+                                    break;
+                                case JuiceType.Multifruit: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitSmallStrawCup;
+                                    break;
+                                case JuiceType.Tomato: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoSmallStrawCup;
+                                    break;
+                            }
+                        } else if (this.Cups.getItem(i).CupType === CupType.Large) {
+                            this.Cups.getItem(i).SizeText.text = "L";
+
+                            switch (this.Cups.getItem(i).JuiceType) {
+                                case JuiceType.Orange: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeBigStrawCup;
+                                    break;
+                                case JuiceType.Apple: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleBigStrawCup;
+                                    break;
+                                case JuiceType.Cherry: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherryBigStrawCup;
+                                    break;
+                                case JuiceType.Multifruit: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitBigStrawCup;
+                                    break;
+                                case JuiceType.Tomato: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoBigStrawCup;
+                                    break;
+                            }
+                        } else if (this.Cups.getItem(i).CupType === CupType.Middle) {
+                            this.Cups.getItem(i).SizeText.text = "M";
+
+                            switch (this.Cups.getItem(i).JuiceType) {
+                                case JuiceType.Orange: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.OrangeMiddleStrawCup;
+                                    break;
+                                case JuiceType.Apple: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.AppleMiddleStrawCup;
+                                    break;
+                                case JuiceType.Cherry: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.CherryMiddleStrawCup;
+                                    break;
+                                case JuiceType.Multifruit: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.MultifruitMiddleStrawCup;
+                                    break;
+                                case JuiceType.Tomato: 
+                                    this.Cups.getItem(i).ReadyImage.sprite = this._juiceConfig.TomatoMiddleStrawCup;
+                                    break;
+                            }
+                        }
+
+                        this.Cups.getItem(i).ReadyImage.enabled = true;
+
+                        if (this._additiveCount === 1 || this._additiveCount === 2) {
+                            this.Cups.getItem(i).AdditiveImage1.enabled = true;
+
+                            switch (this.Cups.getItem(i).AdditiveType1) {
+                                case AdditiveType.Ice: 
+                                    this.Cups.getItem(i).AdditiveImage1.sprite = this._juiceConfig.IceAdditive;
+                                    break;
+                                case AdditiveType.Grass: 
+                                    this.Cups.getItem(i).AdditiveImage1.sprite = this._juiceConfig.GrassAdditive;
+                                    break;
+                                case AdditiveType.JuiceBall: 
+                                    {
+                                        this.DefineJuiceBalls(this.Cups.getItem(i));
+                                        this.Cups.getItem(i).AdditiveImage1.enabled = false;
+                                    }
+                                    break;
+                                case AdditiveType.None: 
+                                    this.Cups.getItem(i).AdditiveImage1.enabled = false;
+                                    break;
+                                default: 
+                                    break;
+                            }
+
+                            if (this._additiveCount === 2) {
+                                this.Cups.getItem(i).AdditiveImage2.enabled = true;
+
+                                switch (this.Cups.getItem(i).AdditiveType2) {
+                                    case AdditiveType.Ice: 
+                                        this.Cups.getItem(i).AdditiveImage2.sprite = this._juiceConfig.IceAdditive;
+                                        break;
+                                    case AdditiveType.Grass: 
+                                        this.Cups.getItem(i).AdditiveImage2.sprite = this._juiceConfig.GrassAdditive;
+                                        break;
+                                    case AdditiveType.JuiceBall: 
+                                        {
+                                            this.Cups.getItem(i).AdditiveType1 = this.Cups.getItem(i).AdditiveType2;
+                                            this.Cups.getItem(i).AdditiveType2 = AdditiveType.JuiceBall;
+                                            this.Cups.getItem(i).AdditiveImage2.sprite = this.Cups.getItem(i).AdditiveImage1.sprite;
+                                            this.Cups.getItem(i).AdditiveImage1.enabled = false;
+                                            this.DefineJuiceBalls(this.Cups.getItem(i));
+                                        }
+                                        break;
+                                    case AdditiveType.None: 
+                                        this.Cups.getItem(i).AdditiveImage2.enabled = false;
+                                        break;
+                                    default: 
+                                        break;
+                                }
                             }
                         }
                     }
