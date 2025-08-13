@@ -2260,13 +2260,13 @@ Deserializers.productName = "Playble";
 
 Deserializers.lunaInitializationTime = "08/07/2025 12:08:51";
 
-Deserializers.lunaDaysRunning = "5.8";
+Deserializers.lunaDaysRunning = "6.0";
 
 Deserializers.lunaVersion = "6.3.0";
 
 Deserializers.lunaSHA = "7c1090235e749b60367a931fd9d8e53ca14842b9";
 
-Deserializers.creativeName = "MixVersion";
+Deserializers.creativeName = "MixVersion2";
 
 Deserializers.lunaAppID = "31350";
 
@@ -2316,7 +2316,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "4be233cd-ffb9-400b-a5cd-10515c425738";
+Deserializers.buildID = "92e3984a-0611-44af-a84e-c2ee58c39748";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[]];
 

@@ -263,7 +263,12 @@ public class People : MonoBehaviour
         _additiveRand1 = Random.Range(0, 3);
         _additiveRand2 = Random.Range(0, 3);
         _additiveCount = Random.Range(0, 3);
-        _countJuice = Random.Range(1, 3);
+        int rand = Random.Range(0, 101);
+
+        if (rand <= 30)
+            _countJuice = 1;
+        else
+            _countJuice = 2;
 
         CupType = (CupType)_cupRand;
         JuiceType1 = (JuiceType)_juiceRand;
