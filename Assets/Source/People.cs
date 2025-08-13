@@ -156,22 +156,27 @@ public class People : MonoBehaviour
                         if (cup.CupType == cupType && cup.JuiceType == juiceType)
                         {
                             cup.IsReady = true;
-                            Debug.Log(cup.IsReady);
                             int count = 0;
 
-                            for (int i = 0; i < _cupsCount; i++)
+                            if (_cupsCount == 1 && Cups[2].IsReady)
+                                _isPeopleReady = true;
+                            
+                            if(_cupsCount != 1)
                             {
-                                if (Cups[i].IsReady)
-                                    count++;
+                                for (int i = 0; i < _cupsCount; i++)
+                                {
+                                    if (Cups[i].IsReady)
+                                        count++;
 
-                                if (count >= _cupsCount)
-                                    _isPeopleReady = true;
-                                else
-                                    _isPeopleReady = false;
+                                    if (count >= _cupsCount)
+                                        _isPeopleReady = true;
+                                    else
+                                        _isPeopleReady = false;
 
-                                Debug.Log(count + name);
+                                    Debug.Log(count + name);
+                                }
                             }
-
+                            
                             if (_isPeopleReady && _isCup)
                             {
                                 foreach (var cup2 in Cups)
@@ -186,6 +191,11 @@ public class People : MonoBehaviour
                                 transform.DOMove(_endPoint.transform.position, 2f);
                                 Bank.GiveMoney(100);
                                 cup.SizeText.text = " ";
+
+                                Cups[2].SizeText.gameObject.SetActive(false);
+                                Cups[2].ReadyImage.gameObject.SetActive(false);
+                                Cups[2].AdditiveImage1.gameObject.SetActive(false);
+                                Cups[2].AdditiveImage2.gameObject.SetActive(false);
 
                                 if (_animator != null)
                                     _animator.Play("Order");
@@ -312,150 +322,155 @@ public class People : MonoBehaviour
     {
         _cupsCount = Random.Range(1, 3);
 
-        for (int i = 0; i < _cupsCount; i++)
+        if (_cupsCount == 1)
         {
+            Cups[2].SizeText.gameObject.SetActive(true);
+            Cups[2].ReadyImage.gameObject.SetActive(true);
+            Cups[2].AdditiveImage1.gameObject.SetActive(true);
+            Cups[2].AdditiveImage2.gameObject.SetActive(true);
+
             _cupRand = Random.Range(0, 3);
             _juiceRand = Random.Range(0, 5);
             _additiveRand1 = Random.Range(0, 3);
             _additiveRand2 = Random.Range(0, 3);
             _additiveCount = Random.Range(0, 3);
 
-            Cups[i].CupType = (CupType)_cupRand;
-            Cups[i].JuiceType = (JuiceType)_juiceRand;
+            Cups[2].CupType = (CupType)_cupRand;
+            Cups[2].JuiceType = (JuiceType)_juiceRand;
 
             if (_additiveCount == 0)
             {
-                Cups[i].AdditiveType1 = AdditiveType.None;
-                Cups[i].AdditiveType2 = AdditiveType.None;
+                Cups[2].AdditiveType1 = AdditiveType.None;
+                Cups[2].AdditiveType2 = AdditiveType.None;
             }
 
             if (_additiveCount == 1)
             {
-                Cups[i].AdditiveType1 = (AdditiveType)_additiveRand1;
-                Cups[i].AdditiveType2 = AdditiveType.None;
+                Cups[2].AdditiveType1 = (AdditiveType)_additiveRand1;
+                Cups[2].AdditiveType2 = AdditiveType.None;
             }
             else if (_additiveCount == 2)
             {
-                Cups[i].AdditiveType1 = (AdditiveType)_additiveRand1;
-                Cups[i].AdditiveType2 = (AdditiveType)_additiveRand2;
+                Cups[2].AdditiveType1 = (AdditiveType)_additiveRand1;
+                Cups[2].AdditiveType2 = (AdditiveType)_additiveRand2;
 
-                if (Cups[i].AdditiveType1 == Cups[i].AdditiveType2)
+                if (Cups[2].AdditiveType1 == Cups[2].AdditiveType2)
                 {
                     _additiveCount = 1;
-                    Cups[i].AdditiveType2 = AdditiveType.None;
+                    Cups[2].AdditiveType2 = AdditiveType.None;
                 }
             }
 
             if (Bank.IsAdditiveBuy == false && _additiveCount != 0)
             {
                 _additiveCount = 1;
-                Cups[i].AdditiveType1 = AdditiveType.Ice;
-                Cups[i].AdditiveType2 = AdditiveType.None;
+                Cups[2].AdditiveType1 = AdditiveType.Ice;
+                Cups[2].AdditiveType2 = AdditiveType.None;
             }
 
             if (Bank.IsBigCupBuy == false)
-                Cups[i].CupType = CupType.Small;
+                Cups[2].CupType = CupType.Small;
 
             if (Bank.IsJuiceBuy == false)
             {
                 if (_juiceRand > 2)
-                    Cups[i].JuiceType = JuiceType.Cherry;
+                    Cups[2].JuiceType = JuiceType.Cherry;
                 else
-                    Cups[i].JuiceType = JuiceType.Apple;
+                    Cups[2].JuiceType = JuiceType.Apple;
             }
 
-            if (Cups[i].CupType == CupType.Small)
+            if (Cups[2].CupType == CupType.Small)
             {
-                Cups[i].SizeText.text = "S";
+                Cups[2].SizeText.text = "S";
 
-                switch (Cups[i].JuiceType)
+                switch (Cups[2].JuiceType)
                 {
                     case JuiceType.Orange:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.OrangeSmallStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.OrangeSmallStrawCup;
                         break;
                     case JuiceType.Apple:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.AppleSmallStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.AppleSmallStrawCup;
                         break;
                     case JuiceType.Cherry:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.CherrySmallStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.CherrySmallStrawCup;
                         break;
                     case JuiceType.Multifruit:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitSmallStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.MultifruitSmallStrawCup;
                         break;
                     case JuiceType.Tomato:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.TomatoSmallStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.TomatoSmallStrawCup;
                         break;
                 }
             }
-            else if (Cups[i].CupType == CupType.Large)
+            else if (Cups[2].CupType == CupType.Large)
             {
-                Cups[i].SizeText.text = "L";
+                Cups[2].SizeText.text = "L";
 
-                switch (Cups[i].JuiceType)
+                switch (Cups[2].JuiceType)
                 {
                     case JuiceType.Orange:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.OrangeBigStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.OrangeBigStrawCup;
                         break;
                     case JuiceType.Apple:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.AppleBigStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.AppleBigStrawCup;
                         break;
                     case JuiceType.Cherry:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.CherryBigStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.CherryBigStrawCup;
                         break;
                     case JuiceType.Multifruit:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitBigStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.MultifruitBigStrawCup;
                         break;
                     case JuiceType.Tomato:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.TomatoBigStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.TomatoBigStrawCup;
                         break;
                 }
             }
-            else if (Cups[i].CupType == CupType.Middle)
+            else if (Cups[2].CupType == CupType.Middle)
             {
-                Cups[i].SizeText.text = "M";
+                Cups[2].SizeText.text = "M";
 
-                switch (Cups[i].JuiceType)
+                switch (Cups[2].JuiceType)
                 {
                     case JuiceType.Orange:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.OrangeMiddleStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.OrangeMiddleStrawCup;
                         break;
                     case JuiceType.Apple:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.AppleMiddleStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.AppleMiddleStrawCup;
                         break;
                     case JuiceType.Cherry:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.CherryMiddleStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.CherryMiddleStrawCup;
                         break;
                     case JuiceType.Multifruit:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitMiddleStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.MultifruitMiddleStrawCup;
                         break;
                     case JuiceType.Tomato:
-                        Cups[i].ReadyImage.sprite = _juiceConfig.TomatoMiddleStrawCup;
+                        Cups[2].ReadyImage.sprite = _juiceConfig.TomatoMiddleStrawCup;
                         break;
                 }
             }
 
-            Cups[i].ReadyImage.enabled = true;
+            Cups[2].ReadyImage.enabled = true;
 
             if (_additiveCount == 1 || _additiveCount == 2)
             {
-                Cups[i].AdditiveImage1.enabled = true;
+                Cups[2].AdditiveImage1.enabled = true;
 
-                switch (Cups[i].AdditiveType1)
+                switch (Cups[2].AdditiveType1)
                 {
                     case AdditiveType.Ice:
-                        Cups[i].AdditiveImage1.sprite = _juiceConfig.IceAdditive;
+                        Cups[2].AdditiveImage1.sprite = _juiceConfig.IceAdditive;
                         break;
                     case AdditiveType.Grass:
-                        Cups[i].AdditiveImage1.sprite = _juiceConfig.GrassAdditive;
+                        Cups[2].AdditiveImage1.sprite = _juiceConfig.GrassAdditive;
                         break;
                     case AdditiveType.JuiceBall:
                     {
-                        DefineJuiceBalls(Cups[i]);
-                        Cups[i].AdditiveImage1.enabled = false;
+                        DefineJuiceBalls(Cups[2]);
+                        Cups[2].AdditiveImage1.enabled = false;
                     }
                         break;
                     case AdditiveType.None:
-                        Cups[i].AdditiveImage1.enabled = false;
+                        Cups[2].AdditiveImage1.enabled = false;
                         break;
                     default:
                         break;
@@ -463,30 +478,213 @@ public class People : MonoBehaviour
 
                 if (_additiveCount == 2)
                 {
-                    Cups[i].AdditiveImage2.enabled = true;
+                    Cups[2].AdditiveImage2.enabled = true;
 
-                    switch (Cups[i].AdditiveType2)
+                    switch (Cups[2].AdditiveType2)
                     {
                         case AdditiveType.Ice:
-                            Cups[i].AdditiveImage2.sprite = _juiceConfig.IceAdditive;
+                            Cups[2].AdditiveImage2.sprite = _juiceConfig.IceAdditive;
                             break;
                         case AdditiveType.Grass:
-                            Cups[i].AdditiveImage2.sprite = _juiceConfig.GrassAdditive;
+                            Cups[2].AdditiveImage2.sprite = _juiceConfig.GrassAdditive;
                             break;
                         case AdditiveType.JuiceBall:
                         {
-                            Cups[i].AdditiveType1 = Cups[i].AdditiveType2;
-                            Cups[i].AdditiveType2 = AdditiveType.JuiceBall;
-                            Cups[i].AdditiveImage2.sprite = Cups[i].AdditiveImage1.sprite;
-                            Cups[i].AdditiveImage1.enabled = false;
-                            DefineJuiceBalls(Cups[i]);
+                            Cups[2].AdditiveType1 = Cups[2].AdditiveType2;
+                            Cups[2].AdditiveType2 = AdditiveType.JuiceBall;
+                            Cups[2].AdditiveImage2.sprite = Cups[2].AdditiveImage1.sprite;
+                            Cups[2].AdditiveImage1.enabled = false;
+                            DefineJuiceBalls(Cups[2]);
                         }
                             break;
                         case AdditiveType.None:
-                            Cups[i].AdditiveImage2.enabled = false;
+                            Cups[2].AdditiveImage2.enabled = false;
                             break;
                         default:
                             break;
+                    }
+                }
+            }
+        }
+
+        if (_cupsCount == 2)
+        {
+            for (int i = 0; i < _cupsCount; i++)
+            {
+                _cupRand = Random.Range(0, 3);
+                _juiceRand = Random.Range(0, 5);
+                _additiveRand1 = Random.Range(0, 3);
+                _additiveRand2 = Random.Range(0, 3);
+                _additiveCount = Random.Range(0, 3);
+
+                Cups[i].CupType = (CupType)_cupRand;
+                Cups[i].JuiceType = (JuiceType)_juiceRand;
+
+                if (_additiveCount == 0)
+                {
+                    Cups[i].AdditiveType1 = AdditiveType.None;
+                    Cups[i].AdditiveType2 = AdditiveType.None;
+                }
+
+                if (_additiveCount == 1)
+                {
+                    Cups[i].AdditiveType1 = (AdditiveType)_additiveRand1;
+                    Cups[i].AdditiveType2 = AdditiveType.None;
+                }
+                else if (_additiveCount == 2)
+                {
+                    Cups[i].AdditiveType1 = (AdditiveType)_additiveRand1;
+                    Cups[i].AdditiveType2 = (AdditiveType)_additiveRand2;
+
+                    if (Cups[i].AdditiveType1 == Cups[i].AdditiveType2)
+                    {
+                        _additiveCount = 1;
+                        Cups[i].AdditiveType2 = AdditiveType.None;
+                    }
+                }
+
+                if (Bank.IsAdditiveBuy == false && _additiveCount != 0)
+                {
+                    _additiveCount = 1;
+                    Cups[i].AdditiveType1 = AdditiveType.Ice;
+                    Cups[i].AdditiveType2 = AdditiveType.None;
+                }
+
+                if (Bank.IsBigCupBuy == false)
+                    Cups[i].CupType = CupType.Small;
+
+                if (Bank.IsJuiceBuy == false)
+                {
+                    if (_juiceRand > 2)
+                        Cups[i].JuiceType = JuiceType.Cherry;
+                    else
+                        Cups[i].JuiceType = JuiceType.Apple;
+                }
+
+                if (Cups[i].CupType == CupType.Small)
+                {
+                    Cups[i].SizeText.text = "S";
+
+                    switch (Cups[i].JuiceType)
+                    {
+                        case JuiceType.Orange:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.OrangeSmallStrawCup;
+                            break;
+                        case JuiceType.Apple:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.AppleSmallStrawCup;
+                            break;
+                        case JuiceType.Cherry:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.CherrySmallStrawCup;
+                            break;
+                        case JuiceType.Multifruit:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitSmallStrawCup;
+                            break;
+                        case JuiceType.Tomato:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.TomatoSmallStrawCup;
+                            break;
+                    }
+                }
+                else if (Cups[i].CupType == CupType.Large)
+                {
+                    Cups[i].SizeText.text = "L";
+
+                    switch (Cups[i].JuiceType)
+                    {
+                        case JuiceType.Orange:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.OrangeBigStrawCup;
+                            break;
+                        case JuiceType.Apple:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.AppleBigStrawCup;
+                            break;
+                        case JuiceType.Cherry:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.CherryBigStrawCup;
+                            break;
+                        case JuiceType.Multifruit:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitBigStrawCup;
+                            break;
+                        case JuiceType.Tomato:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.TomatoBigStrawCup;
+                            break;
+                    }
+                }
+                else if (Cups[i].CupType == CupType.Middle)
+                {
+                    Cups[i].SizeText.text = "M";
+
+                    switch (Cups[i].JuiceType)
+                    {
+                        case JuiceType.Orange:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.OrangeMiddleStrawCup;
+                            break;
+                        case JuiceType.Apple:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.AppleMiddleStrawCup;
+                            break;
+                        case JuiceType.Cherry:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.CherryMiddleStrawCup;
+                            break;
+                        case JuiceType.Multifruit:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.MultifruitMiddleStrawCup;
+                            break;
+                        case JuiceType.Tomato:
+                            Cups[i].ReadyImage.sprite = _juiceConfig.TomatoMiddleStrawCup;
+                            break;
+                    }
+                }
+
+                Cups[i].ReadyImage.enabled = true;
+
+                if (_additiveCount == 1 || _additiveCount == 2)
+                {
+                    Cups[i].AdditiveImage1.enabled = true;
+
+                    switch (Cups[i].AdditiveType1)
+                    {
+                        case AdditiveType.Ice:
+                            Cups[i].AdditiveImage1.sprite = _juiceConfig.IceAdditive;
+                            break;
+                        case AdditiveType.Grass:
+                            Cups[i].AdditiveImage1.sprite = _juiceConfig.GrassAdditive;
+                            break;
+                        case AdditiveType.JuiceBall:
+                        {
+                            DefineJuiceBalls(Cups[i]);
+                            Cups[i].AdditiveImage1.enabled = false;
+                        }
+                            break;
+                        case AdditiveType.None:
+                            Cups[i].AdditiveImage1.enabled = false;
+                            break;
+                        default:
+                            break;
+                    }
+
+                    if (_additiveCount == 2)
+                    {
+                        Cups[i].AdditiveImage2.enabled = true;
+
+                        switch (Cups[i].AdditiveType2)
+                        {
+                            case AdditiveType.Ice:
+                                Cups[i].AdditiveImage2.sprite = _juiceConfig.IceAdditive;
+                                break;
+                            case AdditiveType.Grass:
+                                Cups[i].AdditiveImage2.sprite = _juiceConfig.GrassAdditive;
+                                break;
+                            case AdditiveType.JuiceBall:
+                            {
+                                Cups[i].AdditiveType1 = Cups[i].AdditiveType2;
+                                Cups[i].AdditiveType2 = AdditiveType.JuiceBall;
+                                Cups[i].AdditiveImage2.sprite = Cups[i].AdditiveImage1.sprite;
+                                Cups[i].AdditiveImage1.enabled = false;
+                                DefineJuiceBalls(Cups[i]);
+                            }
+                                break;
+                            case AdditiveType.None:
+                                Cups[i].AdditiveImage2.enabled = false;
+                                break;
+                            default:
+                                break;
+                        }
                     }
                 }
             }
