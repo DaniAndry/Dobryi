@@ -33,18 +33,18 @@ public class PeopleContainer : MonoBehaviour
         }
     }
 
-    public bool TryGiveJuice(CupType cupType, JuiceType juiceType, AdditiveType additiveType1,
-        AdditiveType additiveType2)
+    public bool TryGiveJuice(CupType cupType, JuiceType juiceType, JuiceType juiceType2, AdditiveType additiveType1,
+        AdditiveType additiveType2, int countJuice)
     {
         if (_tutorial.IsTutorial)
         {
-            _tutorialPeople.TryGetJuice(CupType.Small, JuiceType.Cherry, AdditiveType.Ice, AdditiveType.None);
+            _tutorialPeople.TryGetJuice(CupType.Small, JuiceType.Cherry,juiceType2, AdditiveType.Ice, AdditiveType.None, countJuice);
             return true;
         }
         
         foreach (var people in CurrentPeoples)
         {
-            if (people.TryGetJuice(cupType, juiceType, additiveType1, additiveType2))
+            if (people.TryGetJuice(cupType, juiceType, juiceType2, additiveType1, additiveType2, countJuice))
             {
                 return true;
             }

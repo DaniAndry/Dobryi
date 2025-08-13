@@ -210,7 +210,7 @@ public class Helper : MonoBehaviour
         {
             if (_order.CupType == _currentPeople1.CupType)
             {
-                switch (_currentPeople1.JuiceType)
+                switch (_currentPeople1.JuiceType1)
                 {
                     case JuiceType.Apple:
                         StartCoroutine(OnJuiceFinger(JuiceType.Apple));
@@ -231,7 +231,7 @@ public class Helper : MonoBehaviour
             }
             else if (_order.CupType == _currentPeople2.CupType)
             {
-                switch (_currentPeople2.JuiceType)
+                switch (_currentPeople2.JuiceType1)
                 {
                     case JuiceType.Apple:
                         StartCoroutine(OnJuiceFinger(JuiceType.Apple));
@@ -257,7 +257,7 @@ public class Helper : MonoBehaviour
                 if (_currentPeople1.AdditiveType2 == _order.AdditiveType1 ||
                     _currentPeople1.AdditiveType2 == _order.AdditiveType2)
                 {
-                    if (_currentPeople1.CupType == _order.CupType && _currentPeople1.JuiceType == _order.JuiceType)
+                    if (_currentPeople1.CupType == _order.CupType && _currentPeople1.JuiceType1 == _order.JuiceType1)
                     {
                         _isReady = true;
                         _isActiveHelp = true;
@@ -272,7 +272,7 @@ public class Helper : MonoBehaviour
                 if (_currentPeople2.AdditiveType2 == _order.AdditiveType1 ||
                     _currentPeople2.AdditiveType2 == _order.AdditiveType2)
                 {
-                    if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
+                    if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType1 == _order.JuiceType1)
                     {
                         _isReady = true;
                         _isActiveHelp = true;
@@ -284,7 +284,7 @@ public class Helper : MonoBehaviour
 
         if (_order.IsSpriteReady && _isReady == false)
         {
-            if (_currentPeople1.JuiceType == _order.JuiceType && _currentPeople1.CupType == _order.CupType)
+            if (_currentPeople1.JuiceType1 == _order.JuiceType1 && _currentPeople1.CupType == _order.CupType)
             {
                 if (_currentPeople1.AdditiveType1 != AdditiveType.None ||
                     _currentPeople1.AdditiveType2 != AdditiveType.None)
@@ -318,7 +318,7 @@ public class Helper : MonoBehaviour
                     }
                 }
             }
-            else if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
+            else if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType1 == _order.JuiceType1)
             {
                 if (_currentPeople2.AdditiveType1 != AdditiveType.None ||
                     _currentPeople2.AdditiveType2 != AdditiveType.None)

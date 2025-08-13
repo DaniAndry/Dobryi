@@ -4,6 +4,7 @@ public enum JuiceType
     Tomato,
     Multifruit,
     Apple,
-    Cherry
+    Cherry,
+    None
 }
 

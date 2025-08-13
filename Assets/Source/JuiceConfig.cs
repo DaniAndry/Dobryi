@@ -72,4 +72,20 @@ public class JuiceConfig : MonoBehaviour
     public Sprite JuiceBallAdditive;
     public Sprite IceAdditive;
     public Sprite GrassAdditive;
+
+    [Header("Mixes")] public Sprite SmallApple;
+    public Sprite SmallOrange;
+    public Sprite SmallCherry;
+    public Sprite SmallMultifruit;
+    public Sprite SmallTomato;
+    public Sprite MiddleApple;
+    public Sprite MiddleOrange;
+    public Sprite MiddleCherry;
+    public Sprite MiddleMultifruit;
+    public Sprite MiddleTomato;
+    public Sprite BigApple;
+    public Sprite BigOrange;
+    public Sprite BigCherry;
+    public Sprite BigMultifruit;
+    public Sprite BigTomato;
 }
