@@ -26,7 +26,7 @@ public class PeopleContainer : MonoBehaviour
             SpawnRandomPeople();
             _time = 2f;
         }
-        else if (_tutorial.IsTutorial && _isTutorialPeopleSpawned == false)
+        else if (_tutorial.IsTutorial && _time <= 1.5f && _isTutorialPeopleSpawned == false)
         {
             _isTutorialPeopleSpawned = true;
             SpawnTutorialPeople();

@@ -5315,11 +5315,11 @@ RectTransform:
   - {fileID: 2017992232}
   - {fileID: 589816623}
   - {fileID: 1927991827}
-  m_Father: {fileID: 1547393027}
+  m_Father: {fileID: 1295966016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -1132, y: 66.70654}
+  m_AnchoredPosition: {x: -353, y: -138.34767}
   m_SizeDelta: {x: 498.5, y: 763.66}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &608245786
@@ -6752,17 +6752,17 @@ MonoBehaviour:
   SmallApple: {fileID: 21300000, guid: d16b178f0f06c4c979b2c27a637b44f5, type: 3}
   SmallOrange: {fileID: 21300000, guid: 4100877a750434f238fe3b171a76316d, type: 3}
   SmallCherry: {fileID: 21300000, guid: 652e3ec4109b344a68c14984bf4be582, type: 3}
-  SmallMultifruit: {fileID: 0}
+  SmallMultifruit: {fileID: 2130046146, guid: 7d99bae8085f54f628765f1e0a0dfaa5, type: 3}
   SmallTomato: {fileID: 21300000, guid: e7cbf863d481a4d0ca6129db2fe38717, type: 3}
   MiddleApple: {fileID: 21300000, guid: f29288d2e93ae4617b473dcfa219e8b1, type: 3}
   MiddleOrange: {fileID: 21300000, guid: 4dea07ffcf1db43228d010247e052c82, type: 3}
   MiddleCherry: {fileID: 21300000, guid: d083ab84da9eb489a8338a3c21acfd9f, type: 3}
-  MiddleMultifruit: {fileID: 0}
+  MiddleMultifruit: {fileID: 786808335, guid: 9b65c03ec86bd47029d6ea8cc89dd9db, type: 3}
   MiddleTomato: {fileID: 21300000, guid: 31d3770e37774492a8e2caeaf6b1a353, type: 3}
   BigApple: {fileID: 21300000, guid: c34d44bbe07074c809ac8bf4505e5d9b, type: 3}
   BigOrange: {fileID: 21300000, guid: ab9fe0dae13bb41b1a1671fa2d8edf74, type: 3}
   BigCherry: {fileID: 21300000, guid: 91e4d2c29c87042f59d99ba79a3b6300, type: 3}
-  BigMultifruit: {fileID: 0}
+  BigMultifruit: {fileID: 2106841068, guid: 4f327733806cb486b8889517e3a2db2c, type: 3}
   BigTomato: {fileID: 21300000, guid: 84f72a303b76b49d59dd00d9c06c40b2, type: 3}
 --- !u!4 &778594687
 Transform:
@@ -11729,7 +11729,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 608245785}
   m_Father: {fileID: 1547393027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -15583,7 +15584,6 @@ RectTransform:
   - {fileID: 363031318}
   - {fileID: 443010864}
   - {fileID: 1329766545}
-  - {fileID: 608245785}
   - {fileID: 1748553863}
   - {fileID: 612949279}
   - {fileID: 2020046021783823174}
