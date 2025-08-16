@@ -18,11 +18,13 @@ public class Helper : MonoBehaviour
     [SerializeField] private GameObject _tomatoFinger;
     [SerializeField] private GameObject _strawFinger;
     [SerializeField] private GameObject _readyFinger;
+    [SerializeField] private GameObject _juiceMakerFinger;
 
     [Header("Other")] [SerializeField] private PeopleContainer _peoples;
     [SerializeField] private Tutorial _tutorial;
     [SerializeField] private Order _order;
     [SerializeField] private Button _strawButton;
+    [SerializeField] private Button _juiceMakerButton;
     [SerializeField] private Button _bigCupButton;
     [SerializeField] private Button _middleCupButton;
     [SerializeField] private Button _smallCupButton;
@@ -52,12 +54,14 @@ public class Helper : MonoBehaviour
     private void OnEnable()
     {
         _strawButton.onClick.AddListener(DisableStrawFinger);
+        _juiceMakerButton.onClick.AddListener(DisableJuiceMakerFinger);
         _readyButton.onClick.AddListener(DisableReadyFinger);
     }
 
     private void OnDisable()
     {
         _strawButton.onClick.RemoveListener(DisableStrawFinger);
+        _juiceMakerButton.onClick.RemoveListener(DisableJuiceMakerFinger);
         _readyButton.onClick.RemoveListener(DisableReadyFinger);
     }
 
@@ -246,7 +250,11 @@ public class Helper : MonoBehaviour
         if (_order.IsJuiceReady && _order.IsSpriteReady == false)
         {
             _isActiveHelp = true;
-            _strawFinger.SetActive(true);
+
+            if (_order.IsJuiceMakerUsed == false)
+                _juiceMakerFinger.SetActive(true);
+            else
+                _strawFinger.SetActive(true);
         }
 
         if (_order.IsSpriteReady)
@@ -368,12 +376,18 @@ public class Helper : MonoBehaviour
         _strawFinger.SetActive(false);
     }
 
+    private void DisableJuiceMakerFinger()
+    {
+        _isActiveHelp = false;
+        _juiceMakerFinger.SetActive(false);
+    }
+
     private void ShowDownloadScreen()
     {
         _finalScreen.SetActive(true);
         Time.timeScale = 0f;
     }
-    
+
     public void CloseFinalScreen()
     {
         _finalScreen.SetActive(false);
