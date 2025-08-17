@@ -199,7 +199,7 @@ public class People : MonoBehaviour
 
     private IEnumerator DelayBeforeMoving()
     {
-        yield return new WaitForSeconds(30f);
+        yield return new WaitForSeconds(3f);
 
         transform.position = _currentPoint.transform.position;
         _isMoving = false;
