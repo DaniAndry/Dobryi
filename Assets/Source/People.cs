@@ -249,7 +249,7 @@ public class People : MonoBehaviour
 
     private IEnumerator DelayToWaitAnim()
     {
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(30f);
 
         if (_animator != null)
             _animator.Play("Wait");

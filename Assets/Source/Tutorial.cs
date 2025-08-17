@@ -7,6 +7,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField] public bool IsTutorial = true;
     [SerializeField] public GameObject Finger1;
     [SerializeField] public GameObject Finger2;
+    [SerializeField] public GameObject FingerCherry;
     [SerializeField] public GameObject Finger3;
     [SerializeField] public GameObject Finger4;
     [SerializeField] public GameObject Finger5;
@@ -14,6 +15,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField] public GameObject BuyJuiceFinger;
     [SerializeField] public Button SmallCupButton;
     [SerializeField] public Button JuiceButton;
+    [SerializeField] public Button JuiceButton2;
     [SerializeField] public Button StrawButton;
     [SerializeField] public Button AdditiveButton;
     [SerializeField] public Button ReadyButton;
@@ -28,6 +30,16 @@ public class Tutorial : MonoBehaviour
         }
 
         SmallCupButton.interactable = true;
+    }
+
+    private void OnEnable()
+    {
+        JuiceButton2.onClick.AddListener(ClickTwoJuice);
+    }
+
+    private void OnDisable()
+    {
+        JuiceButton2.onClick.RemoveListener(ClickTwoJuice);
     }
 
     public void ClickOne()
@@ -50,7 +62,24 @@ public class Tutorial : MonoBehaviour
 
         JuiceButton.interactable = false;
         Finger2.SetActive(false);
+        
+        Invoke(nameof(DelayCherry), 1f);
+    }
 
+    private void DelayCherry()
+    {
+        JuiceButton2.interactable = true;
+        FingerCherry.SetActive(true);
+    }
+
+    public void ClickTwoJuice()
+    {
+        if (IsTutorial == false)
+            return;
+        
+        JuiceButton2.interactable = false;
+        FingerCherry.SetActive(false);
+        
         Invoke(nameof(StrawDelay), 1f);
     }
 
