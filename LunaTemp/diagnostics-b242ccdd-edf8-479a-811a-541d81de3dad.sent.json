@@ -1,50 +1,24 @@
 {
-    "BuildID": "ae10b8aa-bc41-442f-b881-9ba344684c3f",
+    "BuildID": "b242ccdd-edf8-479a-811a-541d81de3dad",
     "Command": "project:deploy",
     "ProjectID": "7f2f46166dd2d47de965f23f8e844faa",
-    "ProjectStateHash": "9730e842f904555112e478470403041a9091d124ccfb64e1f73a57edff805435",
+    "ProjectStateHash": "2b162d93261fcde942ebc32eba3ada0ba5f884f5e3c4c5de7bb56b4e96c44480",
     "StageCompletedAt": 3,
     "EarliestFatalError": 0,
-    "StartTime": 1755502426507,
-    "EndTime": 1755502496644,
+    "StartTime": 1755527220243,
+    "EndTime": 1755527301625,
     "PlaygroundUserID": 25679,
     "OperatingSystem": "darwin",
     "UnityPackageID": null,
     "TargetPlatform": "playground",
     "UnityVersion": "2022.3.58f1",
     "LunaVersion": "6.3.0",
-    "LogCount": 10,
+    "LogCount": 9,
     "Logs": [
         {
-            "LogID": "8253af9b-e5aa-42d5-9985-af40137056fe",
+            "LogID": "b31f5662-826a-4197-8d90-50bb199be4cb",
             "Order": 7,
-            "Timestamp": 1755502496846,
-            "Stage": 3,
-            "ErrorType": 1,
-            "ErrorCode": "LP3006",
-            "Description": "You are not using the Luna API: Playable.InstallFullGame",
-            "Details": [
-                "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
-            ],
-            "DescriptionValues": [
-                "Playable",
-                "InstallFullGame"
-            ],
-            "DetailsValues": [
-                "Playable",
-                "InstallFullGame"
-            ],
-            "LogCount": 1,
-            "LinePosition": null,
-            "FilePath": "",
-            "ClassName": "",
-            "MemberName": "",
-            "Severity": 0
-        },
-        {
-            "LogID": "78b35dcb-6662-4b7a-b0f0-aa2e0c85b255",
-            "Order": 7,
-            "Timestamp": 1755502496847,
+            "Timestamp": 1755527301848,
             "Stage": 3,
             "ErrorType": 1,
             "ErrorCode": "LP3015",
@@ -68,9 +42,9 @@
             "Severity": 0
         },
         {
-            "LogID": "eee9b4cb-fc0d-436a-8bb6-17d6f5ee9c65",
+            "LogID": "adfa17ca-aefc-4606-8283-8f928ade7d82",
             "Order": 7,
-            "Timestamp": 1755502496847,
+            "Timestamp": 1755527301848,
             "Stage": 3,
             "ErrorType": 3,
             "ErrorCode": "LP3007",
@@ -92,9 +66,9 @@
             "Severity": 0
         },
         {
-            "LogID": "11d8ed43-d4ae-4256-ba85-41c01f48df32",
+            "LogID": "5adeaab7-48eb-4a03-a003-ad0dfc1a92af",
             "Order": 7,
-            "Timestamp": 1755502496848,
+            "Timestamp": 1755527301848,
             "Stage": 3,
             "ErrorType": 3,
             "ErrorCode": "LP3011",
@@ -112,9 +86,9 @@
             "Severity": 0
         },
         {
-            "LogID": "71a8c6fc-60d1-493f-a3d0-161f814aa536",
+            "LogID": "068aeb2f-54a8-434f-8b36-65cbbeae9fbd",
             "Order": 0,
-            "Timestamp": 1755502429925,
+            "Timestamp": 1755527224736,
             "Stage": 1,
             "ErrorType": 0,
             "ErrorCode": "LP1030",
@@ -135,9 +109,9 @@
             "Severity": 0
         },
         {
-            "LogID": "0b80bff8-5677-42b6-8015-1b67bfcc17c1",
+            "LogID": "0a078a2f-945c-415e-ac46-56a1582562ee",
             "Order": 1,
-            "Timestamp": 1755502441652,
+            "Timestamp": 1755527242753,
             "Stage": 1,
             "ErrorType": 2,
             "ErrorCode": "LP1014",
@@ -155,19 +129,19 @@
             "Severity": 0
         },
         {
-            "LogID": "18d66caf-ddd7-4d4c-b2bd-48d9446d3163",
+            "LogID": "6fd9d0aa-153f-4ba6-8c19-09a8cc202881",
             "Order": 2,
-            "Timestamp": 1755502441652,
+            "Timestamp": 1755527242753,
             "Stage": 1,
             "ErrorType": 1,
             "ErrorCode": "LP1023",
             "Description": "Too many files for facebook platform",
             "Details": [
-                "Too many files for facebook platform in use ($204) only $100 available"
+                "Too many files for facebook platform in use ($205) only $100 available"
             ],
             "DescriptionValues": [],
             "DetailsValues": [
-                "204",
+                "205",
                 "100"
             ],
             "LogCount": 1,
@@ -178,9 +152,9 @@
             "Severity": 0
         },
         {
-            "LogID": "8e6470dc-4ab1-4d1b-8928-39a204f7293c",
+            "LogID": "db67c513-9117-4d63-aadd-74da599e5040",
             "Order": 3,
-            "Timestamp": 1755502441663,
+            "Timestamp": 1755527242790,
             "Stage": 1,
             "ErrorType": 0,
             "ErrorCode": "LP1027",
@@ -200,9 +174,9 @@
             "Severity": 0
         },
         {
-            "LogID": "a5913457-123b-47d0-9f57-aaf52dbe266e",
+            "LogID": "94a90834-57d3-4ad0-958c-18d76d5500b7",
             "Order": 4,
-            "Timestamp": 1755502441663,
+            "Timestamp": 1755527242790,
             "Stage": 1,
             "ErrorType": 0,
             "ErrorCode": "LP1015",
@@ -222,9 +196,9 @@
             "Severity": 0
         },
         {
-            "LogID": "8ab95189-b573-4176-a919-d327300ba38f",
+            "LogID": "3a71a554-7861-47b7-aeb9-efaa1a1d3f90",
             "Order": 5,
-            "Timestamp": 1755502441663,
+            "Timestamp": 1755527242790,
             "Stage": 1,
             "ErrorType": 0,
             "ErrorCode": "LP1032",
