@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Helper : MonoBehaviour
 {
-    /*[Header("Fingers")] [SerializeField] private GameObject _smallCupFinger;
+    [Header("Fingers")] [SerializeField] private GameObject _smallCupFinger;
     [SerializeField] private GameObject _middleCupFinger;
     [SerializeField] private GameObject _bigCupFinger;
     [SerializeField] private GameObject _iceFinger;
@@ -187,173 +187,173 @@ public class Helper : MonoBehaviour
         if (_isActiveHelp)
             return;
 
-        _currentPeople1 = _peoples.CurrentPeoples[0];
-        _currentPeople2 = _peoples.CurrentPeoples[1];
+/*
+_currentPeople1 = _peoples.CurrentPeoples[0];
+_currentPeople2 = _peoples.CurrentPeoples[1];
 
-        if (_order.IsFree && _order.IsCupReady == false)
+if (_order.IsFree && _order.IsCupReady == false)
+{
+    switch (_currentPeople1.CupType)
+    {
+        case CupType.Small:
+            StartCoroutine(OnCupFinger(CupType.Small));
+            break;
+        case CupType.Middle:
+            StartCoroutine(OnCupFinger(CupType.Middle));
+            break;
+        case CupType.Large:
+            StartCoroutine(OnCupFinger(CupType.Large));
+            break;
+    }
+}
+
+if (_order.IsCupReady && _order.IsJuiceReady == false)
+{
+    if (_order.CupType == _currentPeople1.CupType)
+    {
+        switch (_currentPeople1.JuiceType)
         {
-            switch (_currentPeople1.CupType)
+            case JuiceType.Apple:
+                StartCoroutine(OnJuiceFinger(JuiceType.Apple));
+                break;
+            case JuiceType.Cherry:
+                StartCoroutine(OnJuiceFinger(JuiceType.Cherry));
+                break;
+            case JuiceType.Orange:
+                StartCoroutine(OnJuiceFinger(JuiceType.Orange));
+                break;
+            case JuiceType.Multifruit:
+                StartCoroutine(OnJuiceFinger(JuiceType.Multifruit));
+                break;
+            case JuiceType.Tomato:
+                StartCoroutine(OnJuiceFinger(JuiceType.Tomato));
+                break;
+        }
+    }
+    else if (_order.CupType == _currentPeople2.CupType)
+    {
+        switch (_currentPeople2.JuiceType)
+        {
+            case JuiceType.Apple:
+                StartCoroutine(OnJuiceFinger(JuiceType.Apple));
+                break;
+            case JuiceType.Cherry:
+                StartCoroutine(OnJuiceFinger(JuiceType.Cherry));
+                break;
+        }
+    }
+}
+
+if (_order.IsJuiceReady && _order.IsSpriteReady == false)
+{
+    _isActiveHelp = true;
+    _strawFinger.SetActive(true);
+}
+
+if (_order.IsSpriteReady)
+{
+    if (_currentPeople1.AdditiveType1 == _order.AdditiveType1 ||
+        _currentPeople1.AdditiveType1 == _order.AdditiveType2)
+    {
+        if (_currentPeople1.AdditiveType2 == _order.AdditiveType1 ||
+            _currentPeople1.AdditiveType2 == _order.AdditiveType2)
+        {
+            if (_currentPeople1.CupType == _order.CupType && _currentPeople1.JuiceType == _order.JuiceType)
             {
-                case CupType.Small:
-                    StartCoroutine(OnCupFinger(CupType.Small));
-                    break;
-                case CupType.Middle:
-                    StartCoroutine(OnCupFinger(CupType.Middle));
-                    break;
-                case CupType.Large:
-                    StartCoroutine(OnCupFinger(CupType.Large));
-                    break;
+                _isReady = true;
+                _isActiveHelp = true;
+                _readyFinger.SetActive(true);
             }
         }
+    }
 
-        if (_order.IsCupReady && _order.IsJuiceReady == false)
+    if (_currentPeople2.AdditiveType1 == _order.AdditiveType1 ||
+        _currentPeople2.AdditiveType1 == _order.AdditiveType2)
+    {
+        if (_currentPeople2.AdditiveType2 == _order.AdditiveType1 ||
+            _currentPeople2.AdditiveType2 == _order.AdditiveType2)
         {
-            if (_order.CupType == _currentPeople1.CupType)
+            if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
             {
-                switch (_currentPeople1.JuiceType)
+                _isReady = true;
+                _isActiveHelp = true;
+                _readyFinger.SetActive(true);
+            }
+        }
+    }
+}
+
+if (_order.IsSpriteReady && _isReady == false)
+{
+    if (_currentPeople1.JuiceType == _order.JuiceType && _currentPeople1.CupType == _order.CupType)
+    {
+        if (_currentPeople1.AdditiveType1 != AdditiveType.None ||
+            _currentPeople1.AdditiveType2 != AdditiveType.None)
+        {
+            if (_order.AdditiveType1 == AdditiveType.None)
+            {
+                switch (_currentPeople1.AdditiveType1)
                 {
-                    case JuiceType.Apple:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Apple));
+                    case AdditiveType.Ice:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
                         break;
-                    case JuiceType.Cherry:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Cherry));
+                    case AdditiveType.Grass:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
                         break;
-                    case JuiceType.Orange:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Orange));
-                        break;
-                    case JuiceType.Multifruit:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Multifruit));
-                        break;
-                    case JuiceType.Tomato:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Tomato));
+                    case AdditiveType.JuiceBall:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.JuiceBall));
                         break;
                 }
             }
-            else if (_order.CupType == _currentPeople2.CupType)
+            else if (_order.AdditiveType2 == AdditiveType.None)
             {
-                switch (_currentPeople2.JuiceType)
+                switch (_currentPeople1.AdditiveType2)
                 {
-                    case JuiceType.Apple:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Apple));
+                    case AdditiveType.Ice:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
                         break;
-                    case JuiceType.Cherry:
-                        StartCoroutine(OnJuiceFinger(JuiceType.Cherry));
+                    case AdditiveType.Grass:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
                         break;
                 }
             }
         }
-
-        if (_order.IsJuiceReady && _order.IsSpriteReady == false)
+    }
+    else if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
+    {
+        if (_currentPeople2.AdditiveType1 != AdditiveType.None ||
+            _currentPeople2.AdditiveType2 != AdditiveType.None)
         {
-            _isActiveHelp = true;
-            _strawFinger.SetActive(true);
-        }
-
-        if (_order.IsSpriteReady)
-        {
-            if (_currentPeople1.AdditiveType1 == _order.AdditiveType1 ||
-                _currentPeople1.AdditiveType1 == _order.AdditiveType2)
+            if (_order.AdditiveType1 == AdditiveType.None)
             {
-                if (_currentPeople1.AdditiveType2 == _order.AdditiveType1 ||
-                    _currentPeople1.AdditiveType2 == _order.AdditiveType2)
+                switch (_currentPeople2.AdditiveType1)
                 {
-                    if (_currentPeople1.CupType == _order.CupType && _currentPeople1.JuiceType == _order.JuiceType)
-                    {
-                        _isReady = true;
-                        _isActiveHelp = true;
-                        _readyFinger.SetActive(true);
-                    }
+                    case AdditiveType.Ice:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
+                        break;
+                    case AdditiveType.Grass:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
+                        break;
+                    case AdditiveType.JuiceBall:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.JuiceBall));
+                        break;
                 }
             }
-
-            if (_currentPeople2.AdditiveType1 == _order.AdditiveType1 ||
-                _currentPeople2.AdditiveType1 == _order.AdditiveType2)
+            else if (_order.AdditiveType2 == AdditiveType.None)
             {
-                if (_currentPeople2.AdditiveType2 == _order.AdditiveType1 ||
-                    _currentPeople2.AdditiveType2 == _order.AdditiveType2)
+                switch (_currentPeople2.AdditiveType2)
                 {
-                    if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
-                    {
-                        _isReady = true;
-                        _isActiveHelp = true;
-                        _readyFinger.SetActive(true);
-                    }
+                    case AdditiveType.Ice:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
+                        break;
+                    case AdditiveType.Grass:
+                        StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
+                        break;
                 }
             }
         }
-
-        if (_order.IsSpriteReady && _isReady == false)
-        {
-            if (_currentPeople1.JuiceType == _order.JuiceType && _currentPeople1.CupType == _order.CupType)
-            {
-                if (_currentPeople1.AdditiveType1 != AdditiveType.None ||
-                    _currentPeople1.AdditiveType2 != AdditiveType.None)
-                {
-                    if (_order.AdditiveType1 == AdditiveType.None)
-                    {
-                        switch (_currentPeople1.AdditiveType1)
-                        {
-                            case AdditiveType.Ice:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
-                                break;
-                            case AdditiveType.Grass:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
-                                break;
-                            case AdditiveType.JuiceBall:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.JuiceBall));
-                                break;
-                        }
-                    }
-                    else if (_order.AdditiveType2 == AdditiveType.None)
-                    {
-                        switch (_currentPeople1.AdditiveType2)
-                        {
-                            case AdditiveType.Ice:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
-                                break;
-                            case AdditiveType.Grass:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
-                                break;
-                        }
-                    }
-                }
-            }
-            else if (_currentPeople2.CupType == _order.CupType && _currentPeople2.JuiceType == _order.JuiceType)
-            {
-                if (_currentPeople2.AdditiveType1 != AdditiveType.None ||
-                    _currentPeople2.AdditiveType2 != AdditiveType.None)
-                {
-                    if (_order.AdditiveType1 == AdditiveType.None)
-                    {
-                        switch (_currentPeople2.AdditiveType1)
-                        {
-                            case AdditiveType.Ice:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
-                                break;
-                            case AdditiveType.Grass:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
-                                break;
-                            case AdditiveType.JuiceBall:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.JuiceBall));
-                                break;
-                        }
-                    }
-                    else if (_order.AdditiveType2 == AdditiveType.None)
-                    {
-                        switch (_currentPeople2.AdditiveType2)
-                        {
-                            case AdditiveType.Ice:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Ice));
-                                break;
-                            case AdditiveType.Grass:
-                                StartCoroutine(OnAdditiveFinger(AdditiveType.Grass));
-                                break;
-                        }
-                    }
-                }
-            }
-        }*/
-    /*}
+    }*/
+    }
 
     private void DisableReadyFinger()
     {
@@ -373,11 +373,11 @@ public class Helper : MonoBehaviour
         _finalScreen.SetActive(true);
         Time.timeScale = 0f;
     }
-    
+
     public void CloseFinalScreen()
     {
         _finalScreen.SetActive(false);
         Time.timeScale = 1f;
         _isFinalScreenClose = true;
-    }*/
+    }
 }
