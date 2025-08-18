@@ -1,4 +1,4 @@
- using System;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +9,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField] public GameObject Finger2;
     [SerializeField] public GameObject Finger3;
     [SerializeField] public GameObject Finger4;
+    [SerializeField] public GameObject FingerJuiceMaker;
     [SerializeField] public GameObject Finger5;
     [SerializeField] public GameObject BuyBigCupFinger;
     [SerializeField] public GameObject BuyJuiceFinger;
@@ -17,6 +18,7 @@ public class Tutorial : MonoBehaviour
     [SerializeField] public Button StrawButton;
     [SerializeField] public Button AdditiveButton;
     [SerializeField] public Button ReadyButton;
+    [SerializeField] public Button JuiceMakerButton;
     [SerializeField] public Button[] Buttons;
     [SerializeField] public Bank Bank;
 
@@ -28,6 +30,16 @@ public class Tutorial : MonoBehaviour
         }
 
         SmallCupButton.interactable = true;
+    }
+
+    private void OnEnable()
+    {
+        JuiceMakerButton.onClick.AddListener(ClickJuiceMaker);
+    }
+
+    private void OnDisable()
+    {
+        JuiceMakerButton.onClick.RemoveListener(ClickJuiceMaker);
     }
 
     public void ClickOne()
@@ -51,7 +63,26 @@ public class Tutorial : MonoBehaviour
         JuiceButton.interactable = false;
         Finger2.SetActive(false);
 
-        Invoke(nameof(StrawDelay), 1f);
+        Invoke(nameof(DelayJuiceMaker), 1f);
+    }
+
+    private void ClickJuiceMaker()
+    {
+        if (IsTutorial == false)
+            return;
+
+        JuiceMakerButton.interactable = false;
+        FingerJuiceMaker.SetActive(false);
+        StrawDelay();
+    }
+
+    private void DelayJuiceMaker()
+    {
+        if (IsTutorial == false)
+            return;
+
+        JuiceMakerButton.interactable = true;
+        FingerJuiceMaker.SetActive(true);
     }
 
     private void StrawDelay()

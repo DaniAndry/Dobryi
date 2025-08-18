@@ -715,36 +715,38 @@ Deserializers["Order"] = function (request, data, root) {
   i660.IsCupReady = !!i661[12]
   i660.IsJuiceReady = !!i661[13]
   i660.IsPouring = !!i661[14]
-  request.r(i661[15], i661[16], 0, i660, '_iceButton')
-  request.r(i661[17], i661[18], 0, i660, '_grassButton')
-  request.r(i661[19], i661[20], 0, i660, '_juiceBallsButton')
-  request.r(i661[21], i661[22], 0, i660, '_strawButton')
-  request.r(i661[23], i661[24], 0, i660, '_bigCupButton')
-  request.r(i661[25], i661[26], 0, i660, '_middleCupButton')
-  request.r(i661[27], i661[28], 0, i660, '_smallCupButton')
-  request.r(i661[29], i661[30], 0, i660, '_appleButton')
-  request.r(i661[31], i661[32], 0, i660, '_orangeButton')
-  request.r(i661[33], i661[34], 0, i660, '_multifruitButton')
-  request.r(i661[35], i661[36], 0, i660, '_tomatoButton')
-  request.r(i661[37], i661[38], 0, i660, '_cherryButton')
-  request.r(i661[39], i661[40], 0, i660, '_smallRawJuiceImage')
-  request.r(i661[41], i661[42], 0, i660, '_middleRawJuiceImage')
-  request.r(i661[43], i661[44], 0, i660, '_bigRawJuiceImage')
-  request.r(i661[45], i661[46], 0, i660, '_smallReadyJuiceImage')
-  request.r(i661[47], i661[48], 0, i660, '_middleReadyJuiceImage')
-  request.r(i661[49], i661[50], 0, i660, '_bigReadyJuiceImage')
-  request.r(i661[51], i661[52], 0, i660, '_backImage')
-  request.r(i661[53], i661[54], 0, i660, '_aheadImage')
-  request.r(i661[55], i661[56], 0, i660, '_config')
-  request.r(i661[57], i661[58], 0, i660, '_takeOrderButton')
-  request.r(i661[59], i661[60], 0, i660, '_peopleContainer')
-  request.r(i661[61], i661[62], 0, i660, '_tutorial')
-  request.r(i661[63], i661[64], 0, i660, '_bText')
-  request.r(i661[65], i661[66], 0, i660, '_mText')
-  request.r(i661[67], i661[68], 0, i660, '_sText')
-  request.r(i661[69], i661[70], 0, i660, '_garbageButton')
-  request.r(i661[71], i661[72], 0, i660, '_clickSound')
-  request.r(i661[73], i661[74], 0, i660, '_juiceSound')
+  i660.IsJuiceMakerUsed = !!i661[15]
+  request.r(i661[16], i661[17], 0, i660, '_iceButton')
+  request.r(i661[18], i661[19], 0, i660, '_grassButton')
+  request.r(i661[20], i661[21], 0, i660, '_juiceBallsButton')
+  request.r(i661[22], i661[23], 0, i660, '_strawButton')
+  request.r(i661[24], i661[25], 0, i660, '_bigCupButton')
+  request.r(i661[26], i661[27], 0, i660, '_middleCupButton')
+  request.r(i661[28], i661[29], 0, i660, '_smallCupButton')
+  request.r(i661[30], i661[31], 0, i660, '_appleButton')
+  request.r(i661[32], i661[33], 0, i660, '_orangeButton')
+  request.r(i661[34], i661[35], 0, i660, '_multifruitButton')
+  request.r(i661[36], i661[37], 0, i660, '_tomatoButton')
+  request.r(i661[38], i661[39], 0, i660, '_cherryButton')
+  request.r(i661[40], i661[41], 0, i660, '_smallRawJuiceImage')
+  request.r(i661[42], i661[43], 0, i660, '_middleRawJuiceImage')
+  request.r(i661[44], i661[45], 0, i660, '_bigRawJuiceImage')
+  request.r(i661[46], i661[47], 0, i660, '_smallReadyJuiceImage')
+  request.r(i661[48], i661[49], 0, i660, '_middleReadyJuiceImage')
+  request.r(i661[50], i661[51], 0, i660, '_bigReadyJuiceImage')
+  request.r(i661[52], i661[53], 0, i660, '_backImage')
+  request.r(i661[54], i661[55], 0, i660, '_aheadImage')
+  request.r(i661[56], i661[57], 0, i660, '_config')
+  request.r(i661[58], i661[59], 0, i660, '_takeOrderButton')
+  request.r(i661[60], i661[61], 0, i660, '_peopleContainer')
+  request.r(i661[62], i661[63], 0, i660, '_tutorial')
+  request.r(i661[64], i661[65], 0, i660, '_bText')
+  request.r(i661[66], i661[67], 0, i660, '_mText')
+  request.r(i661[68], i661[69], 0, i660, '_sText')
+  request.r(i661[70], i661[71], 0, i660, '_garbageButton')
+  request.r(i661[72], i661[73], 0, i660, '_juiceMakerButton')
+  request.r(i661[74], i661[75], 0, i660, '_clickSound')
+  request.r(i661[76], i661[77], 0, i660, '_juiceSound')
   return i660
 }
 
@@ -756,21 +758,23 @@ Deserializers["Tutorial"] = function (request, data, root) {
   request.r(i663[3], i663[4], 0, i662, 'Finger2')
   request.r(i663[5], i663[6], 0, i662, 'Finger3')
   request.r(i663[7], i663[8], 0, i662, 'Finger4')
-  request.r(i663[9], i663[10], 0, i662, 'Finger5')
-  request.r(i663[11], i663[12], 0, i662, 'BuyBigCupFinger')
-  request.r(i663[13], i663[14], 0, i662, 'BuyJuiceFinger')
-  request.r(i663[15], i663[16], 0, i662, 'SmallCupButton')
-  request.r(i663[17], i663[18], 0, i662, 'JuiceButton')
-  request.r(i663[19], i663[20], 0, i662, 'StrawButton')
-  request.r(i663[21], i663[22], 0, i662, 'AdditiveButton')
-  request.r(i663[23], i663[24], 0, i662, 'ReadyButton')
-  var i665 = i663[25]
+  request.r(i663[9], i663[10], 0, i662, 'FingerJuiceMaker')
+  request.r(i663[11], i663[12], 0, i662, 'Finger5')
+  request.r(i663[13], i663[14], 0, i662, 'BuyBigCupFinger')
+  request.r(i663[15], i663[16], 0, i662, 'BuyJuiceFinger')
+  request.r(i663[17], i663[18], 0, i662, 'SmallCupButton')
+  request.r(i663[19], i663[20], 0, i662, 'JuiceButton')
+  request.r(i663[21], i663[22], 0, i662, 'StrawButton')
+  request.r(i663[23], i663[24], 0, i662, 'AdditiveButton')
+  request.r(i663[25], i663[26], 0, i662, 'ReadyButton')
+  request.r(i663[27], i663[28], 0, i662, 'JuiceMakerButton')
+  var i665 = i663[29]
   var i664 = []
   for(var i = 0; i < i665.length; i += 2) {
   request.r(i665[i + 0], i665[i + 1], 2, i664, '')
   }
   i662.Buttons = i664
-  request.r(i663[26], i663[27], 0, i662, 'Bank')
+  request.r(i663[30], i663[31], 0, i662, 'Bank')
   return i662
 }
 
@@ -884,16 +888,18 @@ Deserializers["Helper"] = function (request, data, root) {
   request.r(i679[20], i679[21], 0, i678, '_tomatoFinger')
   request.r(i679[22], i679[23], 0, i678, '_strawFinger')
   request.r(i679[24], i679[25], 0, i678, '_readyFinger')
-  request.r(i679[26], i679[27], 0, i678, '_peoples')
-  request.r(i679[28], i679[29], 0, i678, '_tutorial')
-  request.r(i679[30], i679[31], 0, i678, '_order')
-  request.r(i679[32], i679[33], 0, i678, '_strawButton')
-  request.r(i679[34], i679[35], 0, i678, '_bigCupButton')
-  request.r(i679[36], i679[37], 0, i678, '_middleCupButton')
-  request.r(i679[38], i679[39], 0, i678, '_smallCupButton')
-  request.r(i679[40], i679[41], 0, i678, '_readyButton')
-  request.r(i679[42], i679[43], 0, i678, '_touchIdleTimer')
-  request.r(i679[44], i679[45], 0, i678, '_finalScreen')
+  request.r(i679[26], i679[27], 0, i678, '_juiceMakerFinger')
+  request.r(i679[28], i679[29], 0, i678, '_peoples')
+  request.r(i679[30], i679[31], 0, i678, '_tutorial')
+  request.r(i679[32], i679[33], 0, i678, '_order')
+  request.r(i679[34], i679[35], 0, i678, '_strawButton')
+  request.r(i679[36], i679[37], 0, i678, '_juiceMakerButton')
+  request.r(i679[38], i679[39], 0, i678, '_bigCupButton')
+  request.r(i679[40], i679[41], 0, i678, '_middleCupButton')
+  request.r(i679[42], i679[43], 0, i678, '_smallCupButton')
+  request.r(i679[44], i679[45], 0, i678, '_readyButton')
+  request.r(i679[46], i679[47], 0, i678, '_touchIdleTimer')
+  request.r(i679[48], i679[49], 0, i678, '_finalScreen')
   return i678
 }
 
@@ -2233,13 +2239,13 @@ Deserializers.productName = "Playble";
 
 Deserializers.lunaInitializationTime = "08/07/2025 12:08:51";
 
-Deserializers.lunaDaysRunning = "6.9";
+Deserializers.lunaDaysRunning = "10.8";
 
 Deserializers.lunaVersion = "6.3.0";
 
 Deserializers.lunaSHA = "7c1090235e749b60367a931fd9d8e53ca14842b9";
 
-Deserializers.creativeName = "BasketVersion2";
+Deserializers.creativeName = "Baskets4";
 
 Deserializers.lunaAppID = "31350";
 
@@ -2289,7 +2295,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "e1f19fd9-c1bf-4f09-b1fe-01b9e541ee92";
+Deserializers.buildID = "7c3ec525-3dc9-4be2-a8eb-51bcf8fe6f0a";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[]];
 

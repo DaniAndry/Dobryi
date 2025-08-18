@@ -1,8 +1,8 @@
 {
     "version": "6.3.0",
     "projectId": "7f2f46166dd2d47de965f23f8e844faa",
-    "applicationID": 0,
-    "creativeName": "BasketVersion2",
+    "applicationID": 31350,
+    "creativeName": "Baskets4",
     "pgServer": "EU",
     "window": {
         "‐″": true
@@ -76,7 +76,7 @@
                 "Stubs/SupersonicWisdom/"
             ],
             "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
-            "msbuildWin64": "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/MSBuild.exe",
+            "msbuildWin64": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe",
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": [],
@@ -147,7 +147,7 @@
             },
             "facebook": {
                 "assetID": "",
-                "packageType": 1,
+                "packageType": 0,
                 "disableCompression": false
             }
         },
@@ -270,6 +270,16 @@
                         "name": "Assets/Sprites/Bcg 1.1.png"
                     },
                     {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/JuiceMaker.png"
+                    },
+                    {
                         "maxWidth": 1024,
                         "maxHeight": 1024,
                         "format": "png32",
@@ -278,36 +288,6 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Sprites/Sprite/Backgrounds/Bcg1.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "default",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/BG_vert.png"
-                    },
-                    {
-                        "maxWidth": 1024,
-                        "maxHeight": 1024,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/Sprite/Juice/Table.png"
-                    },
-                    {
-                        "maxWidth": 1024,
-                        "maxHeight": 1024,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/Counter.png"
                     },
                     {
                         "maxWidth": 1024,

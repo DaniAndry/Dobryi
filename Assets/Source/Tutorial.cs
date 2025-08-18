@@ -1,6 +1,5 @@
- using System;
- using Unity.VisualScripting;
- using UnityEngine;
+using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Tutorial : MonoBehaviour
@@ -63,7 +62,7 @@ public class Tutorial : MonoBehaviour
 
         JuiceButton.interactable = false;
         Finger2.SetActive(false);
-        
+
         Invoke(nameof(DelayJuiceMaker), 1f);
     }
 
