@@ -35,9 +35,15 @@ public class Helper : MonoBehaviour
     private bool _isReady = false;
     private People _currentPeople1;
     private People _currentPeople2;
+    private float _gameTime = 60f;
 
     private void Update()
     {
+        _gameTime -= Time.deltaTime;
+        
+        if(_gameTime <= 0f)
+            ShowDownloadScreen();
+        
         if (_touchIdleTimer.GetCurrentIdleTime() >= 3f)
         {
             DefineHelp();

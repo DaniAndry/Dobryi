@@ -9266,6 +9266,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e40112c8703644c11b7e244ce4a46e09, type: 3}
+    - target: {fileID: 5770499655460529225, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_Color.a
+      value: 0.9529412
+      objectReference: {fileID: 0}
     - target: {fileID: 6225403887173153880, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9279,6 +9283,10 @@ PrefabInstance:
       value: FinalScreen (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7140045671329636711, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273688385261389802, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
