@@ -17365,6 +17365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1547393027}
     m_Modifications:
+    - target: {fileID: 415182893130495697, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -48.06
+      objectReference: {fileID: 0}
     - target: {fileID: 1193739693571652035, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -17377,6 +17381,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e40112c8703644c11b7e244ce4a46e09, type: 3}
+    - target: {fileID: 5770499655460529225, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_Color.a
+      value: 0.92941177
+      objectReference: {fileID: 0}
     - target: {fileID: 6225403887173153880, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -17396,6 +17404,14 @@ PrefabInstance:
     - target: {fileID: 7208641656751817448, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462178341223445428, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_text
+      value: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0441\u0432\u043E\u0439 \u0432\u043A\u0443\u0441"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462178341223445428, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_fontSize
+      value: 56.15
       objectReference: {fileID: 0}
     - target: {fileID: 8800360183653717458, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_Pivot.x
@@ -17479,7 +17495,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2407857969306617690, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8273688385261389802, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7208641656751817448, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
