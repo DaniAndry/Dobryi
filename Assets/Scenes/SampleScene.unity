@@ -7540,6 +7540,15 @@ MonoBehaviour:
   _tomatoFinger: {fileID: 1382662467}
   _strawFinger: {fileID: 1601500747}
   _readyFinger: {fileID: 182159390}
+  _juiseButtons:
+  - {fileID: 1336682376}
+  - {fileID: 966283583}
+  - {fileID: 334863479}
+  - {fileID: 777395430}
+  - {fileID: 2093299767}
+  _grassButton: {fileID: 1434776265}
+  _juiceballButton: {fileID: 543244864}
+  _iceButton: {fileID: 198845388}
   _peoples: {fileID: 502630237}
   _tutorial: {fileID: 176909912}
   _order: {fileID: 1029372253}
