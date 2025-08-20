@@ -9,6 +9,9 @@
   ],
   "groups": [
     [
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Fix/ClickCta.cs"
+    ],
+    [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
     ],
     [
@@ -34,24 +37,23 @@
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AdditiveType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Order.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceConfig.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/People.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/PeopleContainer.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Point.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/CupType.cs",
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs"
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/JuiceType.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Bank.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Tutorial.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Point.cs",
+      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/AheadImage.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/BackImage.cs"
-    ],
-    [
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/Helper.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/ImageShiftOnOrientation.cs"
@@ -64,9 +66,6 @@
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/SoundSwitcher\u00A0\u2014 \u043A\u043E\u043F\u0438\u044F.cs"
-    ],
-    [
-      "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/TouchIdleTimer.cs"
     ],
     [
       "/Users/serezha/Documents/GitHub/Dobryi/LunaTemp/stage3/processed-scripts/Assets/Source/UIMover.cs"

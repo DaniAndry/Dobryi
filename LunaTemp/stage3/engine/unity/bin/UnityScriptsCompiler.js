@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","Cup#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#Update","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#JuiceReadyToggle","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#Garbage","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","SoundSwitcher#init","SoundSwitcher#Awake","SoundSwitcher#OnEnable","SoundSwitcher#OnDisable","SoundSwitcher#ToggleSound","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AheadImage#Awake","BackImage#Awake","Bank#init","Bank#Awake","Bank#OnEnable","Bank#OnDisable","Bank#UpdateUI","Bank#TakeMoney","Bank#GiveMoney","Bank#BuyBigCup","Bank#BuyJuice","Bank#BuyAdditive","Bank#TurnOffButtons","ClickCta#Click","Cup#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","Helper#init","Helper#Update","Helper#OnEnable","Helper#OnDisable","Helper#OnCupFinger","Helper#OnJuiceFinger","Helper#OnAdditiveFinger","Helper#DefineHelp","Helper#DisableAdditives","Helper#DisableCups","Helper#Disablejuices","Helper#DisableReadyFinger","Helper#DisableStrawFinger","Helper#ShowDownloadScreen","Helper#CloseFinalScreen","ImageShiftOnOrientation#init","ImageShiftOnOrientation#Update","ItemSwitcherData#init","ItemSwitcherData#PasteData","ItemSwitcherData#SetHorizontal","ItemSwitcherData#SetVertical","Order#init","Order#Awake","Order#Update","Order#OnEnable","Order#OnDisable","Order#AddListener","Order#SetCup","Order#DelayCup","Order#JuiceReadyToggle","Order#SetJuice","Order#SetStraw","Order#SetAdditive","Order#DefineJuiceBalls","Order#Garbage","Order#TakeOrder","Order#OffReadyCup","People#init","People#Update","People#Awake","People#OnEnable","People#Init","People#StartTutorialPeople","People#TryGetJuice","People#Move","People#MoveToEndPoint","People#DelayBeforeMoving","People#DelayBeforeEndMoving","People#DelayToWaitAnim","People#CreateRandomProduct","People#DefineJuiceBalls","PeopleContainer#init","PeopleContainer#Update","PeopleContainer#TryGiveJuice","PeopleContainer#SpawnTutorialPeople","PeopleContainer#SpawnRandomPeople","PeopleContainer#Spawn","PeopleContainer#DeletePeople","Point#IsFree#get","Point#init","Point#Busy","Point#UnBusy","SoundSwitcher#init","SoundSwitcher#Awake","SoundSwitcher#OnEnable","SoundSwitcher#OnDisable","SoundSwitcher#ToggleSound","TouchIdleTimer#init","TouchIdleTimer#Update","TouchIdleTimer#GetCurrentIdleTime","TouchIdleTimer#ResetTimer","Tutorial#init","Tutorial#Awake","Tutorial#ClickOne","Tutorial#ClickTwo","Tutorial#StrawDelay","Tutorial#ClickThree","Tutorial#ClickFour","Tutorial#ClickFive","Tutorial#ClickBuyBigCup","Tutorial#OffJuiceFinger","Tutorial#TurnOnBuyJuiceFinger","Tutorial#TurnOnBigCupFinger"]' ) ); }
 /**
- * @version 1.0.9357.23305
+ * @version 1.0.9363.30579
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -247,6 +247,23 @@ if ( TRACE ) { TRACE( "Bank#TurnOffButtons", this ); }
     });
     /*Bank end.*/
 
+    /*ClickCta start.*/
+    Bridge.define("ClickCta", {
+        inherits: [UnityEngine.MonoBehaviour],
+        methods: {
+            /*ClickCta.Click start.*/
+            Click: function () {
+if ( TRACE ) { TRACE( "ClickCta#Click", this ); }
+
+                Luna.Unity.Playable.InstallFullGame();
+            },
+            /*ClickCta.Click end.*/
+
+
+        }
+    });
+    /*ClickCta end.*/
+
     /*Cup start.*/
     Bridge.define("Cup", {
         fields: {
@@ -258,13 +275,15 @@ if ( TRACE ) { TRACE( "Bank#TurnOffButtons", this ); }
             JuiceType: 0,
             AdditiveType1: 0,
             AdditiveType2: 0,
-            IsReady: false
+            IsReady: false,
+            IsActive: false
         },
         ctors: {
             init: function () {
 if ( TRACE ) { TRACE( "Cup#init", this ); }
 
                 this.IsReady = false;
+                this.IsActive = false;
             }
         }
     });
@@ -3386,7 +3405,532 @@ if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathT
 
     /*Helper start.*/
     Bridge.define("Helper", {
-        inherits: [UnityEngine.MonoBehaviour]
+        inherits: [UnityEngine.MonoBehaviour],
+        fields: {
+            _smallCupFinger: null,
+            _middleCupFinger: null,
+            _bigCupFinger: null,
+            _iceFinger: null,
+            _grassFinger: null,
+            _juiceballFinger: null,
+            _appleFinger: null,
+            _cherryFinger: null,
+            _orangeFinger: null,
+            _multifruitFinger: null,
+            _tomatoFinger: null,
+            _strawFinger: null,
+            _readyFinger: null,
+            _juiseButtons: null,
+            _peoples: null,
+            _tutorial: null,
+            _order: null,
+            _strawButton: null,
+            _bigCupButton: null,
+            _middleCupButton: null,
+            _smallCupButton: null,
+            _grassButton: null,
+            _juiceballButton: null,
+            _iceButton: null,
+            _readyButton: null,
+            _touchIdleTimer: null,
+            _finalScreen: null,
+            _isFinalScreenClose: false,
+            _isActiveHelp: false,
+            _isReady: false,
+            _currentPeople1: null,
+            _currentPeople2: null,
+            _gameTime: 0,
+            _currectCup1: null,
+            _currectCup2: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "Helper#init", this ); }
+
+                this._isFinalScreenClose = false;
+                this._isActiveHelp = false;
+                this._isReady = false;
+                this._gameTime = 60.0;
+            }
+        },
+        methods: {
+            /*Helper.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Helper#Update", this ); }
+
+                this._gameTime -= UnityEngine.Time.deltaTime;
+
+                if (this._gameTime <= 0.0) {
+                    this.ShowDownloadScreen();
+                }
+
+                if (this._touchIdleTimer.GetCurrentIdleTime() >= 3.0) {
+                    this.DefineHelp();
+                }
+
+                if (this._touchIdleTimer.GetCurrentIdleTime() >= 10.0 && this._isFinalScreenClose === false) {
+                    this.ShowDownloadScreen();
+                }
+            },
+            /*Helper.Update end.*/
+
+            /*Helper.OnEnable start.*/
+            OnEnable: function () {
+if ( TRACE ) { TRACE( "Helper#OnEnable", this ); }
+
+                var $t;
+                this._strawButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableStrawFinger));
+                this._readyButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableReadyFinger));
+                this._smallCupButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._middleCupButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._bigCupButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._iceButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+                this._grassButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+                this._juiceballButton.onClick.AddListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+
+                $t = Bridge.getEnumerator(this._juiseButtons);
+                try {
+                    while ($t.moveNext()) {
+                        var button = $t.Current;
+                        button.onClick.AddListener(Bridge.fn.cacheBind(this, this.Disablejuices));
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*Helper.OnEnable end.*/
+
+            /*Helper.OnDisable start.*/
+            OnDisable: function () {
+if ( TRACE ) { TRACE( "Helper#OnDisable", this ); }
+
+                var $t;
+                this._strawButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableStrawFinger));
+                this._readyButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableReadyFinger));
+                this._smallCupButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._middleCupButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._bigCupButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableCups));
+                this._iceButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+                this._grassButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+                this._juiceballButton.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.DisableAdditives));
+
+                $t = Bridge.getEnumerator(this._juiseButtons);
+                try {
+                    while ($t.moveNext()) {
+                        var button = $t.Current;
+                        button.onClick.RemoveListener(Bridge.fn.cacheBind(this, this.Disablejuices));
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+            },
+            /*Helper.OnDisable end.*/
+
+            /*Helper.OnCupFinger start.*/
+            OnCupFinger: function (cupType) {
+if ( TRACE ) { TRACE( "Helper#OnCupFinger", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this._isActiveHelp = true;
+
+                                        switch (cupType) {
+                                            case CupType.Small: 
+                                                this._smallCupFinger.SetActive(true);
+                                                break;
+                                            case CupType.Middle: 
+                                                this._middleCupFinger.SetActive(true);
+                                                break;
+                                            case CupType.Large: 
+                                                this._bigCupFinger.SetActive(true);
+                                                break;
+                                        }
+
+                                        $enumerator.current = null;
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Helper.OnCupFinger end.*/
+
+            /*Helper.OnJuiceFinger start.*/
+            OnJuiceFinger: function (juiceType) {
+if ( TRACE ) { TRACE( "Helper#OnJuiceFinger", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this._isActiveHelp = true;
+
+                                        switch (juiceType) {
+                                            case JuiceType.Apple: 
+                                                this._appleFinger.SetActive(true);
+                                                break;
+                                            case JuiceType.Cherry: 
+                                                this._cherryFinger.SetActive(true);
+                                                break;
+                                            case JuiceType.Orange: 
+                                                this._orangeFinger.SetActive(true);
+                                                break;
+                                            case JuiceType.Multifruit: 
+                                                this._multifruitFinger.SetActive(true);
+                                                break;
+                                            case JuiceType.Tomato: 
+                                                this._tomatoFinger.SetActive(true);
+                                                break;
+                                        }
+                                        $enumerator.current = null;
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Helper.OnJuiceFinger end.*/
+
+            /*Helper.OnAdditiveFinger start.*/
+            OnAdditiveFinger: function (additiveType) {
+if ( TRACE ) { TRACE( "Helper#OnAdditiveFinger", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    this._isActiveHelp = true;
+                                        UnityEngine.Debug.Log(Bridge.box(additiveType, AdditiveType, System.Enum.toStringFn(AdditiveType)));
+
+                                        switch (additiveType) {
+                                            case AdditiveType.Ice: 
+                                                this._iceFinger.SetActive(true);
+                                                break;
+                                            case AdditiveType.Grass: 
+                                                this._grassFinger.SetActive(true);
+                                                break;
+                                            case AdditiveType.JuiceBall: 
+                                                this._juiceballFinger.SetActive(true);
+                                                break;
+                                        }
+
+                                        $enumerator.current = null;
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*Helper.OnAdditiveFinger end.*/
+
+            /*Helper.DefineHelp start.*/
+            DefineHelp: function () {
+if ( TRACE ) { TRACE( "Helper#DefineHelp", this ); }
+
+                var $t, $t1;
+                if (this._tutorial.IsTutorial) {
+                    return;
+                }
+
+                if (this._isActiveHelp) {
+                    return;
+                }
+
+
+                this._currentPeople1 = this._peoples.CurrentPeoples.getItem(0);
+                this._currentPeople2 = this._peoples.CurrentPeoples.getItem(1);
+
+                $t = Bridge.getEnumerator(this._currentPeople1.Cups);
+                try {
+                    while ($t.moveNext()) {
+                        var cup = $t.Current;
+                        if (cup.IsActive) {
+                            this._currectCup1 = cup;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+
+                $t1 = Bridge.getEnumerator(this._currentPeople2.Cups);
+                try {
+                    while ($t1.moveNext()) {
+                        var cup1 = $t1.Current;
+                        if (cup1.IsActive) {
+                            this._currectCup2 = cup1;
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t1, System.IDisposable)) {
+                        $t1.System$IDisposable$Dispose();
+                    }
+                }
+
+                if (this._order.IsFree && this._order.IsCupReady === false) {
+                    switch (this._currectCup1.CupType) {
+                        case CupType.Small: 
+                            this.StartCoroutine$1(this.OnCupFinger(CupType.Small));
+                            break;
+                        case CupType.Middle: 
+                            this.StartCoroutine$1(this.OnCupFinger(CupType.Middle));
+                            break;
+                        case CupType.Large: 
+                            this.StartCoroutine$1(this.OnCupFinger(CupType.Large));
+                            break;
+                    }
+                }
+
+                if (this._order.IsCupReady && this._order.IsJuiceReady === false) {
+                    if (this._order.CupType === this._currectCup1.CupType) {
+                        switch (this._currectCup1.JuiceType) {
+                            case JuiceType.Apple: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Apple));
+                                break;
+                            case JuiceType.Cherry: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Cherry));
+                                break;
+                            case JuiceType.Orange: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Orange));
+                                break;
+                            case JuiceType.Multifruit: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Multifruit));
+                                break;
+                            case JuiceType.Tomato: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Tomato));
+                                break;
+                        }
+                    } else if (this._order.CupType === this._currectCup2.CupType) {
+                        switch (this._currectCup2.JuiceType) {
+                            case JuiceType.Apple: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Apple));
+                                break;
+                            case JuiceType.Cherry: 
+                                this.StartCoroutine$1(this.OnJuiceFinger(JuiceType.Cherry));
+                                break;
+                        }
+                    }
+                }
+
+                if (this._order.IsJuiceReady && this._order.IsSpriteReady === false) {
+                    this._isActiveHelp = true;
+                    this._strawFinger.SetActive(true);
+                }
+
+                if (this._order.IsSpriteReady) {
+                    if (this._currectCup1.AdditiveType1 === this._order.AdditiveType1 || this._currectCup1.AdditiveType1 === this._order.AdditiveType2) {
+                        if (this._currectCup1.AdditiveType2 === this._order.AdditiveType1 || this._currectCup1.AdditiveType2 === this._order.AdditiveType2) {
+                            if (this._currectCup1.CupType === this._order.CupType && this._currectCup1.JuiceType === this._order.JuiceType) {
+                                this._isReady = true;
+                                this._isActiveHelp = true;
+                                this._readyFinger.SetActive(true);
+                            }
+                        }
+                    }
+
+                    if (this._currectCup2.AdditiveType1 === this._order.AdditiveType1 || this._currectCup2.AdditiveType1 === this._order.AdditiveType2) {
+                        if (this._currectCup2.AdditiveType2 === this._order.AdditiveType1 || this._currectCup2.AdditiveType2 === this._order.AdditiveType2) {
+                            if (this._currectCup2.CupType === this._order.CupType && this._currectCup2.JuiceType === this._order.JuiceType) {
+                                this._isReady = true;
+                                this._isActiveHelp = true;
+                                this._readyFinger.SetActive(true);
+                            }
+                        }
+                    }
+                }
+
+                if (this._order.IsSpriteReady && this._isReady === false) {
+                    if (this._currectCup1.JuiceType === this._order.JuiceType && this._currectCup1.CupType === this._order.CupType) {
+                        if (this._currectCup1.AdditiveType1 !== AdditiveType.None || this._currectCup1.AdditiveType2 !== AdditiveType.None) {
+                            if (this._order.AdditiveType1 === AdditiveType.None) {
+                                switch (this._currectCup1.AdditiveType1) {
+                                    case AdditiveType.Ice: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Ice));
+                                        break;
+                                    case AdditiveType.Grass: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Grass));
+                                        break;
+                                    case AdditiveType.JuiceBall: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.JuiceBall));
+                                        break;
+                                }
+                            } else if (this._order.AdditiveType2 === AdditiveType.None) {
+                                switch (this._currectCup1.AdditiveType2) {
+                                    case AdditiveType.Ice: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Ice));
+                                        break;
+                                    case AdditiveType.Grass: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Grass));
+                                        break;
+                                }
+                            }
+                        }
+                    } else if (this._currectCup2.CupType === this._order.CupType && this._currectCup2.JuiceType === this._order.JuiceType) {
+                        if (this._currectCup2.AdditiveType1 !== AdditiveType.None || this._currectCup2.AdditiveType2 !== AdditiveType.None) {
+                            if (this._order.AdditiveType1 === AdditiveType.None) {
+                                switch (this._currectCup2.AdditiveType1) {
+                                    case AdditiveType.Ice: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Ice));
+                                        break;
+                                    case AdditiveType.Grass: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Grass));
+                                        break;
+                                    case AdditiveType.JuiceBall: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.JuiceBall));
+                                        break;
+                                }
+                            } else if (this._order.AdditiveType2 === AdditiveType.None) {
+                                switch (this._currectCup2.AdditiveType2) {
+                                    case AdditiveType.Ice: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Ice));
+                                        break;
+                                    case AdditiveType.Grass: 
+                                        this.StartCoroutine$1(this.OnAdditiveFinger(AdditiveType.Grass));
+                                        break;
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            /*Helper.DefineHelp end.*/
+
+            /*Helper.DisableAdditives start.*/
+            DisableAdditives: function () {
+if ( TRACE ) { TRACE( "Helper#DisableAdditives", this ); }
+
+                this._isActiveHelp = false;
+                this._iceFinger.gameObject.SetActive(false);
+                this._grassFinger.gameObject.SetActive(false);
+                this._juiceballFinger.gameObject.SetActive(false);
+            },
+            /*Helper.DisableAdditives end.*/
+
+            /*Helper.DisableCups start.*/
+            DisableCups: function () {
+if ( TRACE ) { TRACE( "Helper#DisableCups", this ); }
+
+                this._isActiveHelp = false;
+                this._smallCupFinger.SetActive(false);
+                this._middleCupFinger.SetActive(false);
+                this._bigCupFinger.SetActive(false);
+            },
+            /*Helper.DisableCups end.*/
+
+            /*Helper.Disablejuices start.*/
+            Disablejuices: function () {
+if ( TRACE ) { TRACE( "Helper#Disablejuices", this ); }
+
+                this._isActiveHelp = false;
+                this._appleFinger.gameObject.SetActive(false);
+                this._orangeFinger.gameObject.SetActive(false);
+                this._multifruitFinger.gameObject.SetActive(false);
+                this._tomatoFinger.gameObject.SetActive(false);
+                this._cherryFinger.gameObject.SetActive(false);
+            },
+            /*Helper.Disablejuices end.*/
+
+            /*Helper.DisableReadyFinger start.*/
+            DisableReadyFinger: function () {
+if ( TRACE ) { TRACE( "Helper#DisableReadyFinger", this ); }
+
+                this._isActiveHelp = false;
+                this._isReady = false;
+                this._readyFinger.SetActive(false);
+            },
+            /*Helper.DisableReadyFinger end.*/
+
+            /*Helper.DisableStrawFinger start.*/
+            DisableStrawFinger: function () {
+if ( TRACE ) { TRACE( "Helper#DisableStrawFinger", this ); }
+
+                this._isActiveHelp = false;
+                this._strawFinger.SetActive(false);
+            },
+            /*Helper.DisableStrawFinger end.*/
+
+            /*Helper.ShowDownloadScreen start.*/
+            ShowDownloadScreen: function () {
+if ( TRACE ) { TRACE( "Helper#ShowDownloadScreen", this ); }
+
+                this._finalScreen.SetActive(true);
+                UnityEngine.Time.timeScale = 0.0;
+            },
+            /*Helper.ShowDownloadScreen end.*/
+
+            /*Helper.CloseFinalScreen start.*/
+            CloseFinalScreen: function () {
+if ( TRACE ) { TRACE( "Helper#CloseFinalScreen", this ); }
+
+                this._finalScreen.SetActive(false);
+                UnityEngine.Time.timeScale = 1.0;
+                this._isFinalScreenClose = true;
+            },
+            /*Helper.CloseFinalScreen end.*/
+
+
+        }
     });
     /*Helper end.*/
 
@@ -4526,6 +5070,7 @@ if ( TRACE ) { TRACE( "People#OnEnable", this ); }
                 try {
                     while ($t.moveNext()) {
                         var cup = $t.Current;
+                        cup.IsActive = false;
                         cup.ReadyImage.enabled = false;
                         cup.AdditiveImage1.enabled = false;
                         cup.AdditiveImage2.enabled = false;
@@ -4627,6 +5172,7 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
                                 if (cup.AdditiveType2 === additiveType1 || cup.AdditiveType2 === additiveType2) {
                                     if (cup.CupType === cupType && cup.JuiceType === juiceType) {
                                         cup.IsReady = true;
+                                        cup.IsActive = false;
                                         var count = 0;
 
                                         if (this._cupsCount === 1 && this.Cups.getItem(2).IsReady) {
@@ -4655,6 +5201,7 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
                                                 while ($t1.moveNext()) {
                                                     var cup2 = $t1.Current;
                                                     cup2.IsReady = false;
+                                                    cup2.IsActive = false;
                                                 }
                                             } finally {
                                                 if (Bridge.is($t1, System.IDisposable)) {
@@ -4670,6 +5217,7 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
                                             this.Bank.GiveMoney(100);
                                             cup.SizeText.text = " ";
 
+                                            this.Cups.getItem(2).IsActive = false;
                                             this.Cups.getItem(2).SizeText.gameObject.SetActive(false);
                                             this.Cups.getItem(2).ReadyImage.gameObject.SetActive(false);
                                             this.Cups.getItem(2).AdditiveImage1.gameObject.SetActive(false);
@@ -4681,6 +5229,7 @@ if ( TRACE ) { TRACE( "People#TryGetJuice", this ); }
 
                                             this.StartCoroutine$1(this.DelayBeforeEndMoving());
                                         } else {
+                                            cup.IsActive = false;
                                             cup.ReadyImage.enabled = false;
                                             cup.AdditiveImage1.enabled = false;
                                             cup.AdditiveImage2.enabled = false;
@@ -4789,6 +5338,7 @@ if ( TRACE ) { TRACE( "People#MoveToEndPoint", this ); }
                     try {
                         while ($t.moveNext()) {
                             var cup = $t.Current;
+                            cup.IsActive = false;
                             cup.ReadyImage.enabled = false;
                             cup.AdditiveImage1.enabled = false;
                             cup.AdditiveImage2.enabled = false;
@@ -4889,6 +5439,7 @@ if ( TRACE ) { TRACE( "People#DelayBeforeEndMoving", this ); }
                                                 cup.ReadyImage.enabled = false;
                                                 cup.AdditiveImage1.enabled = false;
                                                 cup.AdditiveImage2.enabled = false;
+                                                cup.IsActive = false;
                                             }
                                         } finally {
                                             if (Bridge.is($t, System.IDisposable)) {
@@ -4927,7 +5478,7 @@ if ( TRACE ) { TRACE( "People#DelayToWaitAnim", this ); }
                         for (;;) {
                             switch ($step) {
                                 case 0: {
-                                    $enumerator.current = new UnityEngine.WaitForSeconds(7.0);
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(30.0);
                                         $step = 1;
                                         return true;
                                 }
@@ -4958,6 +5509,7 @@ if ( TRACE ) { TRACE( "People#CreateRandomProduct", this ); }
                 this._cupsCount = UnityEngine.Random.Range(1, 3);
 
                 if (this._cupsCount === 1) {
+                    this.Cups.getItem(2).IsActive = true;
                     this.Cups.getItem(2).SizeText.gameObject.SetActive(true);
                     this.Cups.getItem(2).ReadyImage.gameObject.SetActive(true);
                     this.Cups.getItem(2).AdditiveImage1.gameObject.SetActive(true);
@@ -5125,6 +5677,9 @@ if ( TRACE ) { TRACE( "People#CreateRandomProduct", this ); }
                 }
 
                 if (this._cupsCount === 2) {
+                    this.Cups.getItem(0).IsActive = true;
+                    this.Cups.getItem(1).IsActive = true;
+
                     for (var i = 0; i < this._cupsCount; i = (i + 1) | 0) {
                         this._cupRand = UnityEngine.Random.Range(0, 3);
                         this._juiceRand = UnityEngine.Random.Range(0, 5);
@@ -5834,6 +6389,10 @@ if ( TRACE ) { TRACE( "Tutorial#TurnOnBigCupFinger", this ); }
     var $m = Bridge.setMetadata,
         $n = ["System","UnityEngine.UI","TMPro","UnityEngine","System.Collections","System.Collections.Generic","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
+    /*ClickCta start.*/
+    $m("ClickCta", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Click","t":8,"sn":"Click","rt":$n[0].Void}]}; }, $n);
+    /*ClickCta end.*/
+
     /*AdditiveType start.*/
     $m("AdditiveType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Grass","is":true,"t":4,"rt":AdditiveType,"sn":"Grass","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"Ice","is":true,"t":4,"rt":AdditiveType,"sn":"Ice","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"JuiceBall","is":true,"t":4,"rt":AdditiveType,"sn":"JuiceBall","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"None","is":true,"t":4,"rt":AdditiveType,"sn":"None","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}}]}; }, $n);
     /*AdditiveType end.*/
@@ -5855,7 +6414,7 @@ if ( TRACE ) { TRACE( "Tutorial#TurnOnBigCupFinger", this ); }
     /*CupType end.*/
 
     /*Helper start.*/
-    $m("Helper", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
+    $m("Helper", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CloseFinalScreen","t":8,"sn":"CloseFinalScreen","rt":$n[0].Void},{"a":1,"n":"DefineHelp","t":8,"sn":"DefineHelp","rt":$n[0].Void},{"a":1,"n":"DisableAdditives","t":8,"sn":"DisableAdditives","rt":$n[0].Void},{"a":1,"n":"DisableCups","t":8,"sn":"DisableCups","rt":$n[0].Void},{"a":1,"n":"DisableReadyFinger","t":8,"sn":"DisableReadyFinger","rt":$n[0].Void},{"a":1,"n":"DisableStrawFinger","t":8,"sn":"DisableStrawFinger","rt":$n[0].Void},{"a":1,"n":"Disablejuices","t":8,"sn":"Disablejuices","rt":$n[0].Void},{"a":1,"n":"OnAdditiveFinger","t":8,"pi":[{"n":"additiveType","pt":AdditiveType,"ps":0}],"sn":"OnAdditiveFinger","rt":$n[4].IEnumerator,"p":[AdditiveType]},{"a":1,"n":"OnCupFinger","t":8,"pi":[{"n":"cupType","pt":CupType,"ps":0}],"sn":"OnCupFinger","rt":$n[4].IEnumerator,"p":[CupType]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"OnJuiceFinger","t":8,"pi":[{"n":"juiceType","pt":JuiceType,"ps":0}],"sn":"OnJuiceFinger","rt":$n[4].IEnumerator,"p":[JuiceType]},{"a":1,"n":"ShowDownloadScreen","t":8,"sn":"ShowDownloadScreen","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_appleFinger","t":4,"rt":$n[3].GameObject,"sn":"_appleFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupButton","t":4,"rt":$n[1].Button,"sn":"_bigCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_bigCupFinger","t":4,"rt":$n[3].GameObject,"sn":"_bigCupFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_cherryFinger","t":4,"rt":$n[3].GameObject,"sn":"_cherryFinger"},{"a":1,"n":"_currectCup1","t":4,"rt":Cup,"sn":"_currectCup1"},{"a":1,"n":"_currectCup2","t":4,"rt":Cup,"sn":"_currectCup2"},{"a":1,"n":"_currentPeople1","t":4,"rt":People,"sn":"_currentPeople1"},{"a":1,"n":"_currentPeople2","t":4,"rt":People,"sn":"_currentPeople2"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_finalScreen","t":4,"rt":$n[3].GameObject,"sn":"_finalScreen"},{"a":1,"n":"_gameTime","t":4,"rt":$n[0].Single,"sn":"_gameTime","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassButton","t":4,"rt":$n[1].Button,"sn":"_grassButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_grassFinger","t":4,"rt":$n[3].GameObject,"sn":"_grassFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceButton","t":4,"rt":$n[1].Button,"sn":"_iceButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_iceFinger","t":4,"rt":$n[3].GameObject,"sn":"_iceFinger"},{"a":1,"n":"_isActiveHelp","t":4,"rt":$n[0].Boolean,"sn":"_isActiveHelp","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isFinalScreenClose","t":4,"rt":$n[0].Boolean,"sn":"_isFinalScreenClose","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_isReady","t":4,"rt":$n[0].Boolean,"sn":"_isReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceballButton","t":4,"rt":$n[1].Button,"sn":"_juiceballButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiceballFinger","t":4,"rt":$n[3].GameObject,"sn":"_juiceballFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_juiseButtons","t":4,"rt":$n[5].List$1(UnityEngine.UI.Button),"sn":"_juiseButtons"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupButton","t":4,"rt":$n[1].Button,"sn":"_middleCupButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_middleCupFinger","t":4,"rt":$n[3].GameObject,"sn":"_middleCupFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_multifruitFinger","t":4,"rt":$n[3].GameObject,"sn":"_multifruitFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_orangeFinger","t":4,"rt":$n[3].GameObject,"sn":"_orangeFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_order","t":4,"rt":Order,"sn":"_order"},{"at":[new UnityEngine.HeaderAttribute("Other"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_peoples","t":4,"rt":PeopleContainer,"sn":"_peoples"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_readyButton","t":4,"rt":$n[1].Button,"sn":"_readyButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_readyFinger","t":4,"rt":$n[3].GameObject,"sn":"_readyFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupButton","t":4,"rt":$n[1].Button,"sn":"_smallCupButton"},{"at":[new UnityEngine.HeaderAttribute("Fingers"),new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_smallCupFinger","t":4,"rt":$n[3].GameObject,"sn":"_smallCupFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawButton","t":4,"rt":$n[1].Button,"sn":"_strawButton"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_strawFinger","t":4,"rt":$n[3].GameObject,"sn":"_strawFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tomatoFinger","t":4,"rt":$n[3].GameObject,"sn":"_tomatoFinger"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_touchIdleTimer","t":4,"rt":TouchIdleTimer,"sn":"_touchIdleTimer"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_tutorial","t":4,"rt":Tutorial,"sn":"_tutorial"}]}; }, $n);
     /*Helper end.*/
 
     /*ItemSwitcherData start.*/
@@ -5879,7 +6438,7 @@ if ( TRACE ) { TRACE( "Tutorial#TurnOnBigCupFinger", this ); }
     /*Order end.*/
 
     /*Cup start.*/
-    $m("Cup", function () { return {"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"AdditiveImage1","t":4,"rt":$n[1].Image,"sn":"AdditiveImage1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"AdditiveImage2","t":4,"rt":$n[1].Image,"sn":"AdditiveImage2"},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsReady","t":4,"rt":$n[0].Boolean,"sn":"IsReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"ReadyImage","t":4,"rt":$n[1].Image,"sn":"ReadyImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"SizeText","t":4,"rt":$n[2].TMP_Text,"sn":"SizeText"}]}; }, $n);
+    $m("Cup", function () { return {"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"AdditiveImage1","t":4,"rt":$n[1].Image,"sn":"AdditiveImage1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"AdditiveImage2","t":4,"rt":$n[1].Image,"sn":"AdditiveImage2"},{"a":2,"n":"AdditiveType1","t":4,"rt":AdditiveType,"sn":"AdditiveType1","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"AdditiveType2","t":4,"rt":AdditiveType,"sn":"AdditiveType2","box":function ($v) { return Bridge.box($v, AdditiveType, System.Enum.toStringFn(AdditiveType));}},{"a":2,"n":"CupType","t":4,"rt":CupType,"sn":"CupType","box":function ($v) { return Bridge.box($v, CupType, System.Enum.toStringFn(CupType));}},{"a":2,"n":"IsActive","t":4,"rt":$n[0].Boolean,"sn":"IsActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"IsReady","t":4,"rt":$n[0].Boolean,"sn":"IsReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"JuiceType","t":4,"rt":JuiceType,"sn":"JuiceType","box":function ($v) { return Bridge.box($v, JuiceType, System.Enum.toStringFn(JuiceType));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"ReadyImage","t":4,"rt":$n[1].Image,"sn":"ReadyImage"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":2,"n":"SizeText","t":4,"rt":$n[2].TMP_Text,"sn":"SizeText"}]}; }, $n);
     /*Cup end.*/
 
     /*People start.*/
