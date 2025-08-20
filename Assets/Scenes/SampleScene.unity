@@ -6869,10 +6869,19 @@ MonoBehaviour:
   _strawFinger: {fileID: 1601500747}
   _readyFinger: {fileID: 937676702}
   _juiceMakerFinger: {fileID: 688652341}
+  _juiseButtons:
+  - {fileID: 966283583}
+  - {fileID: 777395430}
+  - {fileID: 1336682376}
+  - {fileID: 334863479}
+  - {fileID: 2093299767}
   _peoples: {fileID: 502630237}
   _tutorial: {fileID: 176909912}
   _order: {fileID: 1029372253}
   _strawButton: {fileID: 587801955}
+  _grassButton: {fileID: 1434776265}
+  _juiceballButton: {fileID: 543244864}
+  _iceButton: {fileID: 198845388}
   _juiceMakerButton: {fileID: 174690765}
   _bigCupButton: {fileID: 2141081627}
   _middleCupButton: {fileID: 682228653}
