@@ -1270,8 +1270,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 105.591}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: NaN, y: NaN}
-  m_SizeDelta: {x: NaN, y: NaN}
+  m_AnchoredPosition: {x: 7, y: 64}
+  m_SizeDelta: {x: 108.68, y: 108.68}
   m_Pivot: {x: 1, y: 0.99999994}
 --- !u!114 &182159392
 MonoBehaviour:
@@ -6530,6 +6530,12 @@ MonoBehaviour:
   _tomatoFinger: {fileID: 1382662467}
   _strawFinger: {fileID: 1601500747}
   _readyFinger: {fileID: 182159390}
+  _juiseButtons:
+  - {fileID: 1336682376}
+  - {fileID: 966283583}
+  - {fileID: 334863479}
+  - {fileID: 777395430}
+  - {fileID: 2093299767}
   _peoples: {fileID: 502630237}
   _tutorial: {fileID: 176909912}
   _order: {fileID: 1029372253}
@@ -6538,6 +6544,9 @@ MonoBehaviour:
   _middleCupButton: {fileID: 682228653}
   _smallCupButton: {fileID: 1390905276}
   _readyButton: {fileID: 1394713909}
+  _grassButton: {fileID: 1434776265}
+  _juiceballButton: {fileID: 543244864}
+  _iceButton: {fileID: 198845388}
   _touchIdleTimer: {fileID: 1831520562}
   _finalScreen: {fileID: 1845683949}
 --- !u!4 &873454295
