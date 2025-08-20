@@ -20,6 +20,7 @@ public class Cup
     public AdditiveType AdditiveType1;
     public AdditiveType AdditiveType2;
     public bool IsReady = false;
+    public bool IsActive = false;
 }
 
 public class People : MonoBehaviour
@@ -66,6 +67,7 @@ public class People : MonoBehaviour
     {
         foreach (Cup cup in Cups)
         {
+            cup.IsActive = false;
             cup.ReadyImage.enabled = false;
             cup.AdditiveImage1.enabled = false;
             cup.AdditiveImage2.enabled = false;
@@ -156,6 +158,7 @@ public class People : MonoBehaviour
                         if (cup.CupType == cupType && cup.JuiceType == juiceType)
                         {
                             cup.IsReady = true;
+                            cup.IsActive = false;
                             int count = 0;
 
                             if (_cupsCount == 1 && Cups[2].IsReady)
@@ -182,6 +185,7 @@ public class People : MonoBehaviour
                                 foreach (var cup2 in Cups)
                                 {
                                     cup2.IsReady = false;
+                                    cup2.IsActive = false;
                                 }
 
                                 _currentPoint.UnBusy();
@@ -192,6 +196,7 @@ public class People : MonoBehaviour
                                 Bank.GiveMoney(100);
                                 cup.SizeText.text = " ";
 
+                                Cups[2].IsActive = false;
                                 Cups[2].SizeText.gameObject.SetActive(false);
                                 Cups[2].ReadyImage.gameObject.SetActive(false);
                                 Cups[2].AdditiveImage1.gameObject.SetActive(false);
@@ -204,6 +209,7 @@ public class People : MonoBehaviour
                             }
                             else
                             {
+                                cup.IsActive = false;
                                 cup.ReadyImage.enabled = false;
                                 cup.AdditiveImage1.enabled = false;
                                 cup.AdditiveImage2.enabled = false;
@@ -260,6 +266,7 @@ public class People : MonoBehaviour
 
             foreach (Cup cup in Cups)
             {
+                cup.IsActive = false;
                 cup.ReadyImage.enabled = false;
                 cup.AdditiveImage1.enabled = false;
                 cup.AdditiveImage2.enabled = false;
@@ -305,6 +312,7 @@ public class People : MonoBehaviour
             cup.ReadyImage.enabled = false;
             cup.AdditiveImage1.enabled = false;
             cup.AdditiveImage2.enabled = false;
+            cup.IsActive = false;
         }
 
         Disabling?.Invoke(this);
@@ -324,6 +332,7 @@ public class People : MonoBehaviour
 
         if (_cupsCount == 1)
         {
+            Cups[2].IsActive = true;
             Cups[2].SizeText.gameObject.SetActive(true);
             Cups[2].ReadyImage.gameObject.SetActive(true);
             Cups[2].AdditiveImage1.gameObject.SetActive(true);
@@ -509,6 +518,9 @@ public class People : MonoBehaviour
 
         if (_cupsCount == 2)
         {
+            Cups[0].IsActive = true;
+            Cups[1].IsActive = true;
+            
             for (int i = 0; i < _cupsCount; i++)
             {
                 _cupRand = Random.Range(0, 3);
