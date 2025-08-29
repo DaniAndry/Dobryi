@@ -1,9 +1,13 @@
 using UnityEngine;
 
-public class ClickCta : MonoBehaviour
+namespace Source
 {
-    public void Click()
+    public class ClickCta : MonoBehaviour
     {
-        Luna.Unity.Playable.InstallFullGame();
+        public void Click()
+        {
+            Luna.Unity.Playable.InstallFullGame();
+            Luna.Unity.LifeCycle.GameEnded();
+        }
     }
 }
