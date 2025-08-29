@@ -17397,10 +17397,14 @@ PrefabInstance:
     - target: {fileID: 6225403887173153880, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2038825490}
+      objectReference: {fileID: 2038825497}
     - target: {fileID: 6225403887173153880, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225403887173153880, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Luna.ClickCta, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7140045671329636711, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       propertyPath: m_Name
@@ -17510,7 +17514,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7208641656751817448, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2038825490}
+      addedObject: {fileID: 2038825497}
   m_SourcePrefab: {fileID: 100100000, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
 --- !u!224 &2038825488 stripped
 RectTransform:
@@ -17522,7 +17526,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7208641656751817448, guid: 10e321bd13eff486c8c280cd5129f1d2, type: 3}
   m_PrefabInstance: {fileID: 2038825487}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2038825490
+--- !u!114 &2038825497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
